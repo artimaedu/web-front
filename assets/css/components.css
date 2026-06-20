@@ -177,3 +177,20 @@
 @media (prefers-reduced-motion: reduce) {
   .float-slow { animation: none; }
 }
+
+/* --- Coding section (cyan accent) --- */
+.section-coding { position: relative; }
+.section-subtitle { text-align: center; color: var(--color-cyan); margin-bottom: var(--space-lg); }
+.card-tier { display: flex; flex-direction: column; gap: var(--space-xs); }
+.card-tier h3 { color: var(--color-cyan); }
+.card-tier .btn { margin-top: auto; align-self: flex-start; }
+.age-badge {
+  align-self: flex-start;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+}
+.age-cyan { background: rgba(34, 211, 238, 0.15); color: var(--color-cyan); border: 1px solid rgba(34, 211, 238, 0.4); }
+.section-mascot { text-align: center; margin-top: var(--space-lg); }
