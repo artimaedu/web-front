@@ -240,3 +240,40 @@
 .final-cta-inner { max-width: 700px; margin: 0 auto; }
 .final-cta h2 { margin-bottom: var(--space-sm); }
 .final-cta p { margin-bottom: var(--space-md); }
+
+/* --- Floating buttons --- */
+.float-wa {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.5);
+  transition: transform 0.2s;
+}
+.float-wa:hover { transform: scale(1.1); }
+.back-to-top {
+  position: fixed;
+  bottom: 84px;
+  right: 20px;
+  z-index: 90;
+  width: 44px;
+  height: 44px;
+  background: rgba(42, 26, 94, 0.9);
+  color: var(--color-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.4);
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.back-to-top.visible { opacity: 1; pointer-events: auto; }
