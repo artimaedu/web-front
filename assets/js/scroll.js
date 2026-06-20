@@ -11,24 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const navActions = document.querySelector('.nav-actions');
 
   if (navToggle && navLinks && navActions) {
-    // On mobile, move .nav-actions inside .nav-links so the drawer is one
-    // continuous panel. Restore on desktop. matchMedia keeps DOM in sync.
-    const navParent = navActions.parentElement;
-    const navAnchor = navActions.nextSibling; // remember original slot
-    const mobileMq = window.matchMedia('(max-width: 768px)');
-
-    const syncActionsLocation = () => {
-      if (mobileMq.matches) {
-        if (navActions.parentElement !== navLinks) navLinks.appendChild(navActions);
-      } else {
-        if (navActions.parentElement !== navParent) {
-          navParent.insertBefore(navActions, navAnchor);
-        }
-      }
-    };
-    syncActionsLocation();
-    mobileMq.addEventListener('change', syncActionsLocation);
-
     const setMenu = (open) => {
       navToggle.setAttribute('aria-expanded', String(open));
       navLinks.classList.toggle('active', open);
@@ -43,6 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Close when clicking a link inside the drawer
     navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => setMenu(false));
+    });
+    // Also close after using the WhatsApp CTA inside the action row
+    navActions.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => setMenu(false));
     });
 
