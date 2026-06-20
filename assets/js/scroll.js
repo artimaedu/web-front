@@ -11,6 +11,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const navActions = document.querySelector('.nav-actions');
 
   if (navToggle && navLinks && navActions) {
+    // On mobile, move .nav-actions inside .nav-links so the drawer is one
+    // continuous panel. Restore on desktop. matchMedia keeps DOM in sync.
+    const navParent = navActions.parentElement;
+    const navAnchor = navActions.nextSibling; // remember original slot
+    const mobileMq = window.matchMedia('(max-width: 768px)');
+
+    const syncActionsLocation = () => {
+      if (mobileMq.matches) {
+        if (navActions.parentElement !== navLinks) navLinks.appendChild(navActions);
+      } else {
+        if (navActions.parentElement !== navParent) {
+          navParent.insertBefore(navActions, navAnchor);
+        }
+      }
+    };
+    syncActionsLocation();
+    mobileMq.addEventListener('change', syncActionsLocation);
+
     const setMenu = (open) => {
       navToggle.setAttribute('aria-expanded', String(open));
       navLinks.classList.toggle('active', open);
@@ -36,8 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close if viewport grows back to desktop
-    const mq = window.matchMedia('(min-width: 769px)');
-    mq.addEventListener('change', (e) => { if (e.matches) setMenu(false); });
+    const desktopMq = window.matchMedia('(min-width: 769px)');
+    desktopMq.addEventListener('change', (e) => { if (e.matches) setMenu(false); });
   }
 
   const reveals = document.querySelectorAll('[data-reveal]');
