@@ -1,1 +1,182 @@
-{}
+{
+  "id": {
+    "nav": {
+      "brand": "Artima Edu",
+      "philosophy": "Filosofi",
+      "programs": "Program",
+      "dashboard": "Dashboard",
+      "support": "Dukungan",
+      "ctaWhatsapp": "Chat WhatsApp",
+      "langToggle": "EN"
+    },
+    "hero": {
+      "title": "Selamat Datang di Galaksi Artima Edu! 🌌",
+      "subtitle": "Petualangan belajar Coding & Bahasa Inggris masa depan — untuk si kecil dan untuk Anda.",
+      "ctaPrimary": "Start Engine",
+      "trustAge": "Usia 4–17+",
+      "trustKid": "Ramah anak & orang tua",
+      "trustFor": "Untuk anak & ibu"
+    },
+    "philosophy": {
+      "title": "Misi Kami di Alam Semesta Artima",
+      "card1Title": "People-First & Ramah Anak",
+      "card1Body": "Teknologi canggih dipadukan dengan kehangatan interaksi manusia. Belajar tidak pernah sekaku robot.",
+      "card2Title": "Untuk Penjelajah Cilik (4–17)",
+      "card2Body": "Coding track progresif yang tumbuh bersama anak, dari balok visual hingga kode nyata.",
+      "card3Title": "Untuk Komandan Mami (17+)",
+      "card3Body": "English Broom Room — bahasa Inggris yang chill dan aplikatif, khusus untuk Anda.",
+      "cta": "Ngobrol dengan Miss & Team"
+    },
+    "coding": {
+      "title": "Planet Koding",
+      "subtitle": "Kuasai bahasa masa depan",
+      "tier1Age": "4–7",
+      "tier1Title": "Little Coder",
+      "tier1Body": "Rakit kodemu sendiri! Visual block coding, logika, dan problem-solving untuk anak usia dini.",
+      "tier2Age": "8–12",
+      "tier2Title": "Junior Tech Creator",
+      "tier2Body": "Dari balok ke kode nyata. Anak mulai membangun karya digital kreatifnya sendiri.",
+      "tier3Age": "13–17",
+      "tier3Title": "Future-Ready Tech Wizard",
+      "tier3Body": "Pemrograman lanjutan dan proyek nyata. Siap menghadapi karier teknologi masa depan.",
+      "cta": "Tanya via WhatsApp"
+    },
+    "english": {
+      "greeting": "Hello, Gorgeous Ladies & Moms!",
+      "title": "English Broom Room",
+      "body": "Belajar bahasa Inggris yang chill, aplikatif, anti-kaku. Untuk perempuan & ibu mulai usia 17.",
+      "chip1": "Grammar tanpa pusing",
+      "chip2": "Percakapan nyata",
+      "chip3": "Confidence berbahasa",
+      "example": "Menaklukkan Present Perfect Tense tanpa sakit kepala — langsung bisa dipakai ngobrol di stasiun luar angkasa mana pun.",
+      "cta": "Tanya via WhatsApp"
+    },
+    "dashboard": {
+      "title": "Dashboard Belajar Futuristik",
+      "badge": "Sneak peek — segera hadir",
+      "feature1Title": "Peta Petualangan (Roadmap)",
+      "feature1Body": "Materi disajikan seperti peta rasi bintang. Selesaikan kelas untuk membuka planet baru.",
+      "feature2Title": "Kapsul Video Interaktif",
+      "feature2Body": "Pemutar video materi yang bersih, fokus, dan mudah dikontrol.",
+      "feature3Title": "Energy Meter",
+      "feature3Body": "Progress tracker neon yang menyala setiap milestone tercapai."
+    },
+    "support": {
+      "title": "Selalu Terhubung dengan Komando!",
+      "card1Title": "Direct Comms",
+      "card1Body": "Tombol langsung menuju WhatsApp Group untuk diskusi dengan Miss & Team.",
+      "card2Title": "Laporan Misi",
+      "card2Body": "Rapor digital berkala untuk memantau tumbuh kembang penjelajah cilik Anda."
+    },
+    "testimonials": {
+      "title": "Kata Para Komandan & Penjelajah",
+      "note": "Testimoni contoh — akan diganti dengan ulasan nyata.",
+      "item1Quote": "Anak saya jadi lebih percaya diri bikin project sendiri. Miss-nya sabar dan ramah!",
+      "item1Name": "Ibu Sari",
+      "item2Quote": "Akhirnya belajar bahasa Inggris tanpa stres. Kelasnya chill dan menyenangkan.",
+      "item2Name": "Dina, 24",
+      "item3Quote": "Coding-nya cocok banget buat umur anak saya. Progress-nya jelas terlihat.",
+      "item3Name": "Ibu Rina"
+    },
+    "finalCta": {
+      "title": "Siap Meluncur ke Masa Depan?",
+      "subtitle": "Gabung kru Artima Edu sekarang dan mulai petualanganmu!",
+      "cta": "Mulai Petualangan"
+    },
+    "footer": {
+      "domain": "artimaedu.web.id",
+      "instagram": "Instagram",
+      "copyright": "© 2026 Artima Edu. Semua bintang dilindungi."
+    }
+  },
+  "en": {
+    "nav": {
+      "brand": "Artima Edu",
+      "philosophy": "Philosophy",
+      "programs": "Programs",
+      "dashboard": "Dashboard",
+      "support": "Support",
+      "ctaWhatsapp": "Chat on WhatsApp",
+      "langToggle": "ID"
+    },
+    "hero": {
+      "title": "Welcome to the Artima Edu Galaxy! 🌌",
+      "subtitle": "A learning adventure in Coding & English for the future — for your child and for you.",
+      "ctaPrimary": "Start Engine",
+      "trustAge": "Ages 4–17+",
+      "trustKid": "Kid & parent friendly",
+      "trustFor": "For kids & moms"
+    },
+    "philosophy": {
+      "title": "Our Mission in the Artima Universe",
+      "card1Title": "People-First & Kid-Friendly",
+      "card1Body": "Cutting-edge technology blended with warm human interaction. Learning is never robotic.",
+      "card2Title": "For Little Explorers (4–17)",
+      "card2Body": "A progressive coding track that grows with your child, from visual blocks to real code.",
+      "card3Title": "For Mom Commanders (17+)",
+      "card3Body": "English Broom Room — chill, practical English, made for you.",
+      "cta": "Chat with Miss & Team"
+    },
+    "coding": {
+      "title": "Planet Koding",
+      "subtitle": "Master the language of the future",
+      "tier1Age": "4–7",
+      "tier1Title": "Little Coder",
+      "tier1Body": "Build your own code! Visual block coding, logic, and problem-solving for young kids.",
+      "tier2Age": "8–12",
+      "tier2Title": "Junior Tech Creator",
+      "tier2Body": "From blocks to real code. Kids start creating their own digital projects.",
+      "tier3Age": "13–17",
+      "tier3Title": "Future-Ready Tech Wizard",
+      "tier3Body": "Advanced programming and real projects. Ready for a future tech career.",
+      "cta": "Ask on WhatsApp"
+    },
+    "english": {
+      "greeting": "Hello, Gorgeous Ladies & Moms!",
+      "title": "English Broom Room",
+      "body": "Chill, practical, no-stress English. For women & mothers aged 17 and up.",
+      "chip1": "Grammar without the headache",
+      "chip2": "Real conversation",
+      "chip3": "Speak with confidence",
+      "example": "Conquer the Present Perfect Tense without the headache — ready to use in any space-station conversation.",
+      "cta": "Ask on WhatsApp"
+    },
+    "dashboard": {
+      "title": "Futuristic Learning Dashboard",
+      "badge": "Sneak peek — coming soon",
+      "feature1Title": "Adventure Map (Roadmap)",
+      "feature1Body": "Lessons laid out like a constellation map. Finish a class to unlock a new planet.",
+      "feature2Title": "Interactive Video Capsules",
+      "feature2Body": "A clean, focused, easy-to-control lesson video player.",
+      "feature3Title": "Energy Meter",
+      "feature3Body": "A neon progress tracker that lights up at every milestone."
+    },
+    "support": {
+      "title": "Always Connected to Command!",
+      "card1Title": "Direct Comms",
+      "card1Body": "A direct button to the WhatsApp Group to chat with Miss & Team.",
+      "card2Title": "Mission Reports",
+      "card2Body": "Periodic digital report cards to track your little explorer's growth."
+    },
+    "testimonials": {
+      "title": "Words from Commanders & Explorers",
+      "note": "Sample testimonials — will be replaced with real reviews.",
+      "item1Quote": "My child became more confident building their own projects. The Miss is patient and warm!",
+      "item1Name": "Mom Sari",
+      "item2Quote": "Finally learning English without stress. The class is chill and fun.",
+      "item2Name": "Dina, 24",
+      "item3Quote": "The coding suits my child's age perfectly. The progress is clearly visible.",
+      "item3Name": "Mom Rina"
+    },
+    "finalCta": {
+      "title": "Ready to Launch into the Future?",
+      "subtitle": "Join the Artima Edu crew now and start your adventure!",
+      "cta": "Start the Adventure"
+    },
+    "footer": {
+      "domain": "artimaedu.web.id",
+      "instagram": "Instagram",
+      "copyright": "© 2026 Artima Edu. All stars reserved."
+    }
+  }
+}
