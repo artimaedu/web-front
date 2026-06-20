@@ -51,6 +51,15 @@
       "example": "Terkhusus perempuan… upgrade skill bahasa Inggris kamu, mulai dari sini. Kuasai grammar dengan santai agar learners semakin percaya diri dalam meniti karier, sekaligus bisa jadi teman bicara sekaligus mentor terbaik di rumah bagi anak dan suami!",
       "cta": "Tanya via WhatsApp"
     },
+    "profile": {
+      "title": "Orang-Orang di Balik Layar",
+      "subtitle": "Kenali tim yang siap menemanimu menjelajah!",
+      "umaRole": "English Educator & Author",
+      "umaBio": "Telah bertahun-tahun berkecimpung di dunia pendidikan bahasa Inggris dengan penuh kesenangan. Fakta seru: Uma lebih suka menulis daripada mengajar! Tapi khusus untuk kalian di Artima Edu... mari kita tulis kode bersama!",
+      "babaRole": "Senior Software Engineer & Backend Developer",
+      "babaBio": "Software engineer yang menghabiskan hari-harinya membangun sistem dan program keren. Sekarang, Baba siap berbagi sihir teknologi dan mengundang kalian semua untuk membuat game dan aplikasi sendiri!",
+      "viewProfile": "Lihat Profil"
+    },
     "dashboard": {
       "title": "Dashboard Belajar Futuristik",
       "badge": "Sneak peek — segera hadir",
@@ -140,6 +149,15 @@
       "chip3": "Speak with confidence",
       "example": "Made for women… upgrade your English from here. Master grammar with ease so learners grow more confident in their careers, and become the best conversation partner and at-home mentor for their kids and partner.",
       "cta": "Ask on WhatsApp"
+    },
+    "profile": {
+      "title": "The People Behind the Scenes",
+      "subtitle": "Meet the team ready to explore alongside you!",
+      "umaRole": "English Educator & Author",
+      "umaBio": "Years of joyful experience in English education. Fun fact: Uma loves writing more than teaching! But just for you at Artima Edu... let's write some code together!",
+      "babaRole": "Senior Software Engineer & Backend Developer",
+      "babaBio": "A software engineer who spends his days building cool systems and programs. Now, Baba is ready to share his tech magic and invite you all to build your own games and apps!",
+      "viewProfile": "View Profile"
     },
     "dashboard": {
       "title": "Futuristic Learning Dashboard",
