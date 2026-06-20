@@ -15,7 +15,7 @@ const CTA_MESSAGES = {
     en: 'Hi Artima Edu, I would like to know more about your programs.'
   },
   philosophy: {
-    id: 'Halo Artima Edu, saya mau ngobrol dengan Miss & Team.',
+    id: 'Halo Artima Edu, saya mau ngobrol dengan Uma & Team.',
     en: 'Hi Artima Edu, I would like to chat with Miss & Team.'
   },
   'coding.little-coder': {

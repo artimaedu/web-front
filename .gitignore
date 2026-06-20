@@ -3,3 +3,6 @@
 
 # Design specs (kept locally, not in repo)
 docs/
+
+CNAME
+node_modules/

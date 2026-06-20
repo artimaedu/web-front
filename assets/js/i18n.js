@@ -54,6 +54,9 @@ function applyLang(lang) {
 
 function initToggle() {
   document.querySelectorAll('[data-lang-toggle]').forEach((btn) => {
+    // Guard against double-binding if initToggle runs more than once
+    if (btn.dataset.bound === '1') return;
+    btn.dataset.bound = '1';
     btn.addEventListener('click', () => {
       const next = getLang() === 'id' ? 'en' : 'id';
       setLang(next);
@@ -62,9 +65,19 @@ function initToggle() {
 }
 
 async function initI18n() {
-  await loadContent();
-  applyLang(getLang());
+  // Wire the toggle BEFORE the async fetch, so a content-load failure
+  // can never leave the button dead. (Also makes the click responsive ASAP.)
   initToggle();
+  try {
+    await loadContent();
+  } catch (err) {
+    // Most common cause: page opened via file:// instead of http(s)://,
+    // which blocks fetch() on content.json. Serve the folder, e.g.
+    //   python3 -m http.server 8000
+    console.error('[Artima i18n] Could not load content.json:', err);
+    return;
+  }
+  applyLang(getLang());
 }
 
 document.addEventListener('DOMContentLoaded', initI18n);
