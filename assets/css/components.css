@@ -225,3 +225,6 @@
 }
 .card-feature h3 { color: var(--color-gold); }
 .card-feature { text-align: center; }
+
+/* --- Support section (2-card grid) --- */
+.card-grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); max-width: 700px; margin: 0 auto; }
