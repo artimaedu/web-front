@@ -234,3 +234,9 @@
 .testimonial { display: flex; flex-direction: column; gap: var(--space-sm); }
 .testimonial p { color: var(--color-starlight); font-style: italic; font-size: 1.05rem; }
 .testimonial cite { color: var(--color-cyan); font-style: normal; font-weight: 700; }
+
+/* --- Final CTA --- */
+.final-cta { text-align: center; }
+.final-cta-inner { max-width: 700px; margin: 0 auto; }
+.final-cta h2 { margin-bottom: var(--space-sm); }
+.final-cta p { margin-bottom: var(--space-md); }
