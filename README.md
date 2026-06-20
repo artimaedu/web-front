@@ -23,3 +23,14 @@ Replace files in `assets/img/` and `assets/img/mascots/`. Keep the same filename
 
 ## WhatsApp CTA messages
 Pre-filled messages live in `whatsapp.js` under `CTA_MESSAGES`. Edit there to change the text a mom sends.
+
+## Pre-launch checklist
+- [ ] Replace placeholder logo, mascots, og-image, favicon in `assets/img/` (see `assets/img/PLACEHOLDERS.md`)
+- [ ] Replace testimonial placeholders in `assets/js/content.json` with real reviews
+- [ ] Verify WhatsApp number in `assets/js/whatsapp.js` (`WA_NUMBER`)
+- [ ] Verify Instagram link in `index.html` footer
+- [ ] Push to GitHub `main` branch
+- [ ] GitHub Settings → Pages → Source: main / root
+- [ ] Confirm `CNAME` contains `artimaedu.web.id`
+- [ ] Configure DNS on sumopod.com → GitHub Pages
+- [ ] Test https://artimaedu.web.id live
