@@ -6,15 +6,24 @@
 /* Tablet and below */
 @media (max-width: 900px) {
   :root { --space-xl: 4rem; --space-lg: 3rem; }
-  .mascot { height: 200px; max-width: 200px; }
+  .mascot { height: 240px; max-width: 240px; }
+  .profile-mascot .mascot { height: 260px; width: 260px; max-width: 260px; }
 }
 
 /* Mobile (nav-specific styles live in components.css under .nav mobile block) */
 @media (max-width: 640px) {
   .hero { min-height: auto; padding-top: var(--space-lg); }
-  .hero-mascots { gap: var(--space-sm); }
-  .mascot { height: 160px; max-width: 160px; }
-  .profile-mascot .mascot { height: 200px; width: 200px; }
+  /* Hero mascots: two side-by-side, fill the row with a small gap */
+  .hero-mascots { gap: 0.5rem; justify-content: center; }
+  .hero-mascots .mascot {
+    height: auto;
+    width: 45vw;
+    max-width: 220px;
+    min-width: 140px;
+  }
+  /* Section + profile mascots: standalone, bigger */
+  .section-mascot .mascot { height: 200px; max-width: 200px; }
+  .profile-mascot .mascot { height: 240px; width: 240px; max-width: 240px; }
 
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.4rem; }
