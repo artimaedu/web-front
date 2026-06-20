@@ -194,3 +194,16 @@
 }
 .age-cyan { background: rgba(34, 211, 238, 0.15); color: var(--color-cyan); border: 1px solid rgba(34, 211, 238, 0.4); }
 .section-mascot { text-align: center; margin-top: var(--space-lg); }
+
+/* --- English section (magenta accent) --- */
+.section-english .section-subtitle { color: var(--color-magenta); }
+.english-greeting { text-align: center; font-family: var(--font-heading); color: var(--color-gold); font-size: 1.1rem; margin-bottom: var(--space-xs); }
+.english-body { max-width: 640px; margin-left: auto; margin-right: auto; }
+.chip-row { display: flex; flex-wrap: wrap; gap: var(--space-sm); justify-content: center; margin: var(--space-md) 0; }
+.chip {
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+}
+.chip-magenta { background: rgba(232, 121, 249, 0.12); color: var(--color-magenta); border: 1px solid rgba(232, 121, 249, 0.4); }
+.english-example { text-align: center; font-style: italic; max-width: 600px; margin: 0 auto var(--space-md); color: var(--color-starlight); }
