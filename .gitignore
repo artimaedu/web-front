@@ -6,3 +6,4 @@ docs/
 
 CNAME
 node_modules/
+.claude/
