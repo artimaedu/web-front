@@ -207,3 +207,21 @@
 }
 .chip-magenta { background: rgba(232, 121, 249, 0.12); color: var(--color-magenta); border: 1px solid rgba(232, 121, 249, 0.4); }
 .english-example { text-align: center; font-style: italic; max-width: 600px; margin: 0 auto var(--space-md); color: var(--color-starlight); }
+
+/* --- Dashboard preview --- */
+#dashboard { text-align: center; }
+#dashboard .card-grid { text-align: left; }
+.badge-coming {
+  display: inline-block;
+  margin: 0 auto var(--space-sm);
+  background: rgba(251, 191, 36, 0.15);
+  color: var(--color-gold);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+.card-feature h3 { color: var(--color-gold); }
+.card-feature { text-align: center; }
