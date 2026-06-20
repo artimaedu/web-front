@@ -6,14 +6,15 @@
 /* Tablet and below */
 @media (max-width: 900px) {
   :root { --space-xl: 4rem; --space-lg: 3rem; }
-  .mascot { height: 130px; max-width: 130px; }
+  .mascot { height: 200px; max-width: 200px; }
 }
 
 /* Mobile (nav-specific styles live in components.css under .nav mobile block) */
 @media (max-width: 640px) {
   .hero { min-height: auto; padding-top: var(--space-lg); }
   .hero-mascots { gap: var(--space-sm); }
-  .mascot { height: 100px; max-width: 100px; }
+  .mascot { height: 160px; max-width: 160px; }
+  .profile-mascot .mascot { height: 200px; width: 200px; }
 
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.4rem; }

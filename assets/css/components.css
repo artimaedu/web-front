@@ -365,8 +365,8 @@
   margin-bottom: var(--space-md);
 }
 .profile-mascot .mascot {
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   object-fit: contain;
 }
 .profile-info h3 { color: var(--color-gold); margin-bottom: var(--space-xs); }
@@ -396,8 +396,12 @@
 /* --- Final CTA --- */
 .final-cta { text-align: center; }
 .final-cta-inner { max-width: 700px; margin: 0 auto; }
-.final-cta h2 { margin-bottom: var(--space-sm); }
-.final-cta p { margin-bottom: var(--space-md); }
+.final-cta h2 { font-size: 2rem; margin-bottom: var(--space-sm); }
+.final-cta p { font-size: 1.15rem; line-height: 1.6; margin-bottom: var(--space-md); }
+@media (max-width: 640px) {
+  .final-cta h2 { font-size: 1.6rem; }
+  .final-cta p { font-size: 1.05rem; }
+}
 
 /* --- Floating buttons --- */
 .float-wa {
