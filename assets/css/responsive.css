@@ -1,1 +1,38 @@
-/* TODO */
+/* ============================================================
+   Artima Edu — responsive.css
+   Mobile-first adjustments. Loaded after components.css.
+   ============================================================ */
+
+/* Tablet and below */
+@media (max-width: 900px) {
+  :root { --space-xl: 4rem; --space-lg: 3rem; }
+  .nav-links { gap: var(--space-sm); font-size: 0.9rem; }
+  .mascot { width: 110px; }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .nav {
+    flex-wrap: wrap;
+    padding: var(--space-xs) var(--space-sm);
+  }
+  .nav-links { order: 3; width: 100%; justify-content: center; margin-top: var(--space-xs); }
+  .nav-actions { margin-left: auto; }
+
+  .hero { min-height: auto; padding-top: var(--space-lg); }
+  .hero-mascots { gap: var(--space-sm); }
+  .mascot { width: 90px; }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  .hero-sub { font-size: 1rem; }
+
+  .trust-strip { flex-direction: column; align-items: center; }
+
+  .section { padding: var(--space-lg) var(--space-sm); }
+  .card-grid { grid-template-columns: 1fr; }
+  .card-grid-2 { grid-template-columns: 1fr; }
+
+  .float-wa { width: 50px; height: 50px; bottom: 16px; right: 16px; }
+  .back-to-top { bottom: 74px; right: 16px; }
+}
