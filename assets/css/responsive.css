@@ -6,19 +6,11 @@
 /* Tablet and below */
 @media (max-width: 900px) {
   :root { --space-xl: 4rem; --space-lg: 3rem; }
-  .nav-links { gap: var(--space-sm); font-size: 0.9rem; }
   .mascot { height: 130px; max-width: 130px; }
 }
 
-/* Mobile */
+/* Mobile (nav-specific styles live in components.css under .nav mobile block) */
 @media (max-width: 640px) {
-  .nav {
-    flex-wrap: wrap;
-    padding: var(--space-xs) var(--space-sm);
-  }
-  .nav-links { order: 3; width: 100%; justify-content: center; margin-top: var(--space-xs); }
-  .nav-actions { margin-left: auto; }
-
   .hero { min-height: auto; padding-top: var(--space-lg); }
   .hero-mascots { gap: var(--space-sm); }
   .mascot { height: 100px; max-width: 100px; }

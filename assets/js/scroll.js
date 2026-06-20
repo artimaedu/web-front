@@ -5,6 +5,41 @@
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
+  /* Hamburger menu toggle */
+  const navToggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  const navActions = document.querySelector('.nav-actions');
+
+  if (navToggle && navLinks && navActions) {
+    const setMenu = (open) => {
+      navToggle.setAttribute('aria-expanded', String(open));
+      navLinks.classList.toggle('active', open);
+      navActions.classList.toggle('active', open);
+      document.body.classList.toggle('nav-open', open);
+    };
+
+    navToggle.addEventListener('click', () => {
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+      setMenu(!isOpen);
+    });
+
+    // Close when clicking a link inside the drawer
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => setMenu(false));
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        setMenu(false);
+      }
+    });
+
+    // Close if viewport grows back to desktop
+    const mq = window.matchMedia('(min-width: 769px)');
+    mq.addEventListener('change', (e) => { if (e.matches) setMenu(false); });
+  }
+
   const reveals = document.querySelectorAll('[data-reveal]');
   if (!reveals.length) return;
 
