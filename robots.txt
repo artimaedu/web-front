@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artimaedu.web.id/sitemap.xml
