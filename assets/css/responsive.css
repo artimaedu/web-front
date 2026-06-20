@@ -7,7 +7,7 @@
 @media (max-width: 900px) {
   :root { --space-xl: 4rem; --space-lg: 3rem; }
   .nav-links { gap: var(--space-sm); font-size: 0.9rem; }
-  .mascot { width: 110px; }
+  .mascot { height: 130px; max-width: 130px; }
 }
 
 /* Mobile */
@@ -21,7 +21,7 @@
 
   .hero { min-height: auto; padding-top: var(--space-lg); }
   .hero-mascots { gap: var(--space-sm); }
-  .mascot { width: 90px; }
+  .mascot { height: 100px; max-width: 100px; }
 
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.4rem; }

@@ -139,14 +139,20 @@
   text-align: center;
   padding: var(--space-xl) var(--space-md);
 }
-.hero-content { max-width: 800px; }
+.hero-content { max-width: 1000px; }
 .hero-mascots {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   gap: var(--space-md);
   margin-bottom: var(--space-md);
 }
-.mascot { width: 140px; height: auto; }
+.mascot {
+  width: auto;
+  height: 160px;
+  max-width: 160px;
+  object-fit: contain;
+}
 .btn-lg { padding: 1rem 2.5rem; font-size: 1.1rem; }
 .hero-sub {
   font-size: 1.15rem;
