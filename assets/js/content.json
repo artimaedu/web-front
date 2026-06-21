@@ -153,6 +153,12 @@
       "subtitle": "Gabung kru Artima Edu sekarang dan mulai petualanganmu!",
       "cta": "Mulai Petualangan"
     },
+    "error": {
+      "title": "Halaman Tidak Ditemukan",
+      "message": "Sepertinya Anda tersesat di antariksa! Halaman yang Anda cari tidak ada di galaksi kami.",
+      "home": "Kembali ke Beranda",
+      "programs": "Lihat Program"
+    },
     "footer": {
       "domain": "artimaedu.web.id",
       "email": "help@artimaedu.web.id",
@@ -349,6 +355,12 @@
       "title": "Ready to Launch into the Future?",
       "subtitle": "Join the Artima Edu crew now and start your adventure!",
       "cta": "Start the Adventure"
+    },
+    "error": {
+      "title": "Page Not Found",
+      "message": "Looks like you got lost in space! The page you're looking for doesn't exist in our galaxy.",
+      "home": "Back to Home",
+      "programs": "View Programs"
     },
     "footer": {
       "domain": "artimaedu.web.id",
