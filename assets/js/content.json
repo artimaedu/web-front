@@ -135,12 +135,12 @@
     "testimonials": {
       "title": "Kata Para Komandan & Penjelajah",
       "note": "Setiap langkah kecil di Artima Edu adalah cerita besar bagi kami.",
-      "item1Quote": "Melihat anak saya antusias menunjukkan proyek digital yang dia buat sendiri di kelas Junior Tech Creator itu kebahagiaan tersendiri. Baba sebagai mentor sangat paham cara membimbing anak dari fase dasar ke level yang lebih serius tanpa membuat mereka tertekan. Ini adalah tempat yang tepat bagi orang tua yang ingin menyiapkan anaknya menghadapi masa depan teknologi dengan cara yang menyenangkan. Uma pun sangat membuat kelas terasa hidup dan menyenangkan.",
-      "item1Name": "Ainun, Orang tua siswa kelas Junior Tech Creator",
-      "item2Quote": "Suka banget dengan fleksibilitas Artima Edu. Saya bisa ikut kelas English Broom Room yang aplikatif untuk kebutuhan harian bersama Uma, sementara anak saya asyik belajar coding dengan Baba. Suasananya cair banget, jauh dari kesan kaku sekolah konvensional.",
-      "item2Name": "Farah Diba, Peserta English Broom Room & orang tua siswa Little Coder",
-      "item3Quote": "Setelah mengikuti Little Coder, saya melihat perubahan pada si kecil. Dia bukan cuma sekadar main gadget, tapi belajar logika di baliknya. Yang paling saya suka adalah pendekatan mentornya yang sangat sabar dan ramah anak, benar-benar people-first. Terima kasih, Artima Edu, sudah membuat pengalaman belajar pertama anak saya menjadi begitu berkesan.",
-      "item3Name": "Mazmunah, Orang tua siswa kelas Little Coder"
+      "item1Quote": "Sudah satu bulan saya mengikuti kelas online bahasa Inggris di Artima Edu 'English Broom Room'. Menurut saya kelasnya bagus sekali, penyampaiannya mudah dipahami untuk pemula banget kaya aku. Uma sebagai Coach juga sangat komunikatif. Buat IRT sekaligus ibu pekerja kaya aku yang tidak memungkinkan ikut course secara offline, English Broom Room ini cocok banget karena waktunya yang fleksibel. Cocok banget buat pemula yang ingin tambah kemampuan bahasa Inggris-nya.",
+      "item1Name": "Erlin Nur Winda, Peserta English Broom Room",
+      "item2Quote": "Sebagai seseorang yang memiliki rutinitas kerja yang cukup padat, saya merasa sangat terbantu dengan adanya English Broom Room by Artima Edu. Saya bisa belajar kapan saja tanpa harus khawatir dengan keterbatasan waktu. Materinya lengkap, penjelasannya detail, dan selalu ada sesi tanya jawab yang membuat proses belajar terasa lebih nyaman. Yang saya suka, English Broom Room tidak hanya mengajarkan grammar, tetapi juga banyak topik yang relate dengan kehidupan sehari-hari, sehingga proses belajar menjadi lebih menyenangkan dan bermanfaat.",
+      "item2Name": "Nasya, Peserta English Broom Room",
+      "item3Quote": "Selama saya mengikuti kursus, mulai dari awal bulan Juni di Artima Edu 'English Broom Room'. Suasananya seru dan mentornya, Uma, sabar banget! Buat saya yang pertama kali belajar di sini, materinya disampaikan dengan cara yang menyenangkan dan mudah dipahami, dan dibantu mulai dari dasar. Dan, saya rasa ada sedikit progress. Saya minta maaf, untuk praktik speaking dan penyusunan vocabulary belum lihai dan aktif. Because, mungkin saya belum terbiasa. However, saya terus belajar dan berlatih, agar lebih lancar dan pede untuk berkomunikasi, juga berguna untuk impian saya yang belum terwujud. And then, thank you so much, Uma!",
+      "item3Name": "Tikha, Peserta English Broom Room"
     },
     "finalCta": {
       "title": "Siap Meluncur ke Masa Depan?",
@@ -149,6 +149,7 @@
     },
     "footer": {
       "domain": "artimaedu.web.id",
+      "email": "help@artimaedu.web.id",
       "instagram": "Instagram",
       "copyright": "© 2026 Artima Edu. Semua bintang dilindungi."
     },
@@ -325,12 +326,12 @@
     "testimonials": {
       "title": "Words from Commanders & Explorers",
       "note": "Every small step at Artima Edu is a big story to us.",
-      "item1Quote": "Seeing my child excitedly show off the digital project they built themselves in the Junior Tech Creator class is a joy of its own. Baba as a mentor really knows how to guide kids from the basics to a more serious level without ever pressuring them. This is the right place for parents who want to prepare their child for a tech-driven future in a fun way. Uma makes class feel alive and joyful too.",
-      "item1Name": "Ainun, parent of a Junior Tech Creator student",
-      "item2Quote": "I love the flexibility at Artima Edu. I get to join the English Broom Room class with Uma — practical English I can use every day — while my child happily learns to code with Baba. The vibe is so relaxed, nothing like a stiff conventional school.",
-      "item2Name": "Farah Diba, English Broom Room participant & parent of a Little Coder student",
-      "item3Quote": "After joining Little Coder, I noticed real change in my little one. She's not just playing on a gadget anymore — she's learning the logic behind it. What I love most is how patient and kid-friendly the mentors are; truly people-first. Thank you, Artima Edu, for making my child's first learning experience so memorable.",
-      "item3Name": "Mazmunah, parent of a Little Coder student"
+      "item1Quote": "I've been attending online English classes at Artima Edu's 'English Broom Room' for a month now. In my opinion, the class is excellent - the delivery is very easy to understand for complete beginners like me. Uma as a coach is also very communicative. For housewives and working mothers like me who can't attend offline courses, English Broom Room is perfect because of its flexible schedule. Perfect for beginners who want to improve their English skills.",
+      "item1Name": "Erlin Nur Winda, English Broom Room Participant",
+      "item2Quote": "As someone with a busy work routine, I feel greatly helped by English Broom Room by Artima Edu. I can learn anytime without worrying about time constraints. The material is comprehensive, the explanations are detailed, and there are always Q&A sessions that make the learning process more comfortable. What I love is that English Broom Room doesn't just teach grammar, but also many topics that relate to daily life, making the learning process more enjoyable and beneficial.",
+      "item2Name": "Nasya, English Broom Room Participant",
+      "item3Quote": "Since I started taking the course at the beginning of June at Artima Edu's 'English Broom Room', the atmosphere has been fun and the mentor, Uma, is so patient! For someone like me learning here for the first time, the material is delivered in a fun and easy-to-understand way, and I'm guided from the basics. And I feel there's been a bit of progress. I apologize that my speaking practice and vocabulary composition aren't very skilled and active yet. Because maybe I'm not used to it yet. However, I keep learning and practicing to become more fluent and confident in communicating, which is also useful for my unfulfilled dreams. And then, thank you so much, Uma!",
+      "item3Name": "Tikha, English Broom Room Participant"
     },
     "finalCta": {
       "title": "Ready to Launch into the Future?",
@@ -339,6 +340,7 @@
     },
     "footer": {
       "domain": "artimaedu.web.id",
+      "email": "help@artimaedu.web.id",
       "instagram": "Instagram",
       "copyright": "© 2026 Artima Edu. All stars reserved."
     },
