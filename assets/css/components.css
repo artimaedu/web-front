@@ -629,3 +629,60 @@
   transition: opacity 0.3s;
 }
 .back-to-top.visible { opacity: 1; pointer-events: auto; }
+
+/* --- Error Page (404) --- */
+.error-page {
+  min-height: calc(100vh - 80px - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-md);
+}
+.section-404 {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+.error-mascot {
+  width: 200px;
+  height: 200px;
+  margin-bottom: var(--space-sm);
+}
+.error-mascot .mascot {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(34, 211, 238, 0.3));
+}
+.error-title {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--color-cyan);
+  line-height: 1;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+}
+.error-subtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: var(--space-xs) 0;
+}
+.error-message {
+  font-size: 1.125rem;
+  color: var(--color-text-dim);
+  line-height: 1.6;
+  margin: var(--space-sm) 0 var(--space-lg);
+}
+.error-actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
