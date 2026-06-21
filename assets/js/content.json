@@ -51,7 +51,8 @@
       "chip2": "Percakapan nyata",
       "chip3": "Confidence berbahasa",
       "example": "Terkhusus perempuan… upgrade skill bahasa Inggris kamu, mulai dari sini. Kuasai grammar dengan santai agar learners semakin percaya diri dalam meniti karier, sekaligus bisa jadi teman bicara sekaligus mentor terbaik di rumah bagi anak dan suami!",
-      "cta": "Tanya via WhatsApp"
+      "cta": "Tanya via WhatsApp",
+      "viewClasses": "Lihat Pilihan Kelas"
     },
     "profile": {
       "title": "Orang-Orang di Balik Layar",
@@ -150,6 +151,42 @@
       "domain": "artimaedu.web.id",
       "instagram": "Instagram",
       "copyright": "© 2026 Artima Edu. Semua bintang dilindungi."
+    },
+    "program": {
+      "title": "Pilihan Kelas",
+      "subtitle": "Pilih format belajar yang paling cocok untuk kamu dan si kecil.",
+      "cta": "Tanya via WhatsApp",
+      "coding": {
+        "group": {
+          "label": "Group Online Class",
+          "detail": "Class online berisi maksimal 10–15 siswa, dalam satu pertemuan online selama 90 menit lewat meeting online tools.",
+          "littleCoder": { "price": "Rp 35.000", "unit": "/pertemuan" },
+          "juniorTech": { "price": "Rp 50.000", "unit": "/pertemuan" },
+          "futureReady": { "price": "Rp 75.000", "unit": "/pertemuan" }
+        },
+        "oneOnOne": {
+          "label": "One on One Online Class",
+          "detail": "One on One hanya berisi maksimal 1 siswa 1 tutor, 4 kali pertemuan sebulan.",
+          "littleCoder": { "price": "Rp 120.000", "unit": "/bulan" },
+          "juniorTech": { "price": "Rp 185.000", "unit": "/pertemuan" },
+          "futureReady": { "price": "Rp 270.000", "unit": "/pertemuan" }
+        }
+      },
+      "english": {
+        "badge": "Khusus Perempuan",
+        "group": {
+          "label": "WhatsApp Group Online Class",
+          "detail": "Diisi 10–15 orang perempuan per kelas di dalam private group WhatsApp dan hanya belajar via chat WhatsApp, setiap hari Minggu sampai Rabu.",
+          "price": "Rp 65.000",
+          "unit": "/bulan"
+        },
+        "oneOnOne": {
+          "label": "One on One Online Class",
+          "detail": "Kelas private online 1 murid 1 tutor dengan 1 kali pertemuan per minggu dan 4 kali sebulan.",
+          "price": "Rp 100.000",
+          "unit": "/bulan"
+        }
+      }
     }
   },
   "en": {
@@ -204,7 +241,8 @@
       "chip2": "Real conversation",
       "chip3": "Speak with confidence",
       "example": "Made for women… upgrade your English from here. Master grammar with ease so learners grow more confident in their careers, and become the best conversation partner and at-home mentor for their kids and partner.",
-      "cta": "Ask on WhatsApp"
+      "cta": "Ask on WhatsApp",
+      "viewClasses": "View Class Options"
     },
     "profile": {
       "title": "The People Behind the Scenes",
@@ -303,6 +341,42 @@
       "domain": "artimaedu.web.id",
       "instagram": "Instagram",
       "copyright": "© 2026 Artima Edu. All stars reserved."
+    },
+    "program": {
+      "title": "Class Options",
+      "subtitle": "Choose the learning format that suits you and your little one best.",
+      "cta": "Ask on WhatsApp",
+      "coding": {
+        "group": {
+          "label": "Group Online Class",
+          "detail": "An online class with a maximum of 10–15 students, in a single 90-minute session via online meeting tools.",
+          "littleCoder": { "price": "Rp 35.000", "unit": "/session" },
+          "juniorTech": { "price": "Rp 50.000", "unit": "/session" },
+          "futureReady": { "price": "Rp 75.000", "unit": "/session" }
+        },
+        "oneOnOne": {
+          "label": "One on One Online Class",
+          "detail": "One on One with a maximum of 1 student and 1 tutor, 4 sessions per month.",
+          "littleCoder": { "price": "Rp 120.000", "unit": "/month" },
+          "juniorTech": { "price": "Rp 185.000", "unit": "/session" },
+          "futureReady": { "price": "Rp 270.000", "unit": "/session" }
+        }
+      },
+      "english": {
+        "badge": "Women Only",
+        "group": {
+          "label": "WhatsApp Group Online Class",
+          "detail": "Filled with 10–15 women per class in a private WhatsApp group, learning only via WhatsApp chat, every Sunday to Wednesday.",
+          "price": "Rp 65.000",
+          "unit": "/month"
+        },
+        "oneOnOne": {
+          "label": "One on One Online Class",
+          "detail": "A private online class with 1 student and 1 tutor, 1 session per week and 4 sessions per month.",
+          "price": "Rp 100.000",
+          "unit": "/month"
+        }
+      }
     }
   }
 }
