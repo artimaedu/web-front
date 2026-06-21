@@ -322,6 +322,18 @@
 /* --- English section (magenta accent) --- */
 .section-english .section-mascot { margin-bottom: var(--space-sm); }
 .section-english .section-subtitle { color: var(--color-magenta); }
+/* Tighten the gap between Planet Koding cards and the Uma mascot */
+.section-english { padding-top: var(--space-md); }
+/* Stack English section buttons with vertical gap on mobile, inline on desktop */
+.section-cta-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+@media (min-width: 641px) {
+  .section-cta-stack { flex-direction: row; justify-content: center; }
+}
 .english-greeting { text-align: center; font-family: var(--font-heading); color: var(--color-gold); font-size: 1.1rem; margin-bottom: var(--space-xs); }
 .english-body { max-width: 640px; margin-left: auto; margin-right: auto; }
 .chip-row { display: flex; flex-wrap: wrap; gap: var(--space-sm); justify-content: center; margin: var(--space-md) 0; }
@@ -470,6 +482,103 @@
 .blog-post-content p { margin-bottom: var(--space-md); }
 .blog-cta { background: rgba(34, 211, 238, 0.05); border: 1px solid rgba(34, 211, 238, 0.2); border-radius: var(--radius-md); padding: var(--space-lg); text-align: center; margin-top: var(--space-xl); }
 .blog-cta p { color: var(--color-starlight); font-size: 1.1rem; margin-bottom: var(--space-md); }
+
+/* --- Class selection page (program.html) --- */
+.program-hero {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+.program-hero h1 {
+  color: var(--color-gold);
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: var(--space-sm);
+}
+.program-hero .program-subtitle {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.class-block {
+  margin-bottom: var(--space-xl);
+}
+.class-block-header {
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+.class-block-label {
+  color: var(--color-cyan);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--space-xs);
+}
+.section-english-program .class-block-label {
+  color: var(--color-magenta);
+}
+.class-block-detail {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.card-price-tier {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.card-price-tier h3 {
+  color: var(--color-cyan);
+}
+.card-price-tier .age-badge {
+  align-self: flex-start;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--color-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.4);
+}
+.price {
+  color: var(--color-gold);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+.price-unit {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-xs);
+}
+.card-price-tier .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+.badge-woman {
+  display: inline-block;
+  background: rgba(232, 121, 249, 0.15);
+  color: var(--color-magenta);
+  border: 1px solid rgba(232, 121, 249, 0.4);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+.card-english-class {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.card-english-class h3 {
+  color: var(--color-magenta);
+}
+.card-english-class .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
 
 /* --- Floating buttons --- */
 .float-wa {
