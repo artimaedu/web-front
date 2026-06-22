@@ -181,8 +181,8 @@
           "label": "One on One Online Class",
           "detail": "One on One hanya berisi maksimal 1 siswa 1 tutor, 4 kali pertemuan sebulan.",
           "littleCoder": { "price": "Rp 120.000", "unit": "/bulan" },
-          "juniorTech": { "price": "Rp 185.000", "unit": "/pertemuan" },
-          "futureReady": { "price": "Rp 270.000", "unit": "/pertemuan" }
+          "juniorTech": { "price": "Rp 185.000", "unit": "/bulan" },
+          "futureReady": { "price": "Rp 270.000", "unit": "/bulan" }
         }
       },
       "english": {
@@ -384,8 +384,8 @@
           "label": "One on One Online Class",
           "detail": "One on One with a maximum of 1 student and 1 tutor, 4 sessions per month.",
           "littleCoder": { "price": "Rp 120.000", "unit": "/month" },
-          "juniorTech": { "price": "Rp 185.000", "unit": "/session" },
-          "futureReady": { "price": "Rp 270.000", "unit": "/session" }
+          "juniorTech": { "price": "Rp 185.000", "unit": "/month" },
+          "futureReady": { "price": "Rp 270.000", "unit": "/month" }
         }
       },
       "english": {

@@ -63,12 +63,12 @@ const CTA_MESSAGES = {
     en: 'Hi Artima Edu, I am interested in One on One Little Coder (Rp 120.000/month). Could you share enrollment info?'
   },
   'program.coding.1on1.junior-tech': {
-    id: 'Halo Artima Edu, saya tertarik dengan One on One Junior Tech Creator (Rp 185.000/pertemuan). Boleh info pendaftaran?',
-    en: 'Hi Artima Edu, I am interested in One on One Junior Tech Creator (Rp 185.000/session). Could you share enrollment info?'
+    id: 'Halo Artima Edu, saya tertarik dengan One on One Junior Tech Creator (Rp 185.000/bulan). Boleh info pendaftaran?',
+    en: 'Hi Artima Edu, I am interested in One on One Junior Tech Creator (Rp 185.000/month). Could you share enrollment info?'
   },
   'program.coding.1on1.tech-wizard': {
-    id: 'Halo Artima Edu, saya tertarik dengan One on One Future-Ready Tech Wizard (Rp 270.000/pertemuan). Boleh info pendaftaran?',
-    en: 'Hi Artima Edu, I am interested in One on One Future-Ready Tech Wizard (Rp 270.000/session). Could you share enrollment info?'
+    id: 'Halo Artima Edu, saya tertarik dengan One on One Future-Ready Tech Wizard (Rp 270.000/bulan). Boleh info pendaftaran?',
+    en: 'Hi Artima Edu, I am interested in One on One Future-Ready Tech Wizard (Rp 270.000/month). Could you share enrollment info?'
   },
   'program.english.group': {
     id: 'Halo Artima Edu, saya tertarik dengan English Broom Room – WhatsApp Group Class (Rp 65.000/bulan). Boleh info pendaftaran?',
