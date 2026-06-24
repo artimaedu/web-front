@@ -19,4 +19,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/program.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/program.html"/>
   </url>
+  <url>
+    <loc>https://artimaedu.web.id/merchandise.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/merchandise.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/merchandise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/merchandise.html"/>
+  </url>
 </urlset>

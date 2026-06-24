@@ -1,0 +1,246 @@
+{
+  "products": [
+    {
+      "slug": "coding-robot-brick-block",
+      "name": { "id": "Coding Robot Brick Block", "en": "Coding Robot Brick Block" },
+      "tagline": {
+        "id": "Bangun, coding, dan kendalikan robotmu sendiri dengan Coding Robot Brick Block dari aplikasi WeDo2. Menggabungkan aktivitas merakit dan pemrograman visual untuk melatih logika, kreativitas, dan problem solving anak. Cocok untuk mengenalkan konsep STEM melalui pengalaman belajar yang interaktif. Belajar jadi lebih seru sambil bermain dan berkreasi!",
+        "en": "Build, code, and control your own robot with the Coding Robot Brick Block and the WeDo2 app. It combines building and visual programming to train logic, creativity, and problem solving. Perfect for introducing STEM concepts through an interactive learning experience. Learning is more fun while playing and creating!"
+      },
+      "price": "Rp 450.000",
+      "priceUnit": { "id": "/set", "en": "/set" },
+      "age": "6+",
+      "badge": "WeDo App",
+      "image": "assets/img/products/coding-robot-brick-block.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.coding-robot-brick-block",
+      "features": [
+        { "id": "100+ building brick pieces + motor + sensor", "en": "100+ building brick pieces + motor + sensor" },
+        { "id": "Aplikasi block coding untuk pemrograman visual", "en": "Block coding app for visual programming" },
+        { "id": "Belajar mekanik, sensor, motor & logika pemrograman", "en": "Learn mechanics, sensors, motors & programming logic" },
+        { "id": "Cocok untuk anak usia 6 tahun ke atas", "en": "Suitable for ages 6 and up" }
+      ],
+      "description": [
+        {
+          "id": "Coding Robot Brick Block adalah media belajar STEM yang menggabungkan aktivitas merakit robot dan pemrograman visual (block coding) dalam satu pengalaman belajar yang menyenangkan. Anak tidak hanya bermain balok, tetapi juga belajar logika, kreativitas, dan teknologi sejak dini melalui proyek robotik yang interaktif.",
+          "en": "The Coding Robot Brick Block is a STEM learning medium that combines robot-building with visual programming (block coding) in one fun learning experience. Kids don't just play with blocks — they learn logic, creativity, and technology from an early age through interactive robotics projects."
+        },
+        {
+          "id": "Melalui proses merakit dan memprogram robot, anak akan mengenal konsep dasar mekanik, struktur, roda gigi, sensor, motor, hingga logika pemrograman secara bertahap. Anak dapat membuat robot bergerak maju dan mundur, berbelok dan berputar, menjalankan perintah berurutan, merespons sensor dan lingkungan, hingga menyelesaikan misi coding sederhana hingga lanjutan. Belajar coding menjadi lebih mudah tanpa harus mengetik bahasa pemrograman yang rumit.",
+          "en": "Through building and programming the robot, children gradually learn the basics of mechanics, structure, gears, sensors, motors, and programming logic. Kids can make the robot move forward and backward, turn and rotate, run sequential commands, respond to sensors and its environment, and solve simple to advanced coding missions. Learning to code becomes easier without typing complex programming languages."
+        },
+        {
+          "id": "Setiap aktivitas disusun secara bertahap dari tingkat dasar hingga lebih kompleks, membantu anak memahami computational thinking, problem solving, logika pemrograman, kreativitas dan inovasi, serta dasar robotika dan STEM. Coding Robot Brick Block bukan hanya mainan, tetapi media belajar bersama keluarga — orang tua dapat mendampingi anak merakit robot, mencoba tantangan coding, dan menyelesaikan misi secara kolaboratif.",
+          "en": "Each activity is graded from basic to more complex, helping children grasp computational thinking, problem solving, programming logic, creativity and innovation, and the basics of robotics and STEM. The Coding Robot Brick Block is not just a toy — it's a medium for learning together as a family. Parents can guide children to build the robot, try coding challenges, and complete missions collaboratively."
+        }
+      ],
+      "specs": {
+        "Usia / Age": "6+",
+        "Isi Paket / Package": "100+ brick + motor + sensor + kabel + panduan / 100+ bricks + motor + sensor + cable + guide",
+        "Aplikasi / App": "Block coding (WeDo2)",
+        "Materi / Topics": "Mekanik, sensor, motor & logika coding / Mechanics, sensors, motors & coding logic"
+      }
+    },
+    {
+      "slug": "coding-worksheets-for-kids",
+      "name": { "id": "Coding Worksheet Junior", "en": "Coding Worksheet Junior" },
+      "tagline": {
+        "id": "Coding Worksheet Junior berisi lembar aktivitas edukatif yang dirancang untuk melatih dasar-dasar coding, logika, dan berpikir komputasional. Menggunakan kertas tebal berkualitas dengan desain yang menarik dan mudah dipahami anak. Aktivitas disusun secara bertahap sehingga belajar terasa menyenangkan. Cocok untuk anak usia sekolah dasar.",
+        "en": "Coding Worksheet Junior contains educational activity sheets designed to train the basics of coding, logic, and computational thinking. Made with high-quality thick paper and an engaging, kid-friendly design. Activities are graded step by step so learning feels fun. Suitable for elementary school-age children."
+      },
+      "price": "Rp 60.000",
+      "priceUnit": { "id": "/book", "en": "/book" },
+      "age": "7+",
+      "badge": "Edu Book",
+      "image": "assets/img/products/coding-worksheet-for-kids.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.coding-worksheets-for-kids",
+      "features": [
+        { "id": "18 lembar worksheet premium, kertas tebal tidak mudah sobek", "en": "18 premium worksheets, thick tear-resistant paper" },
+        { "id": "Level Junior untuk anak usia 7 tahun+", "en": "Junior level for ages 7+" },
+        { "id": "Materi: coding sequence, kode huruf, kode panah & angka, puzzle logika", "en": "Topics: coding sequence, letter codes, arrow & number codes, logic puzzles" },
+        { "id": "Screen-free learning — belajar tanpa layar", "en": "Screen-free learning — learn without a screen" }
+      ],
+      "description": [
+        {
+          "id": "Belajar coding tanpa gadget kini lebih mudah dan menyenangkan! Artima Edu Coding Worksheets dirancang khusus untuk anak usia dini dengan aktivitas interaktif yang melatih logika, kreativitas, dan kemampuan berpikir komputasional melalui permainan yang seru.",
+          "en": "Learning to code without gadgets is now easier and more fun! Artima Edu Coding Worksheets are designed especially for young children with interactive activities that train logic, creativity, and computational thinking through playful games."
+        },
+        {
+          "id": "Materi aktivitas meliputi coding sequence, kode huruf, kode panah & angka, match the code, puzzle logika, problem solving, dan aktivitas berpikir kreatif. Anak belajar dasar computational thinking, melatih logika dan kemampuan memecahkan masalah, meningkatkan fokus dan ketelitian, serta mengembangkan kreativitas — semua sambil bermain tanpa perlu layar.",
+          "en": "Activity topics include coding sequence, letter codes, arrow & number codes, match the code, logic puzzles, problem solving, and creative thinking activities. Children learn the basics of computational thinking, train logic and problem solving, sharpen focus and attention to detail, and develop creativity — all while playing, with no screen needed."
+        },
+        {
+          "id": "Cocok untuk belajar di rumah, kegiatan sekolah dan homeschooling, kelas coding dasar, serta aktivitas edukatif bersama orang tua.",
+          "en": "Perfect for learning at home, school activities and homeschooling, beginner coding classes, and educational play with parents."
+        }
+      ],
+      "specs": {
+        "Usia / Age": "7+",
+        "Level / Level": "Junior",
+        "Isi / Contents": "18 lembar worksheet / 18 worksheets",
+        "Kertas / Paper": "Tebal premium tidak mudah sobek / Thick premium tear-resistant"
+      }
+    },
+    {
+      "slug": "logic-key",
+      "name": { "id": "Logic Key", "en": "Logic Key" },
+      "tagline": {
+        "id": "Logic Key adalah permainan edukatif yang mengajak anak belajar melalui tantangan penalaran dan observasi. Berbagai aktivitas interaktif membantu meningkatkan fokus, konsentrasi, dan kemampuan problem solving. Anak dapat bermain sambil mengembangkan kemampuan berpikir logis secara mandiri. Solusi belajar yang seru tanpa gadget.",
+        "en": "Logic Key is an educational game that invites children to learn through reasoning and observation challenges. A variety of interactive activities help boost focus, concentration, and problem solving. Children can play while developing logical thinking independently. A fun, screen-free learning solution."
+      },
+      "price": "Rp 150.000",
+      "priceUnit": { "id": "/set", "en": "/set" },
+      "age": "3+",
+      "badge": "Edu Toy",
+      "image": "assets/img/products/llogic-key.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.logic-key",
+      "features": [
+        { "id": "1 Set Logic Key Board + kartu aktivitas full color", "en": "1 Logic Key Board set + full-color activity cards" },
+        { "id": "Sistem kunci interaktif & tantangan logika bertingkat", "en": "Interactive key system & graded logic challenges" },
+        { "id": "Melatih logika, fokus, observasi & critical thinking", "en": "Trains logic, focus, observation & critical thinking" },
+        { "id": "Material berkualitas, aman untuk anak usia 3+", "en": "Quality material, safe for ages 3+" }
+      ],
+      "description": [
+        {
+          "id": "Artima Edu Logic Key adalah permainan edukatif yang dirancang untuk melatih kemampuan berpikir logis, konsentrasi, observasi, dan problem solving anak melalui berbagai tantangan yang menyenangkan. Setiap kartu berisi misi yang harus diselesaikan dengan mencocokkan jawaban menggunakan kunci logika, sehingga anak belajar secara aktif sambil bermain.",
+          "en": "Artima Edu Logic Key is an educational game designed to train children's logical thinking, concentration, observation, and problem solving through fun challenges. Each card contains a mission that must be solved by matching answers using the logic key, so children learn actively while playing."
+        },
+        {
+          "id": "Aktivitas yang dipelajari mencakup mencocokkan gambar, mengenal pola dan bentuk, membedakan objek, mengelompokkan kategori, melatih daya ingat visual, hingga menyelesaikan tantangan logika sederhana. Cocok untuk belajar di rumah, PAUD & TK, homeschooling, kelas pendamping belajar, dan aktivitas bermain edukatif bersama keluarga.",
+          "en": "Activities covered include picture matching, recognising patterns and shapes, distinguishing objects, grouping categories, training visual memory, and solving simple logic challenges. Suitable for learning at home, preschool & kindergarten, homeschooling, tutoring classes, and educational play with the family."
+        }
+      ],
+      "specs": {
+        "Usia / Age": "3+",
+        "Isi / Contents": "1 Logic Key Board + kartu aktivitas / 1 board + activity cards",
+        "Sistem / System": "Kunci interaktif / Interactive key",
+        "Material / Material": "Aman untuk anak / Kid-safe"
+      }
+    },
+    {
+      "slug": "coding-flash-card",
+      "name": { "id": "Little Coder Flash Card", "en": "Little Coder Flash Card" },
+      "tagline": {
+        "id": "Little Coder Flash Card menghadirkan aktivitas wipe & clean yang dapat digunakan berulang kali. Dilengkapi spidol warna dan kotak penyimpanan praktis, anak dapat belajar coding melalui penalaran visual tanpa perlu mengenal huruf atau angka. Cocok untuk usia 4 tahun ke atas. Belajar coding kini lebih mudah, menyenangkan, dan interaktif.",
+        "en": "Little Coder Flash Card brings wipe & clean activities that can be used again and again. Complete with coloured markers and a handy storage box, kids can learn coding through visual reasoning without needing to know letters or numbers. Suitable for ages 4 and up. Learning to code is now easier, more fun, and more interactive."
+      },
+      "price": "Rp 95.000",
+      "priceUnit": { "id": "/set", "en": "/set" },
+      "age": "4+",
+      "badge": "Edu Toy",
+      "image": "assets/img/products/coding-flash-card.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.coding-flash-card",
+      "features": [
+        { "id": "Wipe & clean — dapat ditulis & dihapus berulang kali", "en": "Wipe & clean — write & erase again and again" },
+        { "id": "Ukuran 10 x 15 cm + 8 warna spidol cerah", "en": "Size 10 x 15 cm + 8 bright marker colours" },
+        { "id": "Materi: coding sequence, kode panah, pola & problem solving", "en": "Topics: coding sequence, arrow codes, patterns & problem solving" },
+        { "id": "Pengenalan coding tanpa huruf & angka, bebas gadget", "en": "Coding intro without letters & numbers, screen-free" }
+      ],
+      "description": [
+        {
+          "id": "Belajar coding jadi lebih seru dengan kartu aktivitas yang dapat ditulis, dihapus, dan digunakan berulang kali! Dirancang khusus untuk anak usia dini, setiap kartu menghadirkan tantangan logika dan coding sederhana yang membantu mengembangkan kemampuan berpikir secara menyenangkan.",
+          "en": "Learning to code is more fun with activity cards you can write on, wipe off, and reuse! Designed especially for early childhood, each card presents simple logic and coding challenges that help develop thinking skills in a fun way."
+        },
+        {
+          "id": "Karena tidak memuat huruf maupun angka, anak dapat langsung bermain dan belajar menggunakan penalaran visual, pengamatan, serta logika, sehingga sangat cocok sebagai pengenalan coding tanpa gadget sejak usia dini. Materi aktivitas meliputi coding sequence, kode panah, mencocokkan pola, problem solving, dan tantangan berpikir kreatif.",
+          "en": "Because the cards carry no letters or numbers, children can play and learn directly using visual reasoning, observation, and logic — making them ideal as a screen-free coding introduction from an early age. Activity topics include coding sequence, arrow codes, pattern matching, problem solving, and creative thinking challenges."
+        },
+        {
+          "id": "Cocok untuk anak usia 4 tahun ke atas, anak yang belum mengenal huruf dan angka, melatih penalaran visual dan logika sejak dini, belajar di rumah, kelas coding & STEM, homeschooling, serta aktivitas edukatif bersama keluarga.",
+          "en": "Suitable for ages 4 and up, children who don't yet know letters and numbers, early visual reasoning and logic practice, learning at home, coding & STEM classes, homeschooling, and educational play with the family."
+        }
+      ],
+      "specs": {
+        "Usia / Age": "4+",
+        "Ukuran / Size": "10 x 15 cm",
+        "Fitur / Feature": "Wipe & clean (dapat dihapus) / Wipe & clean (erasable)",
+        "Isi / Contents": "Flash card + 8 spidol + kotak / Cards + 8 markers + box"
+      }
+    },
+    {
+      "slug": "ceramic-mug-11oz",
+      "name": { "id": "Artima Edu Mug", "en": "Artima Edu Mug" },
+      "tagline": {
+        "id": "Mug keramik premium 11 oz dengan kapasitas 325 ml yang cocok untuk menikmati minuman panas maupun dingin. Menampilkan logo Artima Edu dan QR Code yang langsung terhubung ke halaman resmi Artima Edu. Desain dicetak dengan kualitas tinggi sehingga awet dan tidak mudah pudar. Cocok sebagai merchandise maupun hadiah edukatif.",
+        "en": "A premium 11 oz ceramic mug with a 325 ml capacity, perfect for hot or cold drinks. Featuring the Artima Edu logo and a QR code that links straight to the official Artima Edu page. The design is high-quality printed so it lasts and won't easily fade. Great as merchandise or an educational gift."
+      },
+      "price": "Rp 75.000",
+      "priceUnit": { "id": "/pcs", "en": "/pc" },
+      "age": "All Age",
+      "badge": "Merch",
+      "image": "assets/img/products/ceramic-mug-11oz.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.ceramic-mug-11oz",
+      "features": [
+        { "id": "Kapasitas 11 oz (±325 ml)", "en": "Capacity 11 oz (±325 ml)" },
+        { "id": "Keramik putih premium, aman untuk panas & dingin", "en": "Premium white ceramic, safe for hot & cold drinks" },
+        { "id": "Cetakan gambar tajam, cerah, & tahan lama", "en": "High-quality print — sharp, vivid & long-lasting" },
+        { "id": "Sisi kanan logo Artima Edu, sisi kiri QR code website", "en": "Artima Edu logo on the right, website QR code on the left" }
+      ],
+      "description": [
+        {
+          "id": "Temani setiap momen belajar dan berkarya bersama Mug Eksklusif Artima Edu! Dengan desain minimalis dan premium, mug ini cocok digunakan untuk menikmati kopi, teh, susu, maupun minuman favorit sehari-hari.",
+          "en": "Company for every learning and creating moment with the Artima Edu Exclusive Mug! With a minimalist and premium design, this mug is perfect for enjoying coffee, tea, milk, or your favourite everyday drink."
+        },
+        {
+          "id": "Desain eksklusif: sisi kanan memuat logo resmi Artima Edu, sisi kiri memuat kode QR yang dapat langsung dipindai untuk menuju halaman website Artima Edu. Tampilan modern dengan identitas visual khas Artima Edu yang futuristik dan elegan.",
+          "en": "Exclusive design: the right side features the official Artima Edu logo, the left side features a QR code you can scan to go straight to the Artima Edu website. A modern look with Artima Edu's signature futuristic and elegant visual identity."
+        },
+        {
+          "id": "Cocok untuk merchandise komunitas dan kelas Artima Edu, hadiah untuk siswa, mentor, dan orang tua, souvenir seminar, workshop, atau event edukasi, serta koleksi pribadi bagi pecinta dunia coding dan pembelajaran STEM.",
+          "en": "Great for community and class merchandise, gifts for students, mentors, and parents, souvenirs for seminars, workshops, or education events, and as a personal collection for lovers of coding and STEM learning."
+        }
+      ],
+      "specs": {
+        "Kapasitas / Capacity": "11 oz (±325 ml)",
+        "Material / Material": "Keramik putih premium / Premium white ceramic",
+        "Pemakaian / Use": "Panas & dingin / Hot & cold drinks",
+        "Desain / Design": "Logo Artima Edu + QR code website"
+      }
+    },
+    {
+      "slug": "premium-mousepad",
+      "name": { "id": "Artima Edu Mousepad", "en": "Artima Edu Mousepad" },
+      "tagline": {
+        "id": "Mousepad Artima Edu berukuran 22 × 18 cm dengan permukaan halus dan alas anti-slip yang nyaman digunakan setiap hari. Mengusung desain galaksi futuristik khas Artima Edu yang membuat meja belajar atau kerja semakin menarik. Warna tajam dan material berkualitas menjadikannya awet untuk penggunaan jangka panjang. Pilihan tepat untuk pelajar, guru, maupun pecinta coding dan STEM.",
+        "en": "The Artima Edu Mousepad measures 22 × 18 cm with a smooth surface and an anti-slip base that's comfortable for everyday use. It carries Artima Edu's signature futuristic galaxy design, making your study or work desk even more attractive. Sharp colours and quality material make it durable for long-term use. The right choice for students, teachers, and lovers of coding and STEM."
+      },
+      "price": "Rp 45.000",
+      "priceUnit": { "id": "/pcs", "en": "/pc" },
+      "age": "All Age",
+      "badge": "Merch",
+      "image": "assets/img/products/premium-mousepad.jpeg",
+      "videoId": "dQw4w9WgXcQ",
+      "cta": "merch.premium-mousepad",
+      "features": [
+        { "id": "Ukuran 22 x 18 cm, alas karet anti-slip", "en": "Size 22 x 18 cm, anti-slip rubber base" },
+        { "id": "Permukaan kain halus, cetak full color tajam", "en": "Smooth cloth surface, sharp full-color print" },
+        { "id": "Nyaman untuk mouse optik maupun laser", "en": "Comfortable for both optical & laser mice" },
+        { "id": "Desain galaksi futuristik khas Artima Edu", "en": "Artima Edu's signature futuristic galaxy design" }
+      ],
+      "description": [
+        {
+          "id": "Tingkatkan semangat belajar dan bekerja dengan Mousepad Eksklusif Artima Edu! Mengusung desain galaksi futuristik yang khas, mousepad ini menghadirkan tampilan modern sekaligus memberikan kenyamanan saat digunakan untuk belajar coding, bekerja, maupun bermain.",
+          "en": "Boost your spirit for learning and working with the Artima Edu Exclusive Mousepad! Carrying a signature futuristic galaxy design, it delivers a modern look while staying comfortable for coding, working, or playing."
+        },
+        {
+          "id": "Desain eksklusif menggunakan identitas visual Artima Edu dengan tema galaksi futuristik, dilengkapi logo dan maskot khas Artima Edu yang ceria dan inspiratif. Warna tajam, detail jelas, dan tidak mudah pudar — material kuat, awet, dan tahan lama.",
+          "en": "The exclusive design uses Artima Edu's visual identity with a futuristic galaxy theme, complete with the cheerful and inspiring Artima Edu logo and mascot. Sharp colours, clear detail, and fade-resistant — strong, durable, and long-lasting material."
+        },
+        {
+          "id": "Cocok untuk siswa kelas coding dan robotik, guru, mentor, dan programmer, belajar di rumah maupun di sekolah, serta hadiah, merchandise, dan souvenir komunitas.",
+          "en": "Perfect for coding and robotics students, teachers, mentors, and programmers, learning at home or at school, and as gifts, merchandise, and community souvenirs."
+        }
+      ],
+      "specs": {
+        "Ukuran / Size": "22 x 18 cm",
+        "Permukaan / Surface": "Kain halus full color / Smooth full-color cloth",
+        "Alas / Base": "Karet anti-slip / Anti-slip rubber",
+        "Desain / Design": "Galaksi futuristik Artima Edu / Artima Edu futuristic galaxy"
+      }
+    }
+  ]
+}
