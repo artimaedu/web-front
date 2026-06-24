@@ -35,10 +35,17 @@ function applyLang(lang) {
   const dict = CONTENT[lang] || CONTENT[DEFAULT_LANG];
   const fallback = CONTENT[DEFAULT_LANG];
 
-  document.querySelectorAll('[data-i18n]').forEach((el) => {
-    const key = el.getAttribute('data-i18n');
+  document.querySelectorAll('[data-i18n], [data-i18n-html]').forEach((el) => {
+    const isHtml = el.hasAttribute('data-i18n-html');
+    const key = el.getAttribute(isHtml ? 'data-i18n-html' : 'data-i18n');
     const value = resolveKey(dict, key) ?? resolveKey(fallback, key);
-    if (value !== undefined) el.textContent = value;
+    if (value !== undefined) {
+      if (isHtml) {
+        el.innerHTML = value;
+      } else {
+        el.textContent = value;
+      }
+    }
   });
 
   // Re-render WhatsApp CTAs for the new language (if whatsapp.js is loaded)

@@ -65,14 +65,18 @@
       "viewProfile": "Lihat Profil"
     },
     "blog1": {
-      "title": "5 Alasan Kenapa Anak Usia Dini Perlu Belajar Coding (Bahkan Sebelum Mereka Lancar Membaca!)",
+      "title": "5 Alasan Kenapa Anak Usia Dini Perlu Belajar Coding (Incluso Sebelum Mereka Lancar Membaca!)",
       "intro": "Dunia digital terus berkembang pesat, dan coding bukan lagi skill opsional untuk masa depan. Memulai dari usia dini memberikan anak keuntungan besar dalam memahami logika, problem-solving, dan kreativitas digital. Berikut adalah 5 alasan kenapa anak usia dini perlu mulai belajar coding sekarang.",
       "reason1Title": "1. Melatih Logical Thinking dan Problem-Solving",
       "reason1Body": "Coding mengajarkan anak untuk berpikir secara terstruktur dan logis. Mereka belajar memecah masalah besar menjadi langkah-langkah kecil yang bisa diselesaikan satu per satu. Skill ini tidak hanya berguna untuk programming, tapi juga untuk kehidupan sehari-hari — mulai dari mengatur jadwal, menyelesaikan tugas sekolah, hingga membuat keputusan.",
+      "reason1StoryTitle": "Cerita Nyata dari Rumah: Ar dan ScratchJr",
+      "reason1StoryBody": "Anak kami, <strong>Ar</strong>, adalah bukti nyata dari hal ini. Ar rutin bermain dan belajar dengan <em>ScratchJr</em>. Serunya, dia mulai menyelami dunia visual coding ini <em>bahkan sebelum dia lancar mengenal huruf!</em> Karena ScratchJr berbasis blok warna dan ikon, Ar bisa mengeksplorasi logikanya sendiri.\n\nKemampuan problem-solving-nya benar-benar terasah dalam kehidupan sehari-hari. Contoh nyatanya, suatu hari mainan balok susunnya runtuh karena pondasinya kurang seimbang. Alih-alih menangis atau frustrasi, Ar langsung bergumam, <em>\"Oh, jalurnya salah, harus diperbaiki bawahnya dulu.\"</em> Dia memperlakukan masalah itu persis seperti saat dia memperbaiki blok perintah di ScratchJr yang tidak berjalan. Logika runut ini terbawa ke kesehariannya!",
+      "reason1Quote": "\"Ketika anak-anak belajar coding, mereka tidak hanya belajar menulis kode; mereka belajar berpikir secara komputasional. Mereka belajar bagaimana memecah masalah menjadi bagian-bagian yang lebih kecil, bagaimana mengidentifikasi pola, dan bagaimana mengembangkan solusi langkah demi langkah.\" — <em>Mitch Resnick, MIT Media Lab</em>",
       "reason2Title": "2. Meningkatkan Kreativitas dan Imajinasi",
       "reason2Body": "Banyak yang mengira coding itu kaku dan technical. Padahal, coding adalah medium kreatif! Anak-anak bisa membuat game, animasi, cerita interaktif, atau bahkan musik digital. Mereka belajar bahwa imajinasi mereka bisa diwujudkan menjadi karya nyata. Di Artima Edu, kami mendorong anak untuk berkreasi tanpa batas.",
       "reason3Title": "3. Mempersiapkan Karier Masa Depan",
       "reason3Body": "Hampir semua industri sekarang membutuhkan orang yang paham teknologi. Mulai dari kesehatan, pendidikan, hiburan, hingga bisnis — semuanya bergantung pada software dan sistem digital. Anak yang belajar coding sejak dini akan punya keuntungan kompetitif saat memasuki dunia kerja nanti.",
+      "reason3Quote": "\"Coding adalah melek huruf di abad ke-21. Jika kita tidak mengajarkan anak-anak cara mengendalikan komputer, maka komputerlah yang akan mengendalikan mereka.\" — <em>Linda Liukas, Hello Ruby</em>",
       "reason4Title": "4. Meningkatkan Rasa Percaya Diri",
       "reason4Body": "Ketika anak berhasil membuat program atau game sederhana, mereka merasakan pencapaian yang luar biasa. 'Aku bisa bikin ini!' adalah kalimat yang sering kami dengar dari siswa-siswa Little Coder dan Junior Tech Creator. Rasa percaya diri ini akan terbawa ke aspek lain dalam hidup mereka.",
       "reason5Title": "5. Belajar dari Kesalahan (Debugging Life!)",
@@ -80,41 +84,65 @@
       "conclusionTitle": "Kesimpulan",
       "conclusionBody": "Coding bukan hanya tentang teknologi. Ini tentang cara berpikir, berkreasi, dan mempersiapkan anak untuk masa depan yang penuh dengan kemungkinan. Di Artima Edu, kami siap menemani perjalanan belajar anak Anda dengan pendekatan yang ramah, sabar, dan menyenangkan.",
       "ctaText": "Siap mulai petualangan coding bersama anak Anda?",
-      "ctaButton": "Daftar Sekarang via WhatsApp"
+      "ctaButton": "Daftar Sekarang via WhatsApp",
+      "backToBlog": "← Kembali ke Blog",
+      "readMore": "Baca Selengkapnya →",
+      "excerpt": "Dunia digital berkembang secepat itu, dan coding bukan lagi sekadar keahlian keren-kerenan untuk masa depan. Memulainya sejak usia dini memberikan anak keuntungan yang luar biasa besar dalam memahami logika, problem-solving, dan kreativitas digital.",
+      "date": "20 Juni 2026"
     },
     "blog2": {
       "title": "English Broom Room: Kelas Bahasa Inggris untuk Perempuan Sibuk",
-      "intro": "'Ah, saya sudah terlalu tua untuk belajar bahasa Inggris...' 'Malu kalau salah ngomong...' 'Grammar-nya ribet banget!' Familiar dengan kalimat-kalimat ini? Anda tidak sendirian. Banyak perempuan dan ibu yang ingin belajar bahasa Inggris tapi merasa terhalang oleh stigma, rasa malu, atau pengalaman belajar yang kaku di masa lalu.",
+      "intro": "<em>\"Ah, saya sudah terlalu tua untuk belajar bahasa Inggris...\"</em> <em>\"Malu kalau salah ngomong...\"</em> <em>\"Grammar-nya ribet banget!\"</em> Familiar dengan kalimat-kalimat ini? Anda tidak sendirian. Banyak perempuan dan ibu yang ingin menguasai bahasa Inggris tetapi merasa terhalang oleh stigma, rasa malu, atau pengalaman belajar yang kaku di masa lalu. Padahal, menurut pakar edukasi dan psikologi perkembangan, <strong>Dr. Carol Dweck</strong>, mengadopsi <em>growth mindset</em> atau keyakinan bahwa kemampuan dapat terus berkembang di usia berapa pun adalah kunci menjaga ketajaman kognitif dan kualitas hidup.",
       "section1Title": "Belajar Bahasa, Bukan Menghafal Rumus",
-      "section1Body": "Di English Broom Room, kami percaya bahwa bahasa adalah alat komunikasi, bukan kumpulan rumus grammar yang harus dihafalkan. Tentu saja grammar penting, tapi kami mengajarkannya dengan cara yang santai dan langsung applicable. Fokus kami: Anda bisa pakai bahasa Inggris dalam kehidupan sehari-hari — ngobrol dengan anak, bantu pekerjaan rumah mereka, atau bahkan upgrade skill untuk karier.",
-      "section2Title": "Ruang Aman untuk Belajar",
-      "section2Body": "English Broom Room dirancang khusus sebagai safe space untuk perempuan dan ibu. Di sini, tidak ada judgment. Salah pronunciation? Biasa! Lupa vocab? Tenang! Uma dan team siap membimbing dengan sabar dan penuh pengertian. Kami tahu bahwa belajar bahasa baru di usia dewasa punya tantangannya sendiri, dan kami di sini untuk mendukung setiap langkah Anda.",
-      "section3Title": "Praktis dan Aplikatif",
-      "section3Body": "Materi yang kami ajarkan langsung bisa dipakai. Mulai dari daily conversation, membantu anak belajar, hingga English for career development. Kami tidak menghabiskan waktu dengan teori yang tidak relevan. Setiap sesi dirancang agar Anda bisa langsung praktik dan merasakan progress.",
-      "section4Title": "Flexible Learning untuk Ibu Sibuk",
-      "section4Body": "Kami paham bahwa ibu punya banyak tanggung jawab. Makanya, kelas English Broom Room dirancang fleksibel. Bisa online, bisa diatur jadwalnya, dan pace-nya disesuaikan dengan kebutuhan Anda. Tidak ada tekanan untuk 'harus cepat bisa' — yang penting consistent dan enjoy prosesnya.",
-      "conclusionTitle": "Anda Layak Upgrade Diri Sendiri",
-      "conclusionBody": "Menjadi ibu dan istri yang baik tidak berarti Anda harus berhenti belajar dan berkembang. English Broom Room adalah ruang untuk Anda — bukan hanya untuk anak-anak. Mari kita belajar bersama, tanpa tekanan, dengan penuh kehangatan dan dukungan.",
+      "section1Body": "Di English Broom Room, kami percaya bahwa bahasa adalah alat komunikasi, bukan kumpulan rumus grammar yang harus dihafalkan di luar kepala. Tentu saja grammar itu penting, tetapi kami mengajarkannya dengan cara yang santai dan langsung <em>applicable</em>. Fokus kami: Anda bisa memakai bahasa Inggris dalam kehidupan sehari-hari — mulai dari mendampingi anak di rumah hingga meningkatkan kepercayaan diri.",
+      "section1Story": "Inspirasi ini lahir langsung dari sang pendiri English Broom Room. Siapa sangka, <strong>Uma</strong> sudah menikah dan berstatus sebagai ibu dari 2 anak saat mengikuti tes TOEFL terbarunya. Berkat dukungan penuh dari sang suami tercinta yang akrab дипака <strong>Baba</strong>, Uma sukses meraih skor fantastis, yaitu <em>600!</em> Semangat belajar yang membara ini menular ke dalam rumah mereka. Kini, anak-anak mereka, <strong>Ar</strong> dan <strong>Ima</strong>, sudah terbiasa mendengar bahasa Inggris sehari-hari di rumah karena kedua orang tuanya selalu pede berbicara bahasa Inggris.",
+      "section2Title": "Ruang Aman dan Fleksibel untuk Segala Kalangan",
+      "section2Body": "English Broom Room dirancang khusus sebagai <em>safe space</em> untuk perempuan. Anggota grup kami datang dari berbagai latar belakang, mulai dari gadis remaja, ibu rumah tangga, hingga ibu bekerja. Di sini, tidak ada penghakiman (<em>judgment</em>). Salah <em>pronunciation</em>? Biasa! Lupa vocab? Tenang! Uma dan tim siap membimbing dengan sabar dan penuh pengertian.",
+      "section2Note": "Kami sangat paham bahwa perempuan dan ibu memiliki segudang tanggung jawab. Jika hari Anda terlalu padat dan sibuk untuk membalas obrolan secara <em>real-time</em>, Anda tidak perlu khawatir tertinggal. Anda tetap bisa melakukan <em>scroll</em> grup di akhir hari atau saat waktu senggang untuk mempelajari ulang semua materi yang sudah dibagikan.",
+      "section3Title": "Jadwal Belajar yang Terstruktur dan Nyaman (Weekly Routine)",
+      "section3Body": "Untuk memastikan proses belajar berjalan konsisten namun tetap ramah bagi jadwal perempuan yang padat, kami menerapkan rutinitas mingguan yang teratur sebagai berikut:",
+      "scheduleMonday": "<strong>Senin (Monday):</strong> Penyetoran tugas mingguan (Assignment submission)",
+      "scheduleTuesday": "<strong>Selasa (Tuesday):</strong> Sesi pemberian materi baru oleh mentor (Material distribution)",
+      "scheduleWednesday": "<strong>Rabu (Wow Wednesday):</strong> Hari khusus interaksi, tanya jawab, dan diskusi mendalam seputar materi (Interactive session &amp; discussion)",
+      "scheduleThuSat": "<strong>Kamis - Sabtu (Thursday - Saturday):</strong> Waktu santai untuk menyimak ulang, berlatih mandiri, dan mencerna materi (Reading time)",
+      "scheduleSunday": "<strong>Minggu (Sunday):</strong> Sesi obrolan santai antar-anggota untuk melatih kelancaran dan keakraban (Casual conversation session)",
+      "section4Title": "Pilihan Kelas Sesuai Kebutuhan Anda",
+      "section4Body": "Kami menyediakan tiga pilihan metode belajar yang dirancang fleksibel agar <em>pace</em>-nya sesuai dengan kenyamanan Anda:",
+      "class1": "<strong>Kelas WhatsApp Grup:</strong> Yang tadi kami paparkan di atas",
+      "class2": "<strong>Kelas Private Grup Online:</strong> Kelas interaktif yang sangat intim, di mana satu grup hanya diisi oleh 5 orang <em>learners</em> saja agar suasana belajar tetap fokus namun kompetitif secara sehat",
+      "class3": "<strong>Kelas Online Private (1 on 1):</strong> Kelas eksklusif satu guru satu murid bagi Anda yang membutuhkan bimbingan yang jauh lebih intensif, personal, dan mendalam",
+      "section5Title": "Anda Layak Upgrade Diri Sendiri",
+      "section5Body": "Menjadi seorang ibu, istri, atau perempuan aktif tidak berarti Anda harus mengorbankan pertumbuhan diri sendiri. Pakar linguistik dunia, <strong>Noam Chomsky</strong>, menekankan bahwa bahasa adalah refleksi dari pemikiran kreativitas manusia yang dinamis. Dengan terus mengasah kemampuan bahasa Inggris, Anda sedang membuka jendela dunia dan memperluas kapasitas berpikir Anda.",
+      "section5Conclusion": "English Broom Room adalah ruang hangat yang dihadirkan khusus untuk Anda, bukan hanya untuk anak-anak atau karier, tetapi untuk pembuktian berharga bagi diri Anda sendiri. Mari belajar bersama, tanpa tekanan, dengan penuh kehangatan dan dukungan. <em>You are worth the upgrade!</em>",
       "ctaText": "Siap bergabung dengan English Broom Room?",
-      "ctaButton": "Daftar Sekarang via WhatsApp"
+      "ctaButton": "Daftar Sekarang via WhatsApp",
+      "backToBlog": "← Kembali ke Blog",
+      "readMore": "Baca Selengkapnya →",
+      "excerpt": "Banyak perempuan dan ibu yang ingin menguasai bahasa Inggris tetapi merasa terhalang oleh stigma, rasa malu, atau pengalaman belajar yang kaku. English Broom Room hadir sebagai ruang belajar yang hangat dan santai untuk segala kalangan."
     },
     "blog3": {
       "title": "Mengenal Visual Block Coding untuk Little Coder",
-      "intro": "'Anak saya baru 5 tahun, masa bisa belajar coding?' Pertanyaan ini sering kami dengar dari orang tua. Jawabannya: BISA! Dan caranya adalah melalui visual block coding — pendekatan yang fun, colorful, dan sangat efektif untuk anak usia dini.",
+      "intro": "<em>\"Anak saya baru 5 tahun, masa bisa belajar coding?\"</em> Pertanyaan ini sering sekali kami dengar dari orang tua. Jawabannya: <strong>BISA!</strong> Dan rahasianya terletak pada <em>visual block coding</em> — sebuah pendekatan yang menyenangkan (<em>fun</em>), penuh warna (<em>colorful</em>), dan sangat efektif untuk anak usia dini.",
       "section1Title": "Apa Itu Visual Block Coding?",
-      "section1Body": "Visual block coding adalah metode belajar programming menggunakan blok-blok warna-warni yang bisa disusun seperti puzzle. Tidak ada syntax rumit, tidak ada error message yang bikin bingung. Anak cukup drag-and-drop blok untuk membuat program. Platform seperti Scratch, Blockly, atau Code.org menggunakan pendekatan ini, dan terbukti sangat efektif untuk anak usia 4-7 tahun.",
+      "section1Body": "Visual block coding adalah metode belajar pemrograman menggunakan balok-blok visual berwarna-warni yang bisa disusun dan dikaitkan seperti bermain puzzle. Di sini, tidak ada baris kode rahasia atau pesan <em>error</em> rumit yang membuat anak frustrasi. Anak cukup melakukan <em>drag-and-drop</em> (geser dan lepas) balok untuk membuat program atau menggerakkan karakter. Platform populer seperti Scratch, Blockly, atau Code.org menggunakan pendekatan ini dan terbukti sangat sukses memikat anak usia 4–7 tahun.",
       "section2Title": "Kenapa Visual Block Coding Cocok untuk Little Coder?",
-      "section2Body": "Pada usia dini, anak masih dalam tahap perkembangan kognitif dan motorik. Mereka lebih mudah memahami konsep visual dibanding teks. Dengan block coding, mereka bisa 'melihat' logika programming: 'Kalau aku susun blok ini di atas blok itu, karakterku akan bergerak ke kanan.' Ini cara belajar yang natural untuk otak anak-anak.",
+      "section2Body": "Pada usia dini, anak-anak berada dalam tahap perkembangan kognitif di mana mereka jauh lebih mudah memahami simbol, warna, dan konsep visual dibandingkan teks abstrak. Melalui <em>block coding</em>, mereka bisa langsung \"melihat\" dan merasakan logika pemrograman: <em>\"Kalau aku pasang balok ini di atas balok itu, karakterku akan melompat ke kanan.\"</em>",
+      "section2Quote": "Hal ini sejalan dengan teori perkembangan kognitif dari psikolog legendaris <strong>Jean Piaget</strong>, yang menyatakan bahwa anak-anak pada usia pra-operasional dan operasional konkret belajar secara maksimal melalui manipulasi objek langsung dan pengalaman visual yang nyata. <em>Block coding</em> mengubah logika abstrak yang rumit menjadi objek visual konkret yang bisa mereka \"mainkan\".",
       "section3Title": "Apa yang Dipelajari di Little Coder?",
-      "section3Body": "Di program Little Coder Artima Edu, anak-anak belajar konsep dasar programming seperti sequence (urutan), loops (pengulangan), dan conditionals (kondisi if-then). Tapi mereka tidak akan dengar istilah teknis ini — mereka akan bermain dengan Ar dan Ima, membuat karakter bergerak, menari, atau berbicara. Tanpa sadar, mereka sedang belajar logical thinking dan problem-solving.",
-      "section4Title": "Dari Balok ke Kode Nyata",
-      "section4Body": "Yang menarik dari visual block coding adalah ia menjadi fondasi solid untuk text-based coding di masa depan. Anak yang terbiasa dengan konsep loop, variable, dan function di Scratch akan jauh lebih mudah belajar Python atau JavaScript nanti. Mereka sudah paham 'grammar'-nya, tinggal belajar 'vocabulary' baru.",
+      "section3Body": "Di program <em>Little Coder</em> Artima Edu, anak-anak akan mempelajari konsep inti ilmu komputer seperti <em>sequence</em> (urutan langkah), <em>loops</em> (pengulangan), dan <em>conditionals</em> (kondisi jika-maka). Namun tenang saja, anak-anak tidak akan mendengar istilah-istilah teknis yang kaku tersebut.\n\nTanpa mereka sadari, saat menyusun balok-balok tersebut, mereka sedang mengasah kemampuan <em>logical thinking</em> (berpikir logis) dan <em>problem-solving</em> (pemecahan masalah).",
+      "section4Title": "Dari Balok Menuju Kode Nyata",
+      "section4Body": "<strong>Profesor Mitchel Resnick</strong>, pencipta Scratch dari MIT Media Lab sekaligus tokoh komputasi anak dunia, menegaskan bahwa coding bukan sekadar keterampilan teknis, melainkan bentuk baru dari literasi abad ke-21. Beliau menyatakan:",
+      "section4Quote": "<em>\"Ketika anak-anak belajar coding, mereka belajar untuk mengekspresikan diri mereka, berpikir secara sistematis, dan bekerja secara kolaboratif.\"</em>",
+      "section4Conclusion": "Visual block coding adalah fondasi kokoh untuk masa depan mereka. Anak yang sudah terbiasa dengan konsep <em>loop</em>, <em>variable</em>, dan <em>function</em> di dunia balok akan jauh lebih mudah memahami bahasa pemrograman berbasis teks seperti Python atau JavaScript di masa depan. Ibaratnya, mereka sudah paham \"struktur tata bahasanya\" (<em>grammar</em>), sehingga kelak mereka tinggal mempelajari \"kosakata baru\" (<em>vocabulary</em>).",
       "section5Title": "Belajar Sambil Bermain",
-      "section5Body": "Di Artima Edu, kami tidak hanya mengajarkan cara menyusun blok. Kami ajak anak untuk bercerita, berkreasi, dan bereksperimen. 'Apa yang terjadi kalau kita tukar urutan blok ini?' 'Gimana caranya bikin karakter melompat lebih tinggi?' Mereka belajar dengan trial-and-error yang menyenangkan, bukan hafalan kaku.",
-      "conclusionTitle": "Kesimpulan",
-      "conclusionBody": "Visual block coding adalah gerbang sempurna untuk memperkenalkan dunia programming ke anak usia dini. Dengan pendekatan yang playful, patient, dan people-first, Artima Edu siap menemani si kecil dalam petualangan coding pertama mereka.",
+      "section5Body": "Di Artima Edu, kami tidak hanya mengajarkan cara menyusun balok secara mekanis. Kami mengajak anak untuk bercerita, berkreasi, dan berani bereksperimen. <em>\"Apa yang terjadi kalau kita menukar urutan balok ini?\"</em> atau <em>\"Bagaimana caranya bikin karakter melompat lebih tinggi?\"</em> Di sini, anak-anak diajak belajar lewat metode <em>trial-and-error</em> (coba-salah) yang menyenangkan, bukan hafalan kaku.",
+      "section5Conclusion": "Visual block coding adalah gerbang sempurna untuk memperkenalkan dunia teknologi dan logika kepada anak sejak usia dini. Dengan pendekatan yang berpusat pada anak (<em>playful, patient, and people-first</em>), Artima Edu siap menemani si kecil dalam petualangan coding pertama mereka.",
+      "finalCall": "Yuk, kenalkan si kecil dengan dunia digital secara bijak dan edukatif bersama <strong>Little Coder Artima Edu!</strong>",
       "ctaText": "Yuk, kenalkan si kecil dengan dunia coding!",
-      "ctaButton": "Daftar Little Coder via WhatsApp"
+      "ctaButton": "Daftar Little Coder via WhatsApp",
+      "backToBlog": "← Kembali ke Blog",
+      "readMore": "Baca Selengkapnya →",
+      "excerpt": "Anak usia 5 tahun bisa belajar coding? Bisa! Rahasianya terletak pada visual block coding — pendekatan yang menyenangkan, penuh warna, dan sangat efektif untuk anak usia dini berkat metode drag-and-drop yang ramah anak."
     },
     "dashboard": {
       "title": "Dashboard Belajar Futuristik",
@@ -174,16 +202,34 @@
         "group": {
           "label": "Group Online Class",
           "detail": "Class online berisi maksimal 10–15 siswa, dalam satu pertemuan online selama 90 menit lewat meeting online tools.",
-          "littleCoder": { "price": "Rp 35.000", "unit": "/pertemuan" },
-          "juniorTech": { "price": "Rp 50.000", "unit": "/pertemuan" },
-          "futureReady": { "price": "Rp 75.000", "unit": "/pertemuan" }
+          "littleCoder": {
+            "price": "Rp 35.000",
+            "unit": "/pertemuan"
+          },
+          "juniorTech": {
+            "price": "Rp 50.000",
+            "unit": "/pertemuan"
+          },
+          "futureReady": {
+            "price": "Rp 75.000",
+            "unit": "/pertemuan"
+          }
         },
         "oneOnOne": {
           "label": "One on One Online Class",
           "detail": "One on One hanya berisi maksimal 1 siswa 1 tutor, 4 kali pertemuan sebulan.",
-          "littleCoder": { "price": "Rp 120.000", "unit": "/bulan" },
-          "juniorTech": { "price": "Rp 185.000", "unit": "/bulan" },
-          "futureReady": { "price": "Rp 270.000", "unit": "/bulan" }
+          "littleCoder": {
+            "price": "Rp 120.000",
+            "unit": "/bulan"
+          },
+          "juniorTech": {
+            "price": "Rp 185.000",
+            "unit": "/bulan"
+          },
+          "futureReady": {
+            "price": "Rp 270.000",
+            "unit": "/bulan"
+          }
         }
       },
       "english": {
@@ -205,6 +251,10 @@
     "merch": {
       "title": "Merchandise",
       "subtitle": "Alat belajar & mainan edukasi pilihan Artima Edu untuk si kecil."
+    },
+    "blogs": {
+      "pageTitle": "Blog Artima Edu",
+      "pageSubtitle": "Tips, cerita, dan inspirasi seputar coding dan bahasa Inggris"
     }
   },
   "en": {
@@ -273,56 +323,84 @@
       "viewProfile": "View Profile"
     },
     "blog1": {
-      "title": "5 Reasons Why Young Children Need to Learn Coding",
+      "title": "5 Reasons Why Young Children Need to Learn Coding (Even Before They Can Read!)",
       "intro": "The digital world continues to evolve rapidly, and coding is no longer an optional skill for the future. Starting from an early age gives children a huge advantage in understanding logic, problem-solving, and digital creativity. Here are 5 reasons why young children need to start learning to code now.",
-      "reason1Title": "1. Develops Logical Thinking and Problem-Solving",
-      "reason1Body": "Coding teaches children to think in a structured and logical way. They learn to break down big problems into small steps that can be solved one by one. This skill is not only useful for programming, but also for everyday life — from organizing schedules, completing school assignments, to making decisions.",
+      "reason1Title": "1. Develops Logical Thinking and Real Problem-Solving",
+      "reason1Body": "Coding teaches children to think in a structured way. They learn to break down big problems into small steps that can be solved one by one (this is called the <em>decomposition</em> technique).",
+      "reason1StoryTitle": "Real Story from Home: Ar and ScratchJr",
+      "reason1StoryBody": "Our child, <strong>Ar</strong>, is living proof of this. Ar regularly plays and learns with <em>ScratchJr</em>. The amazing thing is, he started exploring this visual coding world <em>even before he could read!</em> Because ScratchJr is block-based with colors and icons, Ar could explore logic on his own.\n\nHis problem-solving abilities really shine in everyday life. For example, one day his building blocks collapsed because the foundation was unbalanced. Instead of crying or getting frustrated, Ar immediately said, <em>\"Oh, the path is wrong, I need to fix the bottom first.\"</em> He treated that problem exactly like when he fixes a command block in ScratchJr that isn't working. This logical thinking transferred to his daily life!",
+      "reason1Quote": "\"When children learn coding, they don't just learn to write code; they learn to think computationally. They learn how to break down problems into smaller parts, how to identify patterns, and how to develop solutions step by step.\" — <em>Mitch Resnick, MIT Media Lab</em>",
       "reason2Title": "2. Boosts Creativity and Imagination",
-      "reason2Body": "Many people think coding is rigid and technical. But actually, coding is a creative medium! Children can create games, animations, interactive stories, or even digital music. They learn that their imagination can be turned into real creations. At Artima Edu, we encourage children to create without limits.",
-      "reason3Title": "3. Prepares for Future Careers",
-      "reason3Body": "Almost every industry now needs people who understand technology. From healthcare, education, entertainment, to business — everything depends on software and digital systems. Children who learn coding from an early age will have a competitive advantage when entering the workforce later.",
-      "reason4Title": "4. Increases Confidence",
-      "reason4Body": "When children successfully create a simple program or game, they feel an incredible sense of achievement. 'I can make this!' is a phrase we often hear from Little Coder and Junior Tech Creator students. This confidence carries over to other aspects of their lives.",
-      "reason5Title": "5. Learning from Mistakes (Debugging Life!)",
-      "reason5Body": "In coding, errors or bugs are normal. Children learn that mistakes are not the end of everything, but part of the learning process. They get used to trying again, finding solutions, and not giving up easily. This is very valuable mental growth.",
+      "reason2Body": "Many people think coding is rigid and boring, full of complex math. But for young children, coding is a <strong>new art canvas!</strong>\n\nThrough coding, children can make simple games, short animations, interactive stories, and even digital music. At Artima Edu, we're always amazed to see how children's wild imaginations transform into real digital creations.",
+      "reason3Title": "3. Prepares for the Language of the Future",
+      "reason3Body": "Just like learning a foreign language, learning coding at a young age is much easier for children's brains during their <em>golden age</em>. In the future, almost every industry — from healthcare and art to business — will depend on digital systems.",
+      "reason3Quote": "\"Coding is 21st-century literacy. If we don't teach children how to control computers, then computers will control them.\" — <em>Linda Liukas, Hello Ruby</em>",
+      "reason4Title": "4. Celebrating Process and Learning from Mistakes (Debugging Life!)",
+      "reason4Body": "In the coding world, there's no such thing as \"fail and done.\" What exists are <em>errors</em> or <em>bugs</em> — something completely normal and expected.\n\nWhen a child's command doesn't work as planned, they're challenged to find the mistake (this process is called <em>debugging</em>). This is an incredibly valuable <em>growth mindset</em> mental exercise. Children learn that mistakes aren't the end of everything, but a clue to try again in a new way. They grow into resilient people who don't give up easily.",
+      "reason5Title": "5. Building Children's Confidence",
+      "reason5Body": "Remember how happy children are when they successfully complete a difficult puzzle? Well, imagine the sparkle in their eyes when they successfully make a cat character on screen jump and dance because of commands they arranged themselves.\n\nThe sentence <em>\"Mom, Dad, look! I can make this work!\"</em> is the most frequent and heartwarming sentence we hear from students in our <em>Little Coder</em> and <em>Junior Tech Creator</em> classes. This confidence and sense of <em>ownership</em> over their own work carries over to other aspects of their lives.",
       "conclusionTitle": "Conclusion",
-      "conclusionBody": "Coding is not just about technology. It's about ways of thinking, creating, and preparing children for a future full of possibilities. At Artima Edu, we're ready to accompany your child's learning journey with a friendly, patient, and fun approach.",
+      "conclusionBody": "Coding for young children isn't about training them to become software engineers right away. It's about training thinking skills, freeing creativity, and equipping them with a mentality ready to face a future full of possibilities. At <strong>Artima Edu</strong>, we're ready to accompany your child's digital adventure with a personal, friendly, and of course, super fun approach!",
       "ctaText": "Ready to start a coding adventure with your child?",
-      "ctaButton": "Register Now via WhatsApp"
+      "ctaButton": "Register Now via WhatsApp",
+      "backToBlog": "← Back to Blog",
+      "readMore": "Read More →",
+      "excerpt": "The digital world is evolving so fast, and coding is no longer just a cool skill for the future. Starting at an early age gives children a huge advantage in understanding logic, problem-solving, and digital creativity.",
+      "date": "June 20, 2026"
     },
     "blog2": {
       "title": "English Broom Room: English Class for Busy Women",
-      "intro": "'Ah, I'm too old to learn English...' 'I'm embarrassed if I speak wrong...' 'The grammar is too complicated!' Sound familiar? You're not alone. Many women and mothers want to learn English but feel held back by stigma, shame, or rigid past learning experiences.",
+      "intro": "<em>\"Ah, I'm too old to learn English...\"</em> <em>\"I'm embarrassed if I speak wrong...\"</em> <em>\"The grammar is too complicated!\"</em> Sound familiar? You're not alone. Many women and mothers want to learn English but feel held back by stigma, shame, or rigid past learning experiences. According to education and developmental psychology expert, <strong>Dr. Carol Dweck</strong>, adopting a <em>growth mindset</em> — the belief that abilities can continue to develop at any age — is the key to maintaining cognitive sharpness and quality of life. Women, whatever their role, should never stop learning to maintain intellectual independence and become a strong literacy pillar for their environment.",
       "section1Title": "Learning Language, Not Memorizing Formulas",
-      "section1Body": "At English Broom Room, we believe that language is a communication tool, not a collection of grammar rules to memorize. Of course grammar is important, but we teach it in a relaxed and directly applicable way. Our focus: You can use English in everyday life — chatting with your children, helping with their homework, or even upgrading skills for your career.",
-      "section2Title": "A Safe Space to Learn",
-      "section2Body": "English Broom Room is specially designed as a safe space for women and mothers. Here, there's no judgment. Wrong pronunciation? Normal! Forgot vocab? Relax! Uma and the team are ready to guide you patiently and with understanding. We know that learning a new language as an adult has its own challenges, and we're here to support every step you take.",
-      "section3Title": "Practical and Applicable",
-      "section3Body": "The material we teach can be used immediately. From daily conversation, helping children learn, to English for career development. We don't waste time with irrelevant theory. Every session is designed so you can practice right away and feel progress.",
-      "section4Title": "Flexible Learning for Busy Moms",
-      "section4Body": "We understand that mothers have many responsibilities. That's why English Broom Room classes are designed to be flexible. Can be online, schedule can be arranged, and the pace is adjusted to your needs. No pressure to 'must be fast' — what matters is being consistent and enjoying the process.",
-      "conclusionTitle": "You Deserve to Upgrade Yourself",
-      "conclusionBody": "Being a good mother and wife doesn't mean you have to stop learning and growing. English Broom Room is a space for you — not just for children. Let's learn together, without pressure, with full warmth and support.",
+      "section1Body": "At English Broom Room, we believe that language is a communication tool, not a collection of grammar rules to memorize. Of course grammar is important, but we teach it in a relaxed and directly <em>applicable</em> way. Our focus: You can use English in everyday life — from helping your child at home to building your confidence.",
+      "section1Story": "This inspiration comes directly from the founder of English Broom Room herself. Who would have thought, <strong>Uma</strong> was already married and a mother of 2 children when she took her latest TOEFL test. With full support from her beloved husband, affectionately called <strong>Baba</strong>, Uma successfully achieved a fantastic score of <em>600!</em> This burning passion for learning spread to their home. Now, their children, <strong>Ar</strong> and <strong>Ima</strong>, are accustomed to hearing English daily at home because both their parents are always confident speaking English.",
+      "section2Title": "A Safe and Flexible Space for Everyone",
+      "section2Body": "English Broom Room is specially designed as a <em>safe space</em> for women. Our group members come from various backgrounds, from teenage girls to housewives to working mothers. Here, there's no <em>judgment</em>. Wrong <em>pronunciation</em>? Normal! Forgot vocab? Relax! Uma and the team are ready to guide you patiently and with understanding.",
+      "section2Note": "We fully understand that women and mothers have countless responsibilities. If your day is too packed and busy to reply to messages in <em>real-time</em>, you don't need to worry about falling behind. You can still scroll through the group at the end of the day or during free time to review all the materials that have been shared.",
+      "section3Title": "Structured and Comfortable Learning Schedule (Weekly Routine)",
+      "section3Body": "To ensure the learning process runs consistently while remaining friendly to busy women's schedules, we implement the following organized weekly routine:",
+      "scheduleMonday": "<strong>Monday:</strong> Weekly assignment submission",
+      "scheduleTuesday": "<strong>Tuesday:</strong> New material distribution by mentor",
+      "scheduleWednesday": "<strong>Wednesday (Wow Wednesday):</strong> Special day for interaction, Q&A, and in-depth discussion about the material",
+      "scheduleThuSat": "<strong>Thursday - Saturday:</strong> Relaxation time for reviewing, self-practice, and digesting the material",
+      "scheduleSunday": "<strong>Sunday:</strong> Casual conversation session among members to practice fluency and build closeness",
+      "section4Title": "Class Options to Suit Your Needs",
+      "section4Body": "We provide three learning method options designed flexibly so the <em>pace</em> matches your comfort:",
+      "class1": "<strong>WhatsApp Group Class:</strong> As described above",
+      "class2": "<strong>Private Group Online Class:</strong> A highly intimate interactive class where one group only has 5 <em>learners</em> so the learning atmosphere remains focused yet healthily competitive",
+      "class3": "<strong>Private Online Class (1 on 1):</strong> An exclusive one-teacher-one-student class for those who need far more intensive, personal, and in-depth guidance",
+      "section5Title": "You Deserve to Upgrade Yourself",
+      "section5Body": "Being a mother, wife, or active woman doesn't mean you have to sacrifice your own personal growth. World linguist, <strong>Noam Chomsky</strong>, emphasizes that language is a reflection of dynamic human creative thought. By continuously sharpening your English skills, you're opening a window to the world and expanding your thinking capacity.",
+      "section5Conclusion": "English Broom Room is a warm space created especially for you — not just for children or career, but as a valuable proof for yourself. Let's learn together, without pressure, with full warmth and support. <em>You are worth the upgrade!</em>",
       "ctaText": "Ready to join English Broom Room?",
-      "ctaButton": "Register Now via WhatsApp"
+      "ctaButton": "Register Now via WhatsApp",
+      "backToBlog": "← Back to Blog",
+      "readMore": "Read More →",
+      "excerpt": "Many women and mothers want to master English but feel held back by stigma, shame, or rigid past learning experiences. English Broom Room comes as a warm and casual learning space for everyone."
     },
     "blog3": {
       "title": "Understanding Visual Block Coding for Little Coder",
-      "intro": "'My child is only 5 years old, can they really learn coding?' We often hear this question from parents. The answer: YES! And the way is through visual block coding — a fun, colorful, and very effective approach for young children.",
+      "intro": "<em>\"My child is only 5 years old, can they really learn coding?\"</em> This question comes up so often from parents. The answer: <strong>YES!</strong> And the secret lies in <em>visual block coding</em> — a fun, colorful, and highly effective approach for young children.",
       "section1Title": "What is Visual Block Coding?",
-      "section1Body": "Visual block coding is a method of learning programming using colorful blocks that can be arranged like a puzzle. No complicated syntax, no confusing error messages. Children just drag-and-drop blocks to create programs. Platforms like Scratch, Blockly, or Code.org use this approach, and it's proven very effective for children aged 4-7.",
+      "section1Body": "Visual block coding is a method of learning programming using colorful visual blocks that can be arranged and connected like playing with puzzles. There are no mysterious lines of code or confusing <em>error</em> messages that frustrate children. Children simply <em>drag-and-drop</em> blocks to create programs or move characters. Popular platforms like Scratch, Blockly, or Code.org use this approach and have proven very successful in engaging children aged 4–7.",
       "section2Title": "Why is Visual Block Coding Perfect for Little Coder?",
-      "section2Body": "At an early age, children are still in the cognitive and motor development stage. They find it easier to understand visual concepts than text. With block coding, they can 'see' programming logic: 'If I put this block on top of that block, my character will move to the right.' This is a natural way of learning for children's brains.",
+      "section2Body": "At an early age, children are in a cognitive development stage where they find it much easier to understand symbols, colors, and visual concepts compared to abstract text. Through <em>block coding</em>, they can directly \"see\" and feel programming logic: <em>\"If I place this block on top of that block, my character will jump to the right.\"</em>",
+      "section2Quote": "This aligns with the cognitive development theory from legendary psychologist <strong>Jean Piaget</strong>, who stated that children at the preoperational and concrete operational stages learn maximally through direct object manipulation and real visual experiences. <em>Block coding</em> transforms complex abstract logic into concrete visual objects they can \"play with.\"",
       "section3Title": "What Do They Learn in Little Coder?",
-      "section3Body": "In Artima Edu's Little Coder program, children learn basic programming concepts such as sequence, loops, and conditionals (if-then conditions). But they won't hear these technical terms — they'll play with Ar and Ima, making characters move, dance, or talk. Without realizing it, they're learning logical thinking and problem-solving.",
+      "section3Body": "In Artima Edu's <em>Little Coder</em> program, children will learn core computer science concepts such as <em>sequence</em> (step order), <em>loops</em> (repetition), and <em>conditionals</em> (if-then conditions). But don't worry, children won't hear these rigid technical terms.\n\nWithout them realizing it, while arranging those blocks, they're developing <em>logical thinking</em> and <em>problem-solving</em> abilities.",
       "section4Title": "From Blocks to Real Code",
-      "section4Body": "What's interesting about visual block coding is that it becomes a solid foundation for text-based coding in the future. Children who are familiar with concepts of loops, variables, and functions in Scratch will find it much easier to learn Python or JavaScript later. They already understand the 'grammar', just need to learn new 'vocabulary'.",
+      "section4Body": "<strong>Professor Mitchel Resnick</strong>, creator of Scratch from MIT Media Lab and world-renowned figure in children's computing, affirms that coding isn't just a technical skill, but a new form of 21st-century literacy. He states:",
+      "section4Quote": "<em>\"When children learn coding, they learn to express themselves, think systematically, and work collaboratively.\"</em>",
+      "section4Conclusion": "Visual block coding is a solid foundation for their future. Children already familiar with concepts of <em>loop</em>, <em>variable</em>, and <em>function</em> in the block world will find it much easier to understand text-based programming languages like Python or JavaScript in the future. Think of it as already understanding the \"grammar structure,\" so they just need to learn new \"vocabulary\" later.",
       "section5Title": "Learning Through Play",
-      "section5Body": "At Artima Edu, we don't just teach how to arrange blocks. We invite children to tell stories, create, and experiment. 'What happens if we swap the order of these blocks?' 'How do we make the character jump higher?' They learn through fun trial-and-error, not rigid memorization.",
-      "conclusionTitle": "Conclusion",
-      "conclusionBody": "Visual block coding is the perfect gateway to introduce the world of programming to young children. With a playful, patient, and people-first approach, Artima Edu is ready to accompany your little one on their first coding adventure.",
+      "section5Body": "At Artima Edu, we don't just teach how to mechanically arrange blocks. We invite children to tell stories, create, and dare to experiment. <em>\"What happens if we swap the order of these blocks?\"</em> or <em>\"How do we make the character jump higher?\"</em> Here, children are invited to learn through fun <em>trial-and-error</em> methods, not rigid memorization.",
+      "section5Conclusion": "Visual block coding is the perfect gateway to introducing the world of technology and logic to children from an early age. With a child-centered approach (<em>playful, patient, and people-first</em>), Artima Edu is ready to accompany your little one on their first coding adventure.",
+      "finalCall": "Let's introduce your little one to the digital world wisely and educationally with <strong>Little Coder Artima Edu!</strong>",
       "ctaText": "Let's introduce your little one to the world of coding!",
-      "ctaButton": "Register Little Coder via WhatsApp"
+      "ctaButton": "Register Little Coder via WhatsApp",
+      "backToBlog": "← Back to Blog",
+      "readMore": "Read More →",
+      "excerpt": "Can a 5-year-old learn coding? Yes! The secret lies in visual block coding — a fun, colorful, and highly effective approach for young children thanks to its kid-friendly drag-and-drop method."
     },
     "dashboard": {
       "title": "Futuristic Learning Dashboard",
@@ -382,16 +460,34 @@
         "group": {
           "label": "Group Online Class",
           "detail": "An online class with a maximum of 10–15 students, in a single 90-minute session via online meeting tools.",
-          "littleCoder": { "price": "Rp 35.000", "unit": "/session" },
-          "juniorTech": { "price": "Rp 50.000", "unit": "/session" },
-          "futureReady": { "price": "Rp 75.000", "unit": "/session" }
+          "littleCoder": {
+            "price": "Rp 35.000",
+            "unit": "/session"
+          },
+          "juniorTech": {
+            "price": "Rp 50.000",
+            "unit": "/session"
+          },
+          "futureReady": {
+            "price": "Rp 75.000",
+            "unit": "/session"
+          }
         },
         "oneOnOne": {
           "label": "One on One Online Class",
           "detail": "One on One with a maximum of 1 student and 1 tutor, 4 sessions per month.",
-          "littleCoder": { "price": "Rp 120.000", "unit": "/month" },
-          "juniorTech": { "price": "Rp 185.000", "unit": "/month" },
-          "futureReady": { "price": "Rp 270.000", "unit": "/month" }
+          "littleCoder": {
+            "price": "Rp 120.000",
+            "unit": "/month"
+          },
+          "juniorTech": {
+            "price": "Rp 185.000",
+            "unit": "/month"
+          },
+          "futureReady": {
+            "price": "Rp 270.000",
+            "unit": "/month"
+          }
         }
       },
       "english": {
@@ -413,6 +509,10 @@
     "merch": {
       "title": "Merchandise",
       "subtitle": "Hand-picked educational toys & learning kits from Artima Edu for your little one."
+    },
+    "blogs": {
+      "pageTitle": "Artima Edu Blog",
+      "pageSubtitle": "Tips, stories, and inspiration about coding for kids and English for moms"
     }
   }
 }
