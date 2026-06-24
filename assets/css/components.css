@@ -245,6 +245,15 @@
   transition: transform 0.2s, border-color 0.2s;
 }
 .card:hover { transform: translateY(-4px); border-color: var(--color-cyan); }
+.card .card-detail {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
 .card h3 { color: var(--color-cyan); margin-bottom: var(--space-xs); }
 .section-cta { text-align: center; margin-top: var(--space-lg); }
 
@@ -685,4 +694,265 @@
   gap: var(--space-sm);
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* --- Merchandise page (merchandise.html) --- */
+
+/* Card media area: image with overlay badges */
+.merch-card-media {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: rgba(34, 211, 238, 0.05);
+  margin-bottom: var(--space-xs);
+}
+.merch-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+.merch-card:hover .merch-card-media img {
+  transform: scale(1.05);
+}
+
+/* Age badge positioned top-left of card media */
+.merch-age {
+  position: absolute;
+  top: var(--space-xs);
+  left: var(--space-xs);
+  z-index: 2;
+}
+
+/* Platform badge (e.g. "WeDo App", "Coming Soon") */
+.merch-badge {
+  position: absolute;
+  top: var(--space-xs);
+  right: var(--space-xs);
+  display: inline-block;
+  background: rgba(251, 191, 36, 0.15);
+  color: var(--color-gold);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  z-index: 2;
+}
+
+/* --- Product detail page (product.html) --- */
+
+/* Two-column layout: gallery + info side by side */
+.product-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+  margin-bottom: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .product-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+/* Left column: hero image + video */
+.product-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+.product-hero-img img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  object-fit: contain;
+  max-height: 400px;
+  background: rgba(34, 211, 238, 0.05);
+}
+
+/* Video facade: YouTube thumbnail + play overlay */
+.video-facade {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius-md);
+  border: 2px solid rgba(34, 211, 238, 0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, transform 0.2s;
+  overflow: hidden;
+}
+.video-facade::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 10, 43, 0.4);
+  transition: background 0.2s;
+}
+.video-facade:hover::before {
+  background: rgba(13, 10, 43, 0.2);
+}
+.video-facade:hover {
+  border-color: var(--color-cyan);
+  transform: scale(1.01);
+}
+.video-play {
+  position: relative;
+  z-index: 2;
+  width: 56px;
+  height: 56px;
+  background: rgba(34, 211, 238, 0.9);
+  color: var(--color-void);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.video-facade:hover .video-play {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+}
+.video-facade-label {
+  position: absolute;
+  bottom: var(--space-sm);
+  left: var(--space-sm);
+  z-index: 2;
+  color: var(--color-starlight);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* YouTube iframe (swapped in on click) */
+.product-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  border: 2px solid rgba(34, 211, 238, 0.3);
+}
+
+/* Right column: info */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+/* Badge row below the product image */
+.product-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  align-items: center;
+}
+.product-badges .merch-badge {
+  position: static;
+}
+.product-title {
+  color: var(--color-gold);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: 1.2;
+  margin: var(--space-xs) 0;
+}
+.product-tagline {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.product-info .btn {
+  margin-top: var(--space-sm);
+  align-self: flex-start;
+}
+
+/* Body sections: features, description, specs */
+.product-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .product-body {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+.product-body h2 {
+  color: var(--color-cyan);
+  font-size: 1.4rem;
+  margin-bottom: var(--space-sm);
+}
+
+/* Features list */
+.product-features ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.product-features li {
+  position: relative;
+  padding-left: var(--space-md);
+  color: var(--color-starlight);
+  line-height: 1.5;
+}
+.product-features li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-size: 0.9rem;
+}
+
+/* Description */
+.product-description p {
+  color: var(--color-starlight);
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+/* Specs definition list */
+.product-specs dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem var(--space-md);
+}
+.product-specs dt {
+  color: var(--color-muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.product-specs dd {
+  color: var(--color-starlight);
+  margin: 0;
+}
+
+/* Not-found state */
+.product-notfound {
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+.product-notfound h1 {
+  color: var(--color-cyan);
+  margin-bottom: var(--space-sm);
+}
+
+/* Product CTA reuses .blog-cta */
+.product-cta {
+  margin-top: var(--space-md);
+}
+
+/* Merchandise badge on detail page — static positioning */
+.product-info .merch-badge,
+.product .merch-badge {
+  position: static;
 }

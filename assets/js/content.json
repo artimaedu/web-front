@@ -8,6 +8,7 @@
       "dashboard": "Dashboard",
       "support": "Dukungan",
       "blog": "Blog",
+      "merchandise": "Merchandise",
       "ctaWhatsapp": "Chat WhatsApp",
       "langToggle": "EN"
     },
@@ -200,6 +201,10 @@
           "unit": "/bulan"
         }
       }
+    },
+    "merch": {
+      "title": "Merchandise",
+      "subtitle": "Alat belajar & mainan edukasi pilihan Artima Edu untuk si kecil."
     }
   },
   "en": {
@@ -211,6 +216,7 @@
       "dashboard": "Dashboard",
       "support": "Support",
       "blog": "Blog",
+      "merchandise": "Merchandise",
       "ctaWhatsapp": "Chat on WhatsApp",
       "langToggle": "ID"
     },
@@ -403,6 +409,10 @@
           "unit": "/month"
         }
       }
+    },
+    "merch": {
+      "title": "Merchandise",
+      "subtitle": "Hand-picked educational toys & learning kits from Artima Edu for your little one."
     }
   }
 }

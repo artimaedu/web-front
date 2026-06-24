@@ -46,6 +46,11 @@ function applyLang(lang) {
     window.renderWhatsAppLinks(lang);
   }
 
+  // Re-render JSON-driven merchandise (if products.js is loaded)
+  if (typeof window.renderProducts === 'function') {
+    window.renderProducts(lang);
+  }
+
   // Update the toggle button label to the OTHER language
   document.querySelectorAll('[data-lang-toggle]').forEach((btn) => {
     btn.textContent = lang === 'id' ? 'EN' : 'ID';
