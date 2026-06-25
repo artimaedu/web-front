@@ -93,6 +93,10 @@ const CTA_MESSAGES = {
   'services.custom': {
     id: 'Halo Artima Edu, saya tertarik dengan paket Custom Website. Boleh konsultasi kebutuhan saya?',
     en: 'Hi Artima Edu, I am interested in a Custom Website package. Could we discuss my requirements?'
+  },
+  'portfolio': {
+    id: 'Halo Artima Edu, saya tertarik dengan layanan Pembuatan Portfolio Online. Boleh info lebih lanjut?',
+    en: 'Hi Artima Edu, I am interested in the Online Portfolio service. Could you share more info?'
   }
 };
 
