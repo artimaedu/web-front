@@ -596,6 +596,120 @@
   margin-top: auto;
   align-self: flex-start;
 }
+/* --- More Services page (more-services.html) --- */
+.card-grid-services {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.card-service-tier {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.card-service-tier h3 {
+  color: var(--color-gold);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+}
+.package-badge {
+  align-self: flex-start;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--color-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.4);
+}
+.package-badge-pro {
+  background: rgba(232, 121, 249, 0.15);
+  color: var(--color-magenta);
+  border-color: rgba(232, 121, 249, 0.4);
+}
+.package-badge-premium {
+  background: rgba(251, 191, 36, 0.15);
+  color: var(--color-gold);
+  border-color: rgba(251, 191, 36, 0.4);
+}
+.package-badge-custom {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-starlight);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.package-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-sm);
+  flex: 1;
+}
+.package-features li {
+  color: var(--color-starlight);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0.35rem 0 0.35rem 1.25rem;
+  position: relative;
+}
+.package-features li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--color-cyan);
+  font-size: 0.65rem;
+  top: 0.55rem;
+}
+.card-service-featured {
+  border-color: rgba(251, 191, 36, 0.45);
+  background: rgba(42, 26, 94, 0.55);
+}
+.card-service-featured:hover {
+  border-color: var(--color-gold);
+}
+.price-custom {
+  font-size: 1.35rem;
+}
+.card-service-tier .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+.services-benefits-card,
+.services-note-card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.services-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.services-benefits-list li {
+  color: var(--color-starlight);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 1.5rem;
+  position: relative;
+}
+.services-benefits-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-cyan);
+  font-weight: 700;
+}
+.services-note-card p {
+  color: var(--color-starlight);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0;
+}
+.services-note .class-block-label {
+  color: var(--color-gold);
+}
+
 .badge-woman {
   display: inline-block;
   background: rgba(232, 121, 249, 0.15);

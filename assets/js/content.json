@@ -9,6 +9,7 @@
       "support": "Dukungan",
       "blog": "Blog",
       "merchandise": "Merchandise",
+      "moreServices": "More Services",
       "ctaWhatsapp": "Chat WhatsApp",
       "langToggle": "EN"
     },
@@ -252,6 +253,61 @@
       "title": "Merchandise",
       "subtitle": "Alat belajar & mainan edukasi pilihan Artima Edu untuk si kecil."
     },
+    "services": {
+      "title": "More Services",
+      "subtitle": "Paket pembuatan website profesional — dari landing page hingga solusi custom.",
+      "packagesTitle": "Website Pricelist",
+      "cta": "Tanya via WhatsApp",
+      "basic": {
+        "badge": "BASIC",
+        "name": "Basic Package",
+        "feature1": "1 web 1 domain",
+        "feature2": "3 Landing Page",
+        "feature3": "Maximal 3 Fitur / Page",
+        "feature4": "Maintenance 2 bulan",
+        "price": "Rp 2.000.000"
+      },
+      "pro": {
+        "badge": "PRO",
+        "name": "Pro Package",
+        "feature1": "1 web 1 domain",
+        "feature2": "4 Landing Page",
+        "feature3": "Maximal 4 Fitur / Page",
+        "feature4": "Maintenance 3 bulan",
+        "price": "Rp 3.000.000"
+      },
+      "premium": {
+        "badge": "PREMIUM",
+        "name": "Premium Package",
+        "feature1": "1 web 1 domain",
+        "feature2": "6 Landing Page",
+        "feature3": "Maximal 4 Fitur / Page",
+        "feature4": "Maintenance 6 bulan",
+        "price": "Rp 5.000.000"
+      },
+      "custom": {
+        "badge": "CUSTOM",
+        "name": "Custom Package",
+        "feature1": "Solusi disesuaikan kebutuhan",
+        "feature2": "Jumlah halaman & fitur fleksibel",
+        "feature3": "Maintenance sesuai kesepakatan",
+        "price": "By Request"
+      },
+      "benefitsTitle": "Keunggulan yang Didapatkan pada Setiap Paket",
+      "benefit1": "Penulisan konten profesional untuk setiap halaman website (copywriting dasar yang informatif dan menarik)",
+      "benefit2": "Desain responsif yang nyaman diakses melalui smartphone, tablet, maupun desktop",
+      "benefit3": "Integrasi tombol WhatsApp sehingga pengunjung dapat langsung menghubungi Anda",
+      "benefit4": "Optimasi tampilan dan pengalaman pengguna (User Experience) agar website lebih mudah digunakan",
+      "benefit5": "Struktur website yang rapi dan profesional",
+      "benefit6": "Optimasi kecepatan akses dasar agar website lebih nyaman dibuka",
+      "benefit7": "Integrasi Google Maps (jika diperlukan) dan Sosial Media",
+      "benefit8": "Bantuan publikasi website hingga dapat diakses secara online",
+      "benefit9": "Maintenance sesuai paket yang dipilih untuk perbaikan error, bug, atau kendala teknis pada website",
+      "benefit10": "Konsultasi dan pendampingan selama masa pengerjaan",
+      "benefit11": "Revisi minor selama proses pengembangan sesuai kebutuhan",
+      "maintenanceTitle": "Catatan Maintenance",
+      "maintenanceNote": "Maintenance yang dimaksud adalah perbaikan apabila terdapat error, bug, atau kendala teknis pada website. Maintenance tidak termasuk penambahan halaman baru, fitur baru, atau perubahan desain secara menyeluruh."
+    },
     "blogs": {
       "pageTitle": "Blog Artima Edu",
       "pageSubtitle": "Tips, cerita, dan inspirasi seputar coding dan bahasa Inggris"
@@ -277,6 +333,7 @@
       "support": "Support",
       "blog": "Blog",
       "merchandise": "Merchandise",
+      "moreServices": "More Services",
       "ctaWhatsapp": "Chat on WhatsApp",
       "langToggle": "ID"
     },
@@ -519,6 +576,61 @@
     "merch": {
       "title": "Merchandise",
       "subtitle": "Hand-picked educational toys & learning kits from Artima Edu for your little one."
+    },
+    "services": {
+      "title": "More Services",
+      "subtitle": "Professional website packages — from landing pages to fully custom solutions.",
+      "packagesTitle": "Website Pricelist",
+      "cta": "Ask via WhatsApp",
+      "basic": {
+        "badge": "BASIC",
+        "name": "Basic Package",
+        "feature1": "1 website, 1 domain",
+        "feature2": "3 Landing Pages",
+        "feature3": "Up to 3 features per page",
+        "feature4": "2 months maintenance",
+        "price": "Rp 2.000.000"
+      },
+      "pro": {
+        "badge": "PRO",
+        "name": "Pro Package",
+        "feature1": "1 website, 1 domain",
+        "feature2": "4 Landing Pages",
+        "feature3": "Up to 4 features per page",
+        "feature4": "3 months maintenance",
+        "price": "Rp 3.000.000"
+      },
+      "premium": {
+        "badge": "PREMIUM",
+        "name": "Premium Package",
+        "feature1": "1 website, 1 domain",
+        "feature2": "6 Landing Pages",
+        "feature3": "Up to 4 features per page",
+        "feature4": "6 months maintenance",
+        "price": "Rp 5.000.000"
+      },
+      "custom": {
+        "badge": "CUSTOM",
+        "name": "Custom Package",
+        "feature1": "Tailored to your needs",
+        "feature2": "Flexible page count & features",
+        "feature3": "Maintenance by agreement",
+        "price": "By Request"
+      },
+      "benefitsTitle": "Benefits Included in Every Package",
+      "benefit1": "Professional content writing for every page (informative and engaging basic copywriting)",
+      "benefit2": "Responsive design comfortable on smartphone, tablet, and desktop",
+      "benefit3": "WhatsApp button integration so visitors can contact you instantly",
+      "benefit4": "UI/UX optimization for a smoother, easier-to-use website",
+      "benefit5": "Clean, professional website structure",
+      "benefit6": "Basic speed optimization for a more comfortable browsing experience",
+      "benefit7": "Google Maps integration (if needed) and social media links",
+      "benefit8": "Website launch support until it is live and accessible online",
+      "benefit9": "Maintenance per package for fixing errors, bugs, or technical issues",
+      "benefit10": "Consultation and guidance throughout the development period",
+      "benefit11": "Minor revisions during development as needed",
+      "maintenanceTitle": "Maintenance Note",
+      "maintenanceNote": "Maintenance covers fixes for errors, bugs, or technical issues on the website. It does not include new pages, new features, or full design overhauls."
     },
     "blogs": {
       "pageTitle": "Artima Edu Blog",

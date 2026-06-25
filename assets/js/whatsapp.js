@@ -77,6 +77,22 @@ const CTA_MESSAGES = {
   'program.english.1on1': {
     id: 'Halo Artima Edu, saya tertarik dengan English Broom Room – One on One (Rp 100.000/bulan). Boleh info pendaftaran?',
     en: 'Hi Artima Edu, I am interested in English Broom Room – One on One (Rp 100.000/month). Could you share enrollment info?'
+  },
+  'services.basic': {
+    id: 'Halo Artima Edu, saya tertarik dengan paket Basic Website (Rp 2.000.000). Boleh info lebih lanjut?',
+    en: 'Hi Artima Edu, I am interested in the Basic Website package (Rp 2.000.000). Could you share more info?'
+  },
+  'services.pro': {
+    id: 'Halo Artima Edu, saya tertarik dengan paket Pro Website (Rp 3.000.000). Boleh info lebih lanjut?',
+    en: 'Hi Artima Edu, I am interested in the Pro Website package (Rp 3.000.000). Could you share more info?'
+  },
+  'services.premium': {
+    id: 'Halo Artima Edu, saya tertarik dengan paket Premium Website (Rp 5.000.000). Boleh info lebih lanjut?',
+    en: 'Hi Artima Edu, I am interested in the Premium Website package (Rp 5.000.000). Could you share more info?'
+  },
+  'services.custom': {
+    id: 'Halo Artima Edu, saya tertarik dengan paket Custom Website. Boleh konsultasi kebutuhan saya?',
+    en: 'Hi Artima Edu, I am interested in a Custom Website package. Could we discuss my requirements?'
   }
 };
 
