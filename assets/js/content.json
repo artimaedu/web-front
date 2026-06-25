@@ -588,8 +588,7 @@
         "feature1": "1 website, 1 domain",
         "feature2": "3 Landing Pages",
         "feature3": "Up to 3 features per page",
-        "feature4": "2 months maintenance",
-        "price": "Rp 2.000.000"
+        "feature4": "2 months maintenance"
       },
       "pro": {
         "badge": "PRO",
@@ -597,8 +596,7 @@
         "feature1": "1 website, 1 domain",
         "feature2": "4 Landing Pages",
         "feature3": "Up to 4 features per page",
-        "feature4": "3 months maintenance",
-        "price": "Rp 3.000.000"
+        "feature4": "3 months maintenance"
       },
       "premium": {
         "badge": "PREMIUM",
@@ -606,16 +604,14 @@
         "feature1": "1 website, 1 domain",
         "feature2": "6 Landing Pages",
         "feature3": "Up to 4 features per page",
-        "feature4": "6 months maintenance",
-        "price": "Rp 5.000.000"
+        "feature4": "6 months maintenance"
       },
       "custom": {
         "badge": "CUSTOM",
         "name": "Custom Package",
         "feature1": "Tailored to your needs",
         "feature2": "Flexible page count & features",
-        "feature3": "Maintenance by agreement",
-        "price": "By Request"
+        "feature3": "Maintenance by agreement"
       },
       "benefitsTitle": "Benefits Included in Every Package",
       "benefit1": "Professional content writing for every page (informative and engaging basic copywriting)",
