@@ -244,7 +244,7 @@
         "oneOnOne": {
           "label": "One on One Online Class",
           "detail": "Kelas private online 1 murid 1 tutor dengan 1 kali pertemuan per minggu dan 4 kali sebulan.",
-          "price": "Rp 100.000",
+          "price": "Rp 135.000",
           "unit": "/bulan"
         }
       }
@@ -614,7 +614,7 @@
         "oneOnOne": {
           "label": "One on One Online Class",
           "detail": "A private online class with 1 student and 1 tutor, 1 session per week and 4 sessions per month.",
-          "price": "Rp 100.000",
+          "price": "Rp 135.000",
           "unit": "/month"
         }
       }
