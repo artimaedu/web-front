@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merchandise — Artima Edu</title>
-  <meta name="description" content="Merchandise Artima Edu: alat belajar & mainan edukasi pilihan — Coding Robot Brick Block dengan WeDo App dan produk STEM lainnya.">
+  <title>Profil Tim — Artima Edu</title>
+  <meta name="description" content="Kenali tim Artima Edu: Uma — English Educator & Author, dan Baba — Senior Software Engineer & Backend Developer.">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
-  <link rel="canonical" href="https://artimaedu.web.id/merchandise.html">
+  <link rel="canonical" href="https://artimaedu.web.id/profile.html">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
       <span class="hamburger"></span>
     </button>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="index.html" data-i18n="nav.philosophy">Filosofi</a>
+      <a href="index.html" data-i18n="nav.philosophy">Beranda</a>
       <a href="program.html" data-i18n="nav.programs">Program</a>
       <a href="profile.html" data-i18n="nav.profile">Profil</a>
       <a href="blogs.html" data-i18n="nav.blog">Blog</a>
@@ -38,16 +38,34 @@
   </header>
 
   <main>
-    <section class="section" style="padding-top: calc(var(--space-xl) + 60px);">
+    <section class="section" id="profil" style="padding-top: calc(var(--space-xl) + 60px);">
       <div class="program-hero" data-reveal>
-        <h1 data-i18n="merch.title">Merchandise</h1>
-        <p class="program-subtitle" data-i18n="merch.subtitle">Alat belajar & mainan edukasi pilihan Artima Edu untuk si kecil.</p>
+        <h1 data-i18n="profile.title">Orang-Orang di Balik Layar</h1>
+        <p class="program-subtitle" data-i18n="profile.subtitle">Kenali tim yang siap menemanimu menjelajah!</p>
       </div>
-
-      <div class="class-block" data-reveal>
-        <div class="card-grid" id="product-list">
-          <!-- Rendered by assets/js/products.js -->
-        </div>
+      <div class="card-grid card-grid-2">
+        <article class="card card-profile" data-reveal>
+          <div class="profile-mascot">
+            <img src="assets/img/mascots/umma_buku.png" alt="Uma" class="mascot">
+          </div>
+          <div class="profile-info">
+            <h3>Uma</h3>
+            <p class="profile-role" data-i18n="profile.umaRole">English Educator & Author</p>
+            <p class="profile-bio" data-i18n="profile.umaBio">Telah bertahun-tahun berkecimpung di dunia pendidikan bahasa Inggris dengan penuh kesenangan. Fakta seru: Uma lebih suka menulis daripada mengajar! Tapi khusus untuk kalian di Artima Edu... mari kita tulis kode bersama!</p>
+            <a class="btn btn-ghost btn-sm" href="https://shirlyv.github.io/portfolio/" target="_blank" rel="noopener noreferrer" data-i18n="profile.viewProfile">Lihat Profil</a>
+          </div>
+        </article>
+        <article class="card card-profile" data-reveal>
+          <div class="profile-mascot">
+            <img src="assets/img/mascots/babah_laptop.png" alt="Baba" class="mascot">
+          </div>
+          <div class="profile-info">
+            <h3>Baba</h3>
+            <p class="profile-role" data-i18n="profile.babaRole">Senior Software Engineer & Backend Developer</p>
+            <p class="profile-bio" data-i18n="profile.babaBio">Software engineer yang menghabiskan hari-harinya membangun sistem dan program keren. Sekarang, Baba siap berbagi sihir teknologi dan mengundang kalian semua untuk membuat game dan aplikasi sendiri!</p>
+            <a class="btn btn-ghost btn-sm" href="https://huzairuje.github.io/portfolio/" target="_blank" rel="noopener noreferrer" data-i18n="profile.viewProfile">Lihat Profil</a>
+          </div>
+        </article>
       </div>
     </section>
   </main>
@@ -63,7 +81,6 @@
 
   <script src="assets/js/whatsapp.js"></script>
   <script src="assets/js/scroll.js"></script>
-  <script src="assets/js/products.js"></script>
   <script src="assets/js/i18n.js"></script>
 </body>
 </html>

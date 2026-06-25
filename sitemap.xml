@@ -55,4 +55,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/service-building-portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/service-building-portfolio.html"/>
   </url>
+  <url>
+    <loc>https://artimaedu.web.id/profile.html</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/profile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/profile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/profile.html"/>
+  </url>
 </urlset>

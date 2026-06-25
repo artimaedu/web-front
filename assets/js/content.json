@@ -2,7 +2,7 @@
   "id": {
     "nav": {
       "brand": "Artima Edu",
-      "philosophy": "Filosofi",
+      "philosophy": "Beranda",
       "programs": "Program",
       "profile": "Profil",
       "dashboard": "Dashboard",
@@ -63,7 +63,8 @@
       "umaBio": "Telah bertahun-tahun berkecimpung di dunia pendidikan bahasa Inggris dengan penuh kesenangan. Fakta seru: Uma lebih suka menulis daripada mengajar! Tapi khusus untuk kalian di Artima Edu... mari kita tulis kode bersama!",
       "babaRole": "Senior Software Engineer & Backend Developer",
       "babaBio": "Software engineer yang menghabiskan hari-harinya membangun sistem dan program keren. Sekarang, Baba siap berbagi sihir teknologi dan mengundang kalian semua untuk membuat game dan aplikasi sendiri!",
-      "viewProfile": "Lihat Profil"
+      "viewProfile": "Lihat Profil",
+      "viewAll": "Lihat Semua Profil"
     },
     "blog1": {
       "title": "5 Alasan Kenapa Anak Usia Dini Perlu Belajar Coding (Termasuk Sebelum Mereka Lancar Membaca!)",
@@ -372,7 +373,7 @@
   "en": {
     "nav": {
       "brand": "Artima Edu",
-      "philosophy": "Philosophy",
+      "philosophy": "Home",
       "programs": "Programs",
       "profile": "Profile",
       "dashboard": "Dashboard",
@@ -433,7 +434,8 @@
       "umaBio": "Years of joyful experience in English education. Fun fact: Uma loves writing more than teaching! But just for you at Artima Edu... let's write some code together!",
       "babaRole": "Senior Software Engineer & Backend Developer",
       "babaBio": "A software engineer who spends his days building cool systems and programs. Now, Baba is ready to share his tech magic and invite you all to build your own games and apps!",
-      "viewProfile": "View Profile"
+      "viewProfile": "View Profile",
+      "viewAll": "See All Profiles"
     },
     "blog1": {
       "title": "5 Reasons Why Young Children Need to Learn Coding (Even Before They Can Read!)",
