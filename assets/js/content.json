@@ -256,6 +256,17 @@
     "services": {
       "title": "More Services",
       "subtitle": "Paket pembuatan website profesional — dari landing page hingga solusi custom.",
+      "selectTitle": "Pilih Layanan",
+      "selectSubtitle": "Pilih layanan yang sesuai dengan kebutuhan Anda",
+      "cardCta": "Lihat Selengkapnya",
+      "websiteCard": {
+        "title": "Pembuatan Website",
+        "desc": "Paket pembuatan website profesional untuk bisnis, UMKM, dan personal — dari Basic hingga Custom, lengkap dengan maintenance dan pendampingan."
+      },
+      "portfolioCard": {
+        "title": "Pembuatan Portfolio",
+        "desc": "Buat portofolio online yang memukau untuk menunjukkan karya terbaik Anda — cocok untuk kreator, developer, dan profesional."
+      },
       "packagesTitle": "Website Pricelist",
       "cta": "Tanya via WhatsApp",
       "basic": {
@@ -307,6 +318,46 @@
       "benefit11": "Revisi minor selama proses pengembangan sesuai kebutuhan",
       "maintenanceTitle": "Catatan Maintenance",
       "maintenanceNote": "Maintenance yang dimaksud adalah perbaikan apabila terdapat error, bug, atau kendala teknis pada website. Maintenance tidak termasuk penambahan halaman baru, fitur baru, atau perubahan desain secara menyeluruh."
+    },
+    "portfolio": {
+      "title": "Pembuatan Portfolio",
+      "subtitle": "Tampilkan karya terbaikmu dengan portofolio online yang profesional",
+      "packagesTitle": "Paket Portfolio",
+      "cta": "Tanya via WhatsApp",
+      "basic": {
+        "badge": "BASIC",
+        "name": "Basic Portfolio",
+        "feature1": "1 halaman portfolio",
+        "feature2": "Desain responsif",
+        "feature3": "Integrasi WhatsApp",
+        "feature4": "Maintenance 1 bulan"
+      },
+      "pro": {
+        "badge": "PRO",
+        "name": "Pro Portfolio",
+        "feature1": "3 halaman portfolio",
+        "feature2": "Desain responsif + animasi",
+        "feature3": "Integrasi WhatsApp & sosial media",
+        "feature4": "Maintenance 2 bulan"
+      },
+      "premium": {
+        "badge": "PREMIUM",
+        "name": "Premium Portfolio",
+        "feature1": "5 halaman portfolio",
+        "feature2": "Desain premium + custom animasi",
+        "feature3": "Integrasi penuh (WA, medsos, Google Maps)",
+        "feature4": "Maintenance 3 bulan"
+      },
+      "benefitsTitle": "Keunggulan yang Didapatkan",
+      "benefit1": "Desain modern dan profesional yang mencerminkan personal branding Anda",
+      "benefit2": "Tampilan responsif di semua perangkat (smartphone, tablet, desktop)",
+      "benefit3": "Optimasi kecepatan dan performa website",
+      "benefit4": "Integrasi formulir kontak dan media sosial",
+      "benefit5": "Bantuan publikasi dan domain",
+      "benefit6": "Konsultasi dan pendampingan penuh",
+      "benefit7": "Revisi minor selama proses pengembangan",
+      "maintenanceTitle": "Catatan Maintenance",
+      "maintenanceNote": "Maintenance mencakup perbaikan error, bug, atau kendala teknis pada website portfolio. Tidak termasuk penambahan halaman baru, fitur baru, atau perubahan desain menyeluruh."
     },
     "blogs": {
       "pageTitle": "Blog Artima Edu",
@@ -580,6 +631,17 @@
     "services": {
       "title": "More Services",
       "subtitle": "Professional website packages — from landing pages to fully custom solutions.",
+      "selectTitle": "Select a Service",
+      "selectSubtitle": "Choose the service that fits your needs",
+      "cardCta": "See Details",
+      "websiteCard": {
+        "title": "Website Development",
+        "desc": "Professional website packages for businesses, SMEs, and personal use — from Basic to Custom, complete with maintenance and guidance."
+      },
+      "portfolioCard": {
+        "title": "Portfolio Development",
+        "desc": "Build a stunning online portfolio to showcase your best work — perfect for creators, developers, and professionals."
+      },
       "packagesTitle": "Website Pricelist",
       "cta": "Ask via WhatsApp",
       "basic": {
@@ -627,6 +689,46 @@
       "benefit11": "Minor revisions during development as needed",
       "maintenanceTitle": "Maintenance Note",
       "maintenanceNote": "Maintenance covers fixes for errors, bugs, or technical issues on the website. It does not include new pages, new features, or full design overhauls."
+    },
+    "portfolio": {
+      "title": "Portfolio Development",
+      "subtitle": "Showcase your best work with a professional online portfolio",
+      "packagesTitle": "Portfolio Packages",
+      "cta": "Ask via WhatsApp",
+      "basic": {
+        "badge": "BASIC",
+        "name": "Basic Portfolio",
+        "feature1": "1 portfolio page",
+        "feature2": "Responsive design",
+        "feature3": "WhatsApp integration",
+        "feature4": "1 month maintenance"
+      },
+      "pro": {
+        "badge": "PRO",
+        "name": "Pro Portfolio",
+        "feature1": "3 portfolio pages",
+        "feature2": "Responsive design + animations",
+        "feature3": "WhatsApp & social media integration",
+        "feature4": "2 months maintenance"
+      },
+      "premium": {
+        "badge": "PREMIUM",
+        "name": "Premium Portfolio",
+        "feature1": "5 portfolio pages",
+        "feature2": "Premium design + custom animations",
+        "feature3": "Full integration (WA, social, Google Maps)",
+        "feature4": "3 months maintenance"
+      },
+      "benefitsTitle": "Benefits Included",
+      "benefit1": "Modern, professional design that reflects your personal brand",
+      "benefit2": "Responsive on all devices (smartphone, tablet, desktop)",
+      "benefit3": "Speed and performance optimization",
+      "benefit4": "Contact form and social media integration",
+      "benefit5": "Publication and domain assistance",
+      "benefit6": "Full consultation and guidance",
+      "benefit7": "Minor revisions during development",
+      "maintenanceTitle": "Maintenance Note",
+      "maintenanceNote": "Maintenance covers fixes for errors, bugs, or technical issues on your portfolio website. It does not include new pages, new features, or full design overhauls."
     },
     "blogs": {
       "pageTitle": "Artima Edu Blog",
