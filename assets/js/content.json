@@ -255,6 +255,16 @@
     "blogs": {
       "pageTitle": "Blog Artima Edu",
       "pageSubtitle": "Tips, cerita, dan inspirasi seputar coding dan bahasa Inggris"
+    },
+    "blogsPreview": {
+      "title": "Catatan Penjelajah",
+      "subtitle": "Tips, cerita, dan inspirasi seputar coding dan bahasa Inggris",
+      "cta": "Lihat Semua Blog →"
+    },
+    "merchPreview": {
+      "title": "Stasiun Merchandise",
+      "subtitle": "Alat belajar & mainan edukasi pilihan Artima Edu",
+      "cta": "Lihat Semua Merchandise →"
     }
   },
   "en": {
@@ -513,6 +523,16 @@
     "blogs": {
       "pageTitle": "Artima Edu Blog",
       "pageSubtitle": "Tips, stories, and inspiration about coding for kids and English for moms"
+    },
+    "blogsPreview": {
+      "title": "Explorer's Notes",
+      "subtitle": "Tips, stories, and inspiration about coding and English",
+      "cta": "See All Blogs →"
+    },
+    "merchPreview": {
+      "title": "Merchandise Station",
+      "subtitle": "Hand-picked educational toys & learning kits from Artima Edu",
+      "cta": "See All Merchandise →"
     }
   }
 }

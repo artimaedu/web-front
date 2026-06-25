@@ -184,8 +184,7 @@
       <a href="#filosofi" data-i18n="nav.philosophy">Filosofi</a>
       <a href="#program" data-i18n="nav.programs">Program</a>
       <a href="#profil" data-i18n="nav.profile">Profil</a>
-      <a href="#dashboard" data-i18n="nav.dashboard">Dashboard</a>
-      <a href="#dukungan" data-i18n="nav.support">Dukungan</a>
+      <!-- <a href="#dukungan" data-i18n="nav.support">Dukungan</a> -->
       <a href="blogs.html" data-i18n="nav.blog">Blog</a>
       <a href="merchandise.html" data-i18n="nav.merchandise">Merchandise</a>
     </nav>
@@ -311,46 +310,80 @@
       </div>
     </section>
 
-    <!-- Section 6: Dashboard Preview — "Ruang Kendali Siswa" -->
-    <section class="section" id="dashboard">
-      <span class="badge-coming" data-i18n="dashboard.badge" data-reveal>Sneak peek — segera hadir</span>
-      <h2 class="section-title" data-i18n="dashboard.title" data-reveal>Dashboard Belajar Futuristik</h2>
-      <div class="card-grid">
-        <article class="card card-feature" data-reveal>
-          <h3 data-i18n="dashboard.feature1Title">Peta Petualangan</h3>
-          <p data-i18n="dashboard.feature1Body">Materi seperti peta rasi bintang.</p>
+    <!-- Section 6: Blog Preview — "Catatan Penjelajah" -->
+    <section class="section" id="blogs">
+      <h2 class="section-title" data-i18n="blogsPreview.title" data-reveal>Catatan Penjelajah</h2>
+      <p class="section-subtitle" data-i18n="blogsPreview.subtitle" data-reveal>Tips, cerita, dan inspirasi seputar coding dan bahasa Inggris</p>
+      <div class="blog-grid">
+        <!-- Blog Post 1 -->
+        <article class="card blog-card" data-reveal>
+          <div class="blog-image">
+            <img src="assets/img/blogs/blog-artima-edu-alasan-anak-perlu-belajar-koding.jpeg" alt="Anak belajar coding" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">20 Juni 2026</span>
+            <h3 class="blog-title" data-i18n="blog1.title">5 Alasan Kenapa Anak Usia Dini Perlu Belajar Coding</h3>
+            <p class="blog-excerpt" data-i18n="blog1.excerpt">
+              Dunia digital berkembang secepat itu, dan coding bukan lagi sekadar keahlian keren-kerenan untuk masa depan.
+              Memulainya sejak usia dini memberikan anak keuntungan yang luar biasa besar dalam memahami logika,
+              problem-solving, dan kreativitas digital.
+            </p>
+            <a href="blog-5-alasan-coding.html" class="btn btn-ghost btn-sm" data-i18n="blog1.readMore">Baca Selengkapnya →</a>
+          </div>
         </article>
-        <article class="card card-feature" data-reveal>
-          <h3 data-i18n="dashboard.feature2Title">Kapsul Video Interaktif</h3>
-          <p data-i18n="dashboard.feature2Body">Pemutar bersih dan fokus.</p>
+
+        <!-- Blog Post 2 -->
+        <article class="card blog-card" data-reveal>
+          <div class="blog-image">
+            <img src="assets/img/blogs/blog-english-broom-room.jpeg" alt="English Broom Room" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">18 Juni 2026</span>
+            <h3 class="blog-title" data-i18n="blog2.title">English Broom Room: Kelas Bahasa Inggris untuk Perempuan Sibuk</h3>
+            <p class="blog-excerpt" data-i18n="blog2.excerpt">
+              Banyak perempuan dan ibu yang ingin menguasai bahasa Inggris tetapi merasa terhalang oleh stigma,
+              rasa malu, atau pengalaman belajar yang kaku. English Broom Room hadir sebagai ruang belajar
+              yang hangat dan santai untuk segala kalangan.
+            </p>
+            <a href="blog-english-broom-room.html" class="btn btn-ghost btn-sm" data-i18n="blog2.readMore">Baca Selengkapnya →</a>
+          </div>
         </article>
-        <article class="card card-feature" data-reveal>
-          <h3 data-i18n="dashboard.feature3Title">Energy Meter</h3>
-          <p data-i18n="dashboard.feature3Body">Progress tracker neon.</p>
+
+        <!-- Blog Post 3 -->
+        <article class="card blog-card" data-reveal>
+          <div class="blog-image">
+            <img src="assets/img/blogs/blog-mengenal-visual-block-koding-untuk-anak.jpeg" alt="Visual block coding untuk anak" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">12 Juni 2026</span>
+            <h3 class="blog-title" data-i18n="blog3.title">Mengenal Visual Block Coding untuk Little Coder</h3>
+            <p class="blog-excerpt" data-i18n="blog3.excerpt">
+              Anak usia 5 tahun bisa belajar coding? Bisa! Rahasianya terletak pada visual block coding —
+              pendekatan yang menyenangkan, penuh warna, dan sangat efektif untuk anak usia dini
+              berkat metode drag-and-drop yang ramah anak.
+            </p>
+            <a href="blog-visual-block-coding.html" class="btn btn-ghost btn-sm" data-i18n="blog3.readMore">Baca Selengkapnya →</a>
+          </div>
         </article>
+      </div>
+      <div class="section-cta" data-reveal>
+        <a class="btn btn-ghost" href="blogs.html" data-i18n="blogsPreview.cta">Lihat Semua Blog →</a>
       </div>
     </section>
 
-    <!-- Section 7: Dukungan — "Sinyal Komunikasi" -->
-    <section class="section" id="dukungan">
-      <h2 class="section-title" data-i18n="support.title" data-reveal>Selalu Terhubung dengan Komando!</h2>
-      <div class="card-grid card-grid-2">
-        <article class="card" data-reveal>
-          <h3 data-i18n="support.card1Title">Direct Comms</h3>
-          <p data-i18n="support.card1Body">Tombol langsung ke WhatsApp Group.</p>
-          <a class="btn btn-ghost btn-sm" data-cta="support" href="#" data-i18n="coding.cta">Tanya via WhatsApp</a>
-        </article>
-        <article class="card" data-reveal>
-          <h3 data-i18n="support.card2Title">Laporan Misi</h3>
-          <p data-i18n="support.card2Body">Rapor digital berkala.</p>
-        </article>
+    <!-- Section 7: Merchandise Preview — "Stasiun Merchandise" -->
+    <section class="section" id="merchandise-preview">
+      <h2 class="section-title" data-i18n="merchPreview.title" data-reveal>Stasiun Merchandise</h2>
+      <p class="section-subtitle" data-i18n="merchPreview.subtitle" data-reveal>Alat belajar & mainan edukasi pilihan Artima Edu</p>
+      <div class="card-grid" id="merch-preview-list">
+        <!-- Rendered by inline script -->
       </div>
-      <div class="section-mascot" data-reveal>
-        <img src="assets/img/mascots/baba.png" alt="Baba, maskot stasiun dukungan Artima Edu" class="mascot">
+      <div class="section-cta" data-reveal>
+        <a class="btn btn-ghost" href="merchandise.html" data-i18n="merchPreview.cta">Lihat Semua Merchandise →</a>
       </div>
     </section>
 
-    <!-- Section 8: Testimoni — "Catatan Para Penjelajah" -->
+    <!-- Section 9: Testimoni — "Catatan Para Penjelajah" -->
     <section class="section" id="testimoni">
       <h2 class="section-title" data-i18n="testimonials.title" data-reveal>Kata Para Komandan & Penjelajah</h2>
       <p class="placeholder-note" data-i18n="testimonials.note" data-reveal>Setiap langkah kecil di Artima Edu adalah cerita besar bagi kami.</p>
@@ -382,7 +415,7 @@
       </div>
     </section>
 
-    <!-- Section 8: Final CTA — "Siap Meluncur?" -->
+    <!-- Section 10: Final CTA — "Siap Meluncur?" -->
     <section class="section final-cta" id="mulai">
       <div class="final-cta-inner" data-reveal>
         <div class="hero-mascots">
@@ -414,5 +447,79 @@
   <script src="assets/js/whatsapp.js"></script>
   <script src="assets/js/scroll.js"></script>
   <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script>
+    /* Render top 3 merchandise products on homepage */
+    (function() {
+      async function renderMerchPreview() {
+        const container = document.getElementById('merch-preview-list');
+        if (!container) return;
+        
+        try {
+          const res = await fetch('assets/js/products.json');
+          const data = await res.json();
+          const topProducts = data.products.slice(0, 3);
+          const lang = localStorage.getItem('artima-lang') || 'id';
+          
+          const pick = (field, lang) => {
+            if (field === null || field === undefined) return '';
+            return typeof field === 'object' ? (field[lang] || field.id || '') : field;
+          };
+          
+          const escapeHtml = (str) => String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+          
+          container.innerHTML = topProducts.map(product => {
+            const name = escapeHtml(pick(product.name, lang));
+            const tagline = escapeHtml(pick(product.tagline, lang));
+            const viewLabel = lang === 'en' ? 'View Details' : 'Lihat Detail';
+            
+            return `
+              <article class="card card-tier card-price-tier merch-card" data-reveal>
+                <div class="merch-card-media">
+                  <img src="${escapeHtml(product.image)}" alt="${name}" loading="lazy">
+                  <span class="age-badge age-cyan merch-age">${escapeHtml(product.age)}</span>
+                  <span class="merch-badge">${escapeHtml(product.badge)}</span>
+                </div>
+                <h3>${name}</h3>
+                <p class="card-detail">${tagline}</p>
+                <a class="btn btn-ghost btn-sm merch-view" href="product.html?id=${encodeURIComponent(product.slug)}">
+                  ${viewLabel}
+                </a>
+              </article>
+            `;
+          }).join('');
+          
+          // Re-observe for scroll reveal animation
+          const reveals = container.querySelectorAll('[data-reveal]:not(.visible)');
+          if (reveals.length && 'IntersectionObserver' in window) {
+            const observer = new IntersectionObserver(
+              (entries, obs) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
+                  }
+                });
+              },
+              { threshold: 0.15 }
+            );
+            reveals.forEach(el => observer.observe(el));
+          }
+        } catch (err) {
+          console.error('[Artima merch preview] Could not load products:', err);
+        }
+      }
+      
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', renderMerchPreview);
+      } else {
+        renderMerchPreview();
+      }
+    })();
+  </script>
 </body>
 </html>
