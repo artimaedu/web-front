@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Games — Artima Edu</title>
+  <meta name="description" content="Mini Games Artima Edu: 3 puzzle seru untuk anak usia 8-14 tahun. Pattern Puzzle, Math Galaxy, Word Scramble — main sambil belajar coding!">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="canonical" href="https://artimaedu.web.id/mini-games.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/mini-games.css">
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo_artima_edu.png" alt="Artima Edu logo" class="nav-logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" data-i18n="nav.philosophy">Beranda</a>
+      <a href="program.html" data-i18n="nav.programs">Program</a>
+      <a href="profile.html" data-i18n="nav.profile">Profil</a>
+      <a href="blogs.html" data-i18n="nav.blog">Blog</a>
+      <a href="merchandise.html" data-i18n="nav.merchandise">Merchandise</a>
+      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
+      <a href="mini-games.html" data-i18n="nav.miniGames">Mini Games</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" data-lang-toggle aria-label="Switch language">EN</button>
+      <a class="btn btn-sm" data-cta="hero" href="#" data-i18n="nav.ctaWhatsapp">Chat WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== GAME HUB ========== -->
+    <section class="games-hub" style="padding-top: calc(var(--space-xl) + 60px);">
+      <h1>🎮 Mini Games Arena</h1>
+      <p class="hub-subtitle">Asah otak sambil belajar coding! Untuk usia 8–14 tahun.</p>
+
+      <!-- Player Name -->
+      <div class="player-setup">
+        <label for="player-name">👤 Nama Pemain:</label>
+        <input type="text" id="player-name" placeholder="Masukkan namamu..." maxlength="20" autocomplete="off">
+        <button class="btn-save-name" id="btn-save-name">Simpan</button>
+        <span class="player-greeting" id="player-greeting"></span>
+      </div>
+
+      <!-- Game Cards -->
+      <div class="game-cards">
+        <!-- Pattern Puzzle -->
+        <div class="game-card" data-game="pattern">
+          <span class="game-icon">🧩</span>
+          <h3>Pattern Puzzle</h3>
+          <p>Temukan pola yang hilang! Latih logika dan berpikir kritis dengan urutan angka dan simbol.</p>
+          <div class="best-score" id="best-pattern">Best: 0</div>
+        </div>
+
+        <!-- Math Galaxy -->
+        <div class="game-card" data-game="math">
+          <span class="game-icon">🔢</span>
+          <h3>Math Galaxy</h3>
+          <p>Pecahkan soal matematika secepat mungkin! Timer berjalan — setiap detik punya bonus poin.</p>
+          <div class="best-score" id="best-math">Best: 0</div>
+        </div>
+
+        <!-- Word Scramble -->
+        <div class="game-card" data-game="scramble">
+          <span class="game-icon">🔤</span>
+          <h3>Word Scramble</h3>
+          <p>Susun huruf acak menjadi kata teknologi & coding. Ada hint untuk membantu!</p>
+          <div class="best-score" id="best-scramble">Best: 0</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GAME 1: Pattern Puzzle ========== -->
+    <div class="game-screen" id="game-pattern">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🧩 Pattern Puzzle</h2>
+        <div class="game-stats">
+          <span>Ronde: <strong id="pattern-round">1/10</strong></span>
+          <span>Skor: <strong id="pattern-score">0</strong></span>
+        </div>
+      </div>
+      <div class="pattern-area">
+        <div class="pattern-sequence" id="pattern-sequence"></div>
+        <div class="pattern-choices" id="pattern-choices"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME 2: Math Galaxy ========== -->
+    <div class="game-screen" id="game-math">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🔢 Math Galaxy</h2>
+        <div class="game-stats">
+          <span>Soal: <strong id="math-round">1/10</strong></span>
+          <span>Skor: <strong id="math-score">0</strong></span>
+        </div>
+      </div>
+      <div class="math-area">
+        <div class="math-timer-bar"><div class="bar-fill" id="math-timer-fill"></div></div>
+        <div class="math-problem" id="math-problem">Loading...</div>
+        <div class="math-choices" id="math-choices"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME 3: Word Scramble ========== -->
+    <div class="game-screen" id="game-scramble">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🔤 Word Scramble</h2>
+        <div class="game-stats">
+          <span>Kata: <strong id="scramble-round">1/8</strong></span>
+          <span>Skor: <strong id="scramble-score">0</strong></span>
+        </div>
+      </div>
+      <div class="scramble-area">
+        <div class="scramble-word" id="scramble-display">LOADING</div>
+        <p class="scramble-hint" id="scramble-hint">💡 Hint: ...</p>
+        <div class="scramble-input-row">
+          <input type="text" id="scramble-answer" placeholder="Jawaban..." maxlength="20" autocomplete="off" spellcheck="false">
+          <button id="btn-scramble-submit">Submit</button>
+        </div>
+        <div class="scramble-feedback" id="scramble-feedback"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME RESULT ========== -->
+    <div class="game-result">
+      <h2>🎉 Game Selesai!</h2>
+      <div class="final-score">0</div>
+      <div class="result-details"></div>
+      <div class="new-record" style="display:none">🎉 NEW RECORD!</div>
+      <div class="unlocked-achievements" style="display:none">
+        <h3>🏅 Achievement Unlocked!</h3>
+        <div class="ach-list"></div>
+      </div>
+      <div>
+        <button class="btn-play-again">🔄 Main Lagi</button>
+        <button class="btn-menu">🏠 Menu</button>
+      </div>
+    </div>
+
+    <!-- ========== ACHIEVEMENTS ========== -->
+    <section class="achievements-section">
+      <h2>🏅 Achievements</h2>
+      <div class="achievements-grid" id="achievements-grid"></div>
+    </section>
+
+    <!-- ========== LEADERBOARD ========== -->
+    <section class="leaderboard-section">
+      <h2>🏆 Leaderboard</h2>
+      <div class="leaderboard-tabs">
+        <button class="active" data-game="pattern">🧩 Pattern</button>
+        <button data-game="math">🔢 Math</button>
+        <button data-game="scramble">🔤 Scramble</button>
+      </div>
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Skor</th>
+            <th>Tanggal</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="https://artimaedu.web.id" data-i18n="footer.domain">artimaedu.web.id</a>
+      <a href="mailto:help@artimaedu.web.id" data-i18n="footer.email">help@artimaedu.web.id</a>
+      <a href="https://www.instagram.com/artima_edu/" target="_blank" rel="noopener noreferrer" data-i18n="footer.instagram">Instagram</a>
+    </div>
+    <p data-i18n="footer.copyright">© 2026 Artima Edu.</p>
+  </footer>
+
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/mini-games.js"></script>
+</body>
+</html>

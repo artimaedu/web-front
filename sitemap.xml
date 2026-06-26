@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://artimaedu.web.id/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/"/>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://artimaedu.web.id/program.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/program.html"/>
@@ -20,48 +20,93 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/program.html"/>
   </url>
   <url>
-    <loc>https://artimaedu.web.id/merchandise.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://artimaedu.web.id/profile.html</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/profile.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/profile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/profile.html"/>
+  </url>
+  <url>
+    <loc>https://artimaedu.web.id/blogs.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/blogs.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/blogs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/blogs.html"/>
+  </url>
+  <url>
+    <loc>https://artimaedu.web.id/blog-5-alasan-coding.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/blog-5-alasan-coding.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/blog-5-alasan-coding.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/blog-5-alasan-coding.html"/>
+  </url>
+  <url>
+    <loc>https://artimaedu.web.id/blog-english-broom-room.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/blog-english-broom-room.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/blog-english-broom-room.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/blog-english-broom-room.html"/>
+  </url>
+  <url>
+    <loc>https://artimaedu.web.id/blog-visual-block-coding.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/blog-visual-block-coding.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/blog-visual-block-coding.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/blog-visual-block-coding.html"/>
+  </url>
+  <url>
+    <loc>https://artimaedu.web.id/merchandise.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/merchandise.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/merchandise.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/merchandise.html"/>
   </url>
   <url>
+    <loc>https://artimaedu.web.id/mini-games.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/mini-games.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/mini-games.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/mini-games.html"/>
+  </url>
+  <url>
     <loc>https://artimaedu.web.id/more-services.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/more-services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/more-services.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/more-services.html"/>
   </url>
   <url>
     <loc>https://artimaedu.web.id/service-building-website.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/service-building-website.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/service-building-website.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/service-building-website.html"/>
   </url>
   <url>
     <loc>https://artimaedu.web.id/service-building-portfolio.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/service-building-portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/service-building-portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/service-building-portfolio.html"/>
-  </url>
-  <url>
-    <loc>https://artimaedu.web.id/profile.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/profile.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/profile.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/profile.html"/>
   </url>
 </urlset>

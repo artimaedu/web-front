@@ -10,6 +10,10 @@
       "blog": "Blog",
       "merchandise": "Merchandise",
       "moreServices": "More Services",
+      "miniGames": "Mini Games",
+      "home": "Beranda",
+      "program": "Program",
+      "testimonials": "Testimoni",
       "ctaWhatsapp": "Chat WhatsApp",
       "langToggle": "EN"
     },
@@ -20,6 +24,11 @@
       "trustAge": "Usia 4–17+",
       "trustKid": "Ramah anak & orang tua",
       "trustFor": "Untuk anak & ibu"
+    },
+    "miniGamesPromo": {
+      "title": "Mini Games Arena",
+      "subtitle": "Asah otak si kecil dengan 3 game seru! Pattern Puzzle, Math Galaxy, dan Word Scramble — gratis, langsung main!",
+      "cta": "🎮 Main Sekarang!"
     },
     "philosophy": {
       "title": "Misi Kami di Alam Semesta Artima",
@@ -381,6 +390,10 @@
       "blog": "Blog",
       "merchandise": "Merchandise",
       "moreServices": "More Services",
+      "miniGames": "Mini Games",
+      "home": "Home",
+      "program": "Program",
+      "testimonials": "Testimonials",
       "ctaWhatsapp": "Chat on WhatsApp",
       "langToggle": "ID"
     },
@@ -391,6 +404,11 @@
       "trustAge": "Ages 4–17+",
       "trustKid": "Kid & parent friendly",
       "trustFor": "For kids & moms"
+    },
+    "miniGamesPromo": {
+      "title": "Mini Games Arena",
+      "subtitle": "Sharpen your kids' brains with 3 fun games! Pattern Puzzle, Math Galaxy, and Word Scramble — free, play now!",
+      "cta": "🎮 Play Now!"
     },
     "philosophy": {
       "title": "Our Mission in the Artima Universe",
