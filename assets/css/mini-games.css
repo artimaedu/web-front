@@ -792,7 +792,16 @@
 
 .arrows-display {
   font-size: clamp(5rem, 15vw, 10rem);
-  line-height: 1.2;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrows-display svg {
+  width: clamp(80px, 20vw, 160px);
+  height: clamp(80px, 20vw, 160px);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
   margin-bottom: var(--space-lg);
   opacity: 0;
   transform: scale(0.5);
@@ -971,12 +980,14 @@
   .achievements-grid { grid-template-columns: 1fr; }
   .scramble-input-row input { width: 180px; }
   .arrow-btn { width: 70px; height: 70px; font-size: 1.8rem; }
+  .arrow-btn svg { width: 32px; height: 32px; }
   .color-btn { width: 70px; height: 70px; font-size: 1.5rem; }
   .colors-splash { width: 120px; height: 120px; }
 }
 
 @media (max-width: 480px) {
   .arrow-btn { width: 60px; height: 60px; font-size: 1.5rem; }
+  .arrow-btn svg { width: 28px; height: 28px; }
   .color-btn { width: 60px; height: 60px; font-size: 1.3rem; }
   .colors-splash { width: 100px; height: 100px; }
 }
