@@ -801,9 +801,10 @@ function nextCipherRound() {
   $('#cipher-display').textContent = encrypted;
   $('#cipher-hint').textContent = `💡 Hint: ${wordObj.hint}`;
 
-  // Show cipher key (letter -> symbol mapping)
+  // Show cipher key (letter -> symbol mapping) in random order
   const keyEl = $('#cipher-key');
-  keyEl.innerHTML = Object.entries(cipher).map(([letter, symbol]) =>
+  const keyEntries = shuffle(Object.entries(cipher));
+  keyEl.innerHTML = keyEntries.map(([letter, symbol]) =>
     `<span class="cipher-key-item"><span class="symbol">${symbol}</span> = ${letter}</span>`
   ).join('');
 
