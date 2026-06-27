@@ -839,6 +839,12 @@
   justify-content: center;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+
+.arrow-btn svg,
+.arrow-btn svg * {
+  pointer-events: none;
 }
 
 .arrow-btn:hover {
