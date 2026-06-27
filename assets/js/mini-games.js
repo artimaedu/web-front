@@ -853,14 +853,18 @@ function handleArrowsAnswer(idx) {
    GAME 6: Color Splash (color recognition, ages 2-6)
    ============================================================ */
 const COLORS_PALETTE = [
-  { name: 'Merah',   hex: '#ef4444', emoji: '🔴' },
-  { name: 'Biru',    hex: '#3b82f6', emoji: '🔵' },
-  { name: 'Kuning',  hex: '#eab308', emoji: '🟡' },
-  { name: 'Hijau',   hex: '#22c55e', emoji: '🟢' },
-  { name: 'Ungu',    hex: '#a855f7', emoji: '🟣' },
-  { name: 'Oranye',  hex: '#f97316', emoji: '🟠' },
-  { name: 'Pink',    hex: '#ec4899', emoji: '💗' },
-  { name: 'Putih',   hex: '#f8fafc', emoji: '⚪' }
+  { name: 'Merah',    hex: '#ef4444', emoji: '🔴' },
+  { name: 'Biru',     hex: '#3b82f6', emoji: '🔵' },
+  { name: 'Kuning',   hex: '#eab308', emoji: '🟡' },
+  { name: 'Hijau',    hex: '#22c55e', emoji: '🟢' },
+  { name: 'Ungu',     hex: '#a855f7', emoji: '🟣' },
+  { name: 'Oranye',   hex: '#f97316', emoji: '🟠' },
+  { name: 'Pink',     hex: '#ec4899', emoji: '💗' },
+  { name: 'Putih',    hex: '#f8fafc', emoji: '⚪' },
+  { name: 'Cokelat',  hex: '#92400e', emoji: '🟤' },
+  { name: 'Abu-abu',  hex: '#6b7280', emoji: '🔘' },
+  { name: 'Biru Laut',hex: '#06b6d4', emoji: '💎' },
+  { name: 'Salmon',   hex: '#fb7185', emoji: '🌸' }
 ];
 
 let colorsState = {};
@@ -1039,6 +1043,15 @@ document.addEventListener('DOMContentLoaded', () => {
       clearInterval(mathTimer);
       $$('.game-screen').forEach(s => s.classList.remove('active'));
       showHub();
+    });
+  });
+
+  // Arrow buttons (mobile-safe: use addEventListener, not onclick)
+  $$('#arrows-choices .arrow-btn').forEach(btn => {
+    btn.addEventListener('click', () => handleArrowsAnswer(parseInt(btn.dataset.idx)));
+    btn.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      handleArrowsAnswer(parseInt(btn.dataset.idx));
     });
   });
 
