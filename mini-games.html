@@ -43,7 +43,7 @@
     <!-- ========== GAME HUB ========== -->
     <section class="games-hub" style="padding-top: calc(var(--space-xl) + 60px);">
       <h1>🎮 Mini Games Arena</h1>
-      <p class="hub-subtitle">Asah otak sambil belajar coding! Untuk usia 8–14 tahun.</p>
+      <p class="hub-subtitle">Asah otak sambil belajar coding! Untuk usia 2–14 tahun 🎮</p>
 
       <!-- Player Name -->
       <div class="player-setup">
@@ -55,12 +55,28 @@
 
       <!-- Game Cards -->
       <div class="game-cards">
-        <!-- Pattern Puzzle -->
-        <div class="game-card" data-game="pattern">
-          <span class="game-icon">🧩</span>
-          <h3>Pattern Puzzle</h3>
-          <p>Temukan pola yang hilang! Latih logika dan berpikir kritis dengan urutan angka dan simbol.</p>
-          <div class="best-score" id="best-pattern">Best: 0</div>
+        <!-- Arrow Catch (2-6 thn) -->
+        <div class="game-card game-card-toddler" data-game="arrows">
+          <span class="game-icon">⬆️</span>
+          <h3>Arrow Catch</h3>
+          <p>Usia 2-6 tahun — Tekan arah panah yang muncul! Melatih koordinasi mata dan tangan.</p>
+          <div class="best-score" id="best-arrows">Best: 0</div>
+        </div>
+
+        <!-- Color Splash (2-6 thn) -->
+        <div class="game-card game-card-toddler" data-game="colors">
+          <span class="game-icon">🎨</span>
+          <h3>Color Splash</h3>
+          <p>Usia 2-6 tahun — Cocokkan warna! Belajar mengenali warna sambil bermain.</p>
+          <div class="best-score" id="best-colors">Best: 0</div>
+        </div>
+
+        <!-- Cipher Quest -->
+        <div class="game-card" data-game="cipher">
+          <span class="game-icon">🔐</span>
+          <h3>Cipher Quest</h3>
+          <p>Dekripsi kode rahasia! A=📧, B=🌟 — tebak kata dari simbol-simbol!</p>
+          <div class="best-score" id="best-cipher">Best: 0</div>
         </div>
 
         <!-- Math Galaxy -->
@@ -78,26 +94,79 @@
           <p>Susun huruf acak menjadi kata teknologi & coding. Ada hint untuk membantu!</p>
           <div class="best-score" id="best-scramble">Best: 0</div>
         </div>
+
+        <!-- Pattern Puzzle -->
+        <div class="game-card" data-game="pattern">
+          <span class="game-icon">🧩</span>
+          <h3>Pattern Puzzle</h3>
+          <p>Temukan pola yang hilang! Latih logika dan berpikir kritis dengan urutan angka dan simbol.</p>
+          <div class="best-score" id="best-pattern">Best: 0</div>
+        </div>
       </div>
     </section>
 
-    <!-- ========== GAME 1: Pattern Puzzle ========== -->
-    <div class="game-screen" id="game-pattern">
+    <!-- ========== GAME 1: Arrow Catch (2-6 thn) ========== -->
+    <div class="game-screen game-screen-toddler" id="game-arrows">
       <div class="game-header">
         <button class="btn-back">← Kembali</button>
-        <h2>🧩 Pattern Puzzle</h2>
+        <h2>⬆️ Arrow Catch</h2>
         <div class="game-stats">
-          <span>Ronde: <strong id="pattern-round">1/10</strong></span>
-          <span>Skor: <strong id="pattern-score">0</strong></span>
+          <span>Ronde: <strong id="arrows-round">1/10</strong></span>
+          <span>Skor: <strong id="arrows-score">0</strong></span>
         </div>
       </div>
-      <div class="pattern-area">
-        <div class="pattern-sequence" id="pattern-sequence"></div>
-        <div class="pattern-choices" id="pattern-choices"></div>
+      <div class="arrows-area">
+        <div class="arrows-display" id="arrows-display">⬆️</div>
+        <div class="arrows-choices" id="arrows-choices">
+          <button class="arrow-btn" data-idx="0" onclick="handleArrowsAnswer(0)">⬆️</button>
+          <button class="arrow-btn" data-idx="1" onclick="handleArrowsAnswer(1)">⬇️</button>
+          <button class="arrow-btn" data-idx="2" onclick="handleArrowsAnswer(2)">⬅️</button>
+          <button class="arrow-btn" data-idx="3" onclick="handleArrowsAnswer(3)">➡️</button>
+        </div>
+        <div class="arrows-feedback" id="arrows-feedback"></div>
       </div>
     </div>
 
-    <!-- ========== GAME 2: Math Galaxy ========== -->
+    <!-- ========== GAME 2: Color Splash (2-6 thn) ========== -->
+    <div class="game-screen game-screen-toddler" id="game-colors">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🎨 Color Splash</h2>
+        <div class="game-stats">
+          <span>Ronde: <strong id="colors-round">1/8</strong></span>
+          <span>Skor: <strong id="colors-score">0</strong></span>
+        </div>
+      </div>
+      <div class="colors-area">
+        <div class="colors-splash" id="colors-splash">🔴</div>
+        <div class="colors-choices" id="colors-choices"></div>
+        <div class="colors-feedback" id="colors-feedback"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME 3: Cipher Quest ========== -->
+    <div class="game-screen" id="game-cipher">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🔐 Cipher Quest</h2>
+        <div class="game-stats">
+          <span>Teka: <strong id="cipher-round">1/8</strong></span>
+          <span>Skor: <strong id="cipher-score">0</strong></span>
+        </div>
+      </div>
+      <div class="cipher-area">
+        <div class="cipher-encrypted" id="cipher-display">🌀🌀🌀🌀</div>
+        <p class="cipher-hint" id="cipher-hint">💡 Hint: ...</p>
+        <div class="cipher-key" id="cipher-key"></div>
+        <div class="cipher-input-row">
+          <input type="text" id="cipher-answer" placeholder="Ketik jawaban..." maxlength="15" autocomplete="off" spellcheck="false">
+          <button id="btn-cipher-submit">Dekripsi!</button>
+        </div>
+        <div class="cipher-feedback" id="cipher-feedback"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME 4: Math Galaxy ========== -->
     <div class="game-screen" id="game-math">
       <div class="game-header">
         <button class="btn-back">← Kembali</button>
@@ -114,7 +183,7 @@
       </div>
     </div>
 
-    <!-- ========== GAME 3: Word Scramble ========== -->
+    <!-- ========== GAME 5: Word Scramble ========== -->
     <div class="game-screen" id="game-scramble">
       <div class="game-header">
         <button class="btn-back">← Kembali</button>
@@ -132,6 +201,22 @@
           <button id="btn-scramble-submit">Submit</button>
         </div>
         <div class="scramble-feedback" id="scramble-feedback"></div>
+      </div>
+    </div>
+
+    <!-- ========== GAME 6: Pattern Puzzle ========== -->
+    <div class="game-screen" id="game-pattern">
+      <div class="game-header">
+        <button class="btn-back">← Kembali</button>
+        <h2>🧩 Pattern Puzzle</h2>
+        <div class="game-stats">
+          <span>Ronde: <strong id="pattern-round">1/10</strong></span>
+          <span>Skor: <strong id="pattern-score">0</strong></span>
+        </div>
+      </div>
+      <div class="pattern-area">
+        <div class="pattern-sequence" id="pattern-sequence"></div>
+        <div class="pattern-choices" id="pattern-choices"></div>
       </div>
     </div>
 
@@ -161,9 +246,12 @@
     <section class="leaderboard-section">
       <h2>🏆 Leaderboard</h2>
       <div class="leaderboard-tabs">
-        <button class="active" data-game="pattern">🧩 Pattern</button>
+        <button class="active" data-game="arrows">⬆️ Arrows</button>
+        <button data-game="colors">🎨 Colors</button>
+        <button data-game="cipher">🔐 Cipher</button>
         <button data-game="math">🔢 Math</button>
         <button data-game="scramble">🔤 Scramble</button>
+        <button data-game="pattern">🧩 Pattern</button>
       </div>
       <table class="leaderboard-table">
         <thead>

@@ -1,6 +1,6 @@
 /* ============================================================
    Artima Edu — mini-games.js
-   3 Mini Games + Achievements + Leaderboard (localStorage)
+   4 Mini Games + Achievements + Leaderboard (localStorage)
    ============================================================ */
 
 const GAMES_STORAGE_KEY = 'artima-mini-games';
@@ -10,12 +10,13 @@ function getDefaultData() {
   return {
     playerName: '',
     gamesPlayed: 0,
-    scores: { pattern: [], math: [], scramble: [] },
+    scores: { pattern: [], math: [], scramble: [], cipher: [], arrows: [], colors: [] },
     achievements: {
       first_game:      { unlocked: false, date: null },
       pattern_master:  { unlocked: false, date: null },
       math_wizard:     { unlocked: false, date: null },
       word_guru:       { unlocked: false, date: null },
+      cipher_master:   { unlocked: false, date: null },
       perfect_10:      { unlocked: false, date: null },
       speed_demon:     { unlocked: false, date: null },
       all_rounder:     { unlocked: false, date: null },
@@ -30,9 +31,10 @@ const ACHIEVEMENT_META = {
   pattern_master: { icon: '🧩', name: 'Pattern Master',  desc: 'Skor 100+ di Pattern Puzzle' },
   math_wizard:    { icon: '🔢', name: 'Math Wizard',     desc: 'Skor 100+ di Math Galaxy' },
   word_guru:      { icon: '🔤', name: 'Word Guru',       desc: 'Skor 80+ di Word Scramble' },
+  cipher_master:  { icon: '🔐', name: 'Cipher Master',   desc: 'Skor 100+ di Cipher Quest' },
   perfect_10:     { icon: '⭐', name: 'Perfect 10',      desc: 'Jawab semua benar di satu game' },
   speed_demon:    { icon: '⚡', name: 'Speed Demon',     desc: 'Sisa waktu total 50+ detik di Math Galaxy' },
-  all_rounder:    { icon: '🎯', name: 'All Rounder',     desc: 'Mainkan semua 3 game' },
+  all_rounder:    { icon: '🎯', name: 'All Rounder',     desc: 'Mainkan semua 4 game' },
   high_scorer:    { icon: '🏆', name: 'High Scorer',     desc: 'Total skor semua game > 300' },
   persistent:     { icon: '💪', name: 'Never Give Up',   desc: 'Mainkan 10 game total' }
 };
@@ -45,7 +47,13 @@ function loadData() {
     const d = JSON.parse(raw);
     // Merge missing keys
     const def = getDefaultData();
-    if (!d.scores) d.scores = def.scores;
+    if (!d.scores) {
+      d.scores = def.scores;
+    } else {
+      for (const k of Object.keys(def.scores)) {
+        if (!d.scores[k]) d.scores[k] = [];
+      }
+    }
     if (!d.achievements) d.achievements = def.achievements;
     for (const k of Object.keys(def.achievements)) {
       if (!d.achievements[k]) d.achievements[k] = def.achievements[k];
@@ -101,6 +109,7 @@ function checkAchievements(gameKey, score, correctCount, totalCount, extraInfo) 
   if (gameKey === 'pattern' && score >= 100) unlock('pattern_master');
   if (gameKey === 'math'    && score >= 100) unlock('math_wizard');
   if (gameKey === 'scramble' && score >= 80) unlock('word_guru');
+  if (gameKey === 'cipher'  && score >= 100) unlock('cipher_master');
 
   // Perfect (all correct)
   if (correctCount === totalCount) unlock('perfect_10');
@@ -111,15 +120,16 @@ function checkAchievements(gameKey, score, correctCount, totalCount, extraInfo) 
   }
 
   // All rounder: played at least 1 of each
-  if (data.scores.pattern.length > 0 && data.scores.math.length > 0 && data.scores.scramble.length > 0) {
+  if (data.scores.pattern.length > 0 && data.scores.math.length > 0 && data.scores.scramble.length > 0 && data.scores.cipher.length > 0) {
     unlock('all_rounder');
   }
 
-  // High scorer: best score sum > 300
+  // High scorer: best score sum > 400 (now includes cipher)
   const bestP = data.scores.pattern.length ? data.scores.pattern[0].score : 0;
   const bestM = data.scores.math.length    ? data.scores.math[0].score    : 0;
   const bestS = data.scores.scramble.length ? data.scores.scramble[0].score : 0;
-  if (bestP + bestM + bestS > 300) unlock('high_scorer');
+  const bestC = data.scores.cipher.length  ? data.scores.cipher[0].score  : 0;
+  if (bestP + bestM + bestS + bestC > 400) unlock('high_scorer');
 
   // Persistent: 10+ games
   if (data.gamesPlayed >= 10) unlock('persistent');
@@ -167,7 +177,7 @@ function getPlayerName() {
 }
 
 /* ---------- Navigation ---------- */
-function showHub() {
+function showHub(lastGame) {
   $('.games-hub').style.display = '';
   $$('.game-screen').forEach(s => s.classList.remove('active'));
   $('.game-result').classList.remove('active');
@@ -175,7 +185,7 @@ function showHub() {
   $('.leaderboard-section').style.display = '';
   updateBestScores();
   renderAchievements();
-  renderLeaderboard('pattern');
+  renderLeaderboard(lastGame || 'arrows');
   currentGame = null;
 }
 
@@ -202,12 +212,18 @@ function startGame(gameKey) {
   if (gameKey === 'pattern') startPatternGame();
   else if (gameKey === 'math') startMathGame();
   else if (gameKey === 'scramble') startScrambleGame();
+  else if (gameKey === 'cipher') startCipherGame();
+  else if (gameKey === 'arrows') startArrowsGame();
+  else if (gameKey === 'colors') startColorsGame();
 }
 
 function updateBestScores() {
   $('#best-pattern').textContent  = `Best: ${getBestScore('pattern')}`;
   $('#best-math').textContent     = `Best: ${getBestScore('math')}`;
   $('#best-scramble').textContent = `Best: ${getBestScore('scramble')}`;
+  $('#best-cipher').textContent   = `Best: ${getBestScore('cipher')}`;
+  $('#best-arrows').textContent   = `Best: ${getBestScore('arrows')}`;
+  $('#best-colors').textContent   = `Best: ${getBestScore('colors')}`;
 }
 
 /* ---------- Game Result Screen ---------- */
@@ -249,7 +265,7 @@ function showResult(gameKey, score, correctCount, totalCount, extraInfo) {
   };
   result.querySelector('.btn-menu').onclick = () => {
     result.classList.remove('active');
-    showHub();
+    showHub(gameKey);
   };
 
   result.classList.add('active');
@@ -640,6 +656,301 @@ function scrambleWord(word) {
 }
 
 /* ============================================================
+   GAME 4: Cipher Quest (Substitution Cipher Decoder)
+   ============================================================ */
+const CIPHER_SYMBOLS = ['📧', '🌟', '🔮', '⚡', '🎯', '💎', '🔥', '🌙', '⭐', '🎪', '🏆', '🎭', '🎨', '🎬', '🎸', '🎹', '🎲', '🎁', '🎀', '🎈', '🎁', '🌈', '🌺', '🍀', '🌻', '🌼'];
+
+const CIPHER_WORD_BANK = [
+  { word: 'CODE',     hint: 'Menulis instruksi untuk komputer' },
+  { word: 'HACK',     hint: 'Ahli keamanan IT' },
+  { word: 'PIXEL',    hint: 'Titik kecil di layar' },
+  { word: 'CRASH',    hint: 'Program berhenti tiba-tiba' },
+  { word: 'SCRIPT',   hint: 'Kode yang menjalankan website' },
+  { word: 'UPLOAD',   hint: 'Mengirim file ke server' },
+  { word: 'BITCOIN',  hint: 'Mata uang digital populer' },
+  { word: 'NETWORK',  hint: 'Jaringan komputer' },
+  { word: 'BACKUP',   hint: 'Salinan cadangan data' },
+  { word: 'SOCKET',   hint: 'Titik koneksi di jaringan' },
+  { word: 'PAYLOAD',  hint: 'Data dalam paket jaringan' },
+  { word: 'MALWARE',  hint: 'Perangkat lunak berbahaya' },
+  { word: 'KEYLOG',   hint: 'Alat sadap ketikan' },
+  { word: 'CRYPTEX',  hint: 'Tempat menyimpan pesan rahasia' },
+  { word: 'DECODER',  hint: 'Alat untuk menerjemahkan kode' },
+  { word: 'ENIGMA',   hint: 'Mesin cipher legendaris' },
+  { word: 'CIPHER',   hint: 'Kode rahasia' },
+  { word: 'DECRYPT',  hint: 'Membuka pesan terenkripsi' },
+  { word: 'ENCRYPT',  hint: 'Menyembunyikan pesan' },
+  { word: 'PASSWORD', hint: 'Kunci untuk masuk sistem' },
+  { word: 'USERNAME', hint: 'Nama untuk login' },
+  { word: 'SESSION',  hint: 'Waktu aktif menggunakan aplikasi' },
+  { word: 'CACHE',    hint: 'Penyimpanan sementara browser' },
+  { word: 'QUANTUM',  hint: 'Komputer masa depan' },
+  { word: 'HOLOGRAM', hint: 'Gambar 3D di udara' },
+  { word: 'FIREWALL', hint: 'Pelindung dari hacker' }
+];
+
+// Generate a random substitution cipher for a word
+function generateCipher(word) {
+  const symbols = shuffle([...CIPHER_SYMBOLS]);
+  const cipher = {};
+  const uniqueLetters = [...new Set(word.split(''))];
+
+  for (let i = 0; i < uniqueLetters.length; i++) {
+    cipher[uniqueLetters[i]] = symbols[i];
+  }
+
+  const encrypted = word.split('').map(letter => cipher[letter]).join('');
+  return { cipher, encrypted };
+}
+
+let cipherState = {};
+
+function startCipherGame() {
+  // Pick 8 random words
+  const words = shuffle([...CIPHER_WORD_BANK]).slice(0, 8);
+  cipherState = { words, round: 0, score: 0, correct: 0, total: 8 };
+  const screen = $('#game-cipher');
+  screen.classList.add('active');
+  nextCipherRound();
+}
+
+function nextCipherRound() {
+  if (cipherState.round >= cipherState.total) {
+    $('#game-cipher').classList.remove('active');
+    showResult('cipher', cipherState.score, cipherState.correct, cipherState.total);
+    return;
+  }
+
+  const wordObj = cipherState.words[cipherState.round];
+  cipherState.round++;
+  cipherState.startTime = Date.now();
+  cipherState.currentWord = wordObj.word;
+
+  // Generate cipher for this word
+  const { cipher, encrypted } = generateCipher(wordObj.word);
+  cipherState.currentCipher = cipher;
+
+  $('#cipher-round').textContent = `${cipherState.round}/${cipherState.total}`;
+  $('#cipher-score').textContent = cipherState.score;
+  $('#cipher-display').textContent = encrypted;
+  $('#cipher-hint').textContent = `💡 Hint: ${wordObj.hint}`;
+
+  // Show cipher key (letter -> symbol mapping)
+  const keyEl = $('#cipher-key');
+  keyEl.innerHTML = Object.entries(cipher).map(([letter, symbol]) =>
+    `<span class="cipher-key-item"><span class="symbol">${symbol}</span> = ${letter}</span>`
+  ).join('');
+
+  $('#cipher-answer').value = '';
+  $('#cipher-feedback').textContent = '';
+  $('#cipher-feedback').className = 'cipher-feedback';
+  $('#cipher-answer').focus();
+}
+
+function handleCipherSubmit() {
+  const input = $('#cipher-answer');
+  const guess = input.value.trim().toUpperCase();
+
+  if (!guess) { input.focus(); return; }
+
+  const feedback = $('#cipher-feedback');
+
+  if (guess === cipherState.currentWord) {
+    feedback.textContent = '✅ Benar! Kamu jago dekripsi!';
+    feedback.className = 'cipher-feedback correct';
+    const elapsed = (Date.now() - cipherState.startTime) / 1000;
+    const bonus = elapsed < 10 ? 5 : (elapsed < 20 ? 2 : 0);
+    cipherState.score += 20 + bonus;
+    cipherState.correct++;
+  } else {
+    feedback.textContent = `❌ Salah! Jawaban: ${cipherState.currentWord}`;
+    feedback.className = 'cipher-feedback wrong';
+  }
+
+  setTimeout(nextCipherRound, 1800);
+}
+
+/* ============================================================
+   GAME 5: Arrow Catch (arrow direction matching, ages 2-6)
+   ============================================================ */
+const ARROW_DIRS = ['⬆️', '⬇️', '⬅️', '➡️'];
+const ARROW_KEYS = ['UP', 'DOWN', 'LEFT', 'RIGHT'];
+
+let arrowsState = {};
+
+function startArrowsGame() {
+  arrowsState = { round: 0, score: 0, correct: 0, total: 10, startTime: 0, ready: true };
+  const screen = $('#game-arrows');
+  screen.classList.add('active');
+  nextArrowsRound();
+}
+
+function nextArrowsRound() {
+  if (arrowsState.round >= arrowsState.total) {
+    $('#game-arrows').classList.remove('active');
+    showResult('arrows', arrowsState.score, arrowsState.correct, arrowsState.total);
+    return;
+  }
+
+  arrowsState.round++;
+  arrowsState.ready = true;
+  arrowsState.startTime = Date.now();
+
+  $('#arrows-round').textContent = `${arrowsState.round}/${arrowsState.total}`;
+  $('#arrows-score').textContent = arrowsState.score;
+
+  // Pick a random direction
+  const idx = rand(0, ARROW_DIRS.length - 1);
+  arrowsState.currentAnswer = idx;
+
+  $('#arrows-display').textContent = ARROW_DIRS[idx];
+  $('#arrows-display').className = 'arrows-display';
+  // Add entrance animation
+  setTimeout(() => $('#arrows-display').classList.add('show'), 10);
+
+  // Highlight the correct button hint (optional — just show arrows as buttons)
+  const btns = $$('#arrows-choices button');
+  btns.forEach((btn, i) => {
+    btn.className = '';
+    btn.style.pointerEvents = 'auto';
+  });
+}
+
+function handleArrowsAnswer(idx) {
+  if (!arrowsState.ready) return;
+  arrowsState.ready = false;
+
+  const btns = $$('#arrows-choices button');
+  btns.forEach(b => b.style.pointerEvents = 'none');
+
+  if (idx === arrowsState.currentAnswer) {
+    btns[idx].classList.add('correct');
+    const elapsed = (Date.now() - arrowsState.startTime) / 1000;
+    const bonus = elapsed < 2 ? 5 : 0;
+    arrowsState.score += 10 + bonus;
+    arrowsState.correct++;
+    // Happy feedback
+    const feedbacks = ['🎉', '⭐', '✨', '👏', '🌟', '💫'];
+    $('#arrows-feedback').textContent = feedbacks[rand(0, feedbacks.length - 1)];
+    $('#arrows-feedback').className = 'arrows-feedback show';
+  } else {
+    btns[idx].classList.add('wrong');
+    btns[arrowsState.currentAnswer].classList.add('correct');
+    $('#arrows-feedback').textContent = '😊';
+    $('#arrows-feedback').className = 'arrows-feedback show';
+    // Shake the display
+    $('#arrows-display').classList.add('shake');
+  }
+
+  setTimeout(() => {
+    $('#arrows-feedback').className = 'arrows-feedback';
+    $('#arrows-display').className = 'arrows-display';
+    nextArrowsRound();
+  }, 1200);
+}
+
+/* ============================================================
+   GAME 6: Color Splash (color recognition, ages 2-6)
+   ============================================================ */
+const COLORS_PALETTE = [
+  { name: 'Merah',   hex: '#ef4444', emoji: '🔴' },
+  { name: 'Biru',    hex: '#3b82f6', emoji: '🔵' },
+  { name: 'Kuning',  hex: '#eab308', emoji: '🟡' },
+  { name: 'Hijau',   hex: '#22c55e', emoji: '🟢' },
+  { name: 'Ungu',    hex: '#a855f7', emoji: '🟣' },
+  { name: 'Oranye',  hex: '#f97316', emoji: '🟠' },
+  { name: 'Pink',    hex: '#ec4899', emoji: '💗' },
+  { name: 'Putih',   hex: '#f8fafc', emoji: '⚪' }
+];
+
+let colorsState = {};
+
+function startColorsGame() {
+  colorsState = { round: 0, score: 0, correct: 0, total: 8, startTime: 0, ready: true };
+  const screen = $('#game-colors');
+  screen.classList.add('active');
+  nextColorsRound();
+}
+
+function nextColorsRound() {
+  if (colorsState.round >= colorsState.total) {
+    $('#game-colors').classList.remove('active');
+    showResult('colors', colorsState.score, colorsState.correct, colorsState.total);
+    return;
+  }
+
+  colorsState.round++;
+  colorsState.ready = true;
+  colorsState.startTime = Date.now();
+  $('#colors-round').textContent = `${colorsState.round}/${colorsState.total}`;
+  $('#colors-score').textContent = colorsState.score;
+
+  // Pick a random target color
+  const targetIdx = rand(0, COLORS_PALETTE.length - 1);
+  colorsState.currentAnswer = targetIdx;
+
+  // Show the splash
+  const splash = $('#colors-splash');
+  splash.style.backgroundColor = COLORS_PALETTE[targetIdx].hex;
+  splash.textContent = COLORS_PALETTE[targetIdx].emoji;
+  splash.className = 'colors-splash pop-in';
+
+  // Generate 3-4 choices including the correct one
+  const choiceCount = 3;
+  const indices = [targetIdx];
+  while (indices.length < choiceCount) {
+    const r = rand(0, COLORS_PALETTE.length - 1);
+    if (!indices.includes(r)) indices.push(r);
+  }
+  const shuffled = shuffle(indices);
+
+  const container = $('#colors-choices');
+  container.innerHTML = '';
+  shuffled.forEach(i => {
+    const btn = document.createElement('button');
+    btn.className = 'color-btn';
+    btn.dataset.idx = i;
+    btn.style.backgroundColor = COLORS_PALETTE[i].hex;
+    btn.textContent = COLORS_PALETTE[i].emoji;
+    btn.addEventListener('click', () => handleColorsAnswer(i));
+    container.appendChild(btn);
+  });
+}
+
+function handleColorsAnswer(idx) {
+  if (!colorsState.ready) return;
+  colorsState.ready = false;
+
+  const btns = $$('#colors-choices .color-btn');
+  btns.forEach(b => b.style.pointerEvents = 'none');
+
+  if (idx === colorsState.currentAnswer) {
+    btns.forEach(b => {
+      if (parseInt(b.dataset.idx) === idx) b.classList.add('correct');
+    });
+    const elapsed = (Date.now() - colorsState.startTime) / 1000;
+    colorsState.score += 10 + Math.max(0, 5 - Math.floor(elapsed));
+    colorsState.correct++;
+    $('#colors-feedback').textContent = '🎉 Yay!';
+    $('#colors-feedback').className = 'colors-feedback show';
+    $('#colors-splash').classList.add('celebrate');
+  } else {
+    btns.forEach(b => {
+      if (parseInt(b.dataset.idx) === idx) b.classList.add('wrong');
+      if (parseInt(b.dataset.idx) === colorsState.currentAnswer) b.classList.add('correct');
+    });
+    $('#colors-feedback').textContent = '😊 Coba lagi!';
+    $('#colors-feedback').className = 'colors-feedback show';
+  }
+
+  setTimeout(() => {
+    $('#colors-feedback').className = 'colors-feedback';
+    $('#colors-splash').className = 'colors-splash';
+    nextColorsRound();
+  }, 1500);
+}
+
+/* ============================================================
    Achievements UI
    ============================================================ */
 function renderAchievements() {
@@ -715,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPlayerName();
   updateBestScores();
   renderAchievements();
-  renderLeaderboard('pattern');
+  renderLeaderboard('arrows');
 
   // Game card clicks
   $$('.game-card').forEach(card => {
@@ -735,6 +1046,12 @@ document.addEventListener('DOMContentLoaded', () => {
   $('#btn-scramble-submit').addEventListener('click', handleScrambleSubmit);
   $('#scramble-answer').addEventListener('keydown', (e) => {
     if (e.key === 'Enter') handleScrambleSubmit();
+  });
+
+  // Cipher submit
+  $('#btn-cipher-submit').addEventListener('click', handleCipherSubmit);
+  $('#cipher-answer').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') handleCipherSubmit();
   });
 
   // Leaderboard tabs
