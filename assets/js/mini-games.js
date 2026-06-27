@@ -841,10 +841,10 @@ function handleCipherSubmit() {
    GAME 5: Arrow Catch (arrow direction matching, ages 2-6)
    ============================================================ */
 const ARROW_SVG = [
-  `<svg viewBox="0 0 100 100" width="1em" height="1em"><polygon points="50,10 90,70 70,70 70,90 30,90 30,70 10,70" fill="#fbbf24"/></svg>`,
-  `<svg viewBox="0 0 100 100" width="1em" height="1em"><polygon points="50,90 90,30 70,30 70,10 30,10 30,30 10,30" fill="#60a5fa"/></svg>`,
-  `<svg viewBox="0 0 100 100" width="1em" height="1em"><polygon points="10,50 70,10 70,30 90,30 90,70 70,70 70,90" fill="#f472b6"/></svg>`,
-  `<svg viewBox="0 0 100 100" width="1em" height="1em"><polygon points="90,50 30,10 30,30 10,30 10,70 30,70 30,90" fill="#34d399"/></svg>`
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50,10 90,70 70,70 70,90 30,90 30,70 10,70" fill="#fbbf24"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50,90 90,30 70,30 70,10 30,10 30,30 10,30" fill="#60a5fa"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="10,50 70,10 70,30 90,30 90,70 70,70 70,90" fill="#f472b6"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="90,50 30,10 30,30 10,30 10,70 30,70 30,90" fill="#34d399"/></svg>`
 ];
 const ARROW_DIRS = ARROW_SVG;
 const ARROW_KEYS = ['UP', 'DOWN', 'LEFT', 'RIGHT'];
@@ -884,7 +884,7 @@ function nextArrowsRound() {
   // Highlight the correct button hint (optional — just show arrows as buttons)
   const btns = $$('#arrows-choices button');
   btns.forEach((btn, i) => {
-    btn.className = '';
+    btn.className = 'arrow-btn';
     btn.style.pointerEvents = 'auto';
   });
 }
