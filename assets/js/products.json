@@ -1,47 +1,6 @@
 {
   "products": [
     {
-      "slug": "coding-robot-brick-block",
-      "name": { "id": "Coding Robot Brick Block", "en": "Coding Robot Brick Block" },
-      "tagline": {
-        "id": "Bangun, coding, dan kendalikan robotmu sendiri dengan Coding Robot Brick Block dari aplikasi WeDo2. Menggabungkan aktivitas merakit dan pemrograman visual untuk melatih logika, kreativitas, dan problem solving anak. Cocok untuk mengenalkan konsep STEM melalui pengalaman belajar yang interaktif. Belajar jadi lebih seru sambil bermain dan berkreasi!",
-        "en": "Build, code, and control your own robot with the Coding Robot Brick Block and the WeDo2 app. It combines building and visual programming to train logic, creativity, and problem solving. Perfect for introducing STEM concepts through an interactive learning experience. Learning is more fun while playing and creating!"
-      },
-      "price": "Rp 450.000",
-      "priceUnit": { "id": "/set", "en": "/set" },
-      "age": "6+",
-      "badge": "WeDo App",
-      "image": "assets/img/products/coding-robot-brick-block.jpeg",
-      "videoId": "dQw4w9WgXcQ",
-      "cta": "merch.coding-robot-brick-block",
-      "features": [
-        { "id": "100+ building brick pieces + motor + sensor", "en": "100+ building brick pieces + motor + sensor" },
-        { "id": "Aplikasi block coding untuk pemrograman visual", "en": "Block coding app for visual programming" },
-        { "id": "Belajar mekanik, sensor, motor & logika pemrograman", "en": "Learn mechanics, sensors, motors & programming logic" },
-        { "id": "Cocok untuk anak usia 6 tahun ke atas", "en": "Suitable for ages 6 and up" }
-      ],
-      "description": [
-        {
-          "id": "Coding Robot Brick Block adalah media belajar STEM yang menggabungkan aktivitas merakit robot dan pemrograman visual (block coding) dalam satu pengalaman belajar yang menyenangkan. Anak tidak hanya bermain balok, tetapi juga belajar logika, kreativitas, dan teknologi sejak dini melalui proyek robotik yang interaktif.",
-          "en": "The Coding Robot Brick Block is a STEM learning medium that combines robot-building with visual programming (block coding) in one fun learning experience. Kids don't just play with blocks — they learn logic, creativity, and technology from an early age through interactive robotics projects."
-        },
-        {
-          "id": "Melalui proses merakit dan memprogram robot, anak akan mengenal konsep dasar mekanik, struktur, roda gigi, sensor, motor, hingga logika pemrograman secara bertahap. Anak dapat membuat robot bergerak maju dan mundur, berbelok dan berputar, menjalankan perintah berurutan, merespons sensor dan lingkungan, hingga menyelesaikan misi coding sederhana hingga lanjutan. Belajar coding menjadi lebih mudah tanpa harus mengetik bahasa pemrograman yang rumit.",
-          "en": "Through building and programming the robot, children gradually learn the basics of mechanics, structure, gears, sensors, motors, and programming logic. Kids can make the robot move forward and backward, turn and rotate, run sequential commands, respond to sensors and its environment, and solve simple to advanced coding missions. Learning to code becomes easier without typing complex programming languages."
-        },
-        {
-          "id": "Setiap aktivitas disusun secara bertahap dari tingkat dasar hingga lebih kompleks, membantu anak memahami computational thinking, problem solving, logika pemrograman, kreativitas dan inovasi, serta dasar robotika dan STEM. Coding Robot Brick Block bukan hanya mainan, tetapi media belajar bersama keluarga — orang tua dapat mendampingi anak merakit robot, mencoba tantangan coding, dan menyelesaikan misi secara kolaboratif.",
-          "en": "Each activity is graded from basic to more complex, helping children grasp computational thinking, problem solving, programming logic, creativity and innovation, and the basics of robotics and STEM. The Coding Robot Brick Block is not just a toy — it's a medium for learning together as a family. Parents can guide children to build the robot, try coding challenges, and complete missions collaboratively."
-        }
-      ],
-      "specs": {
-        "Usia / Age": "6+",
-        "Isi Paket / Package": "100+ brick + motor + sensor + kabel + panduan / 100+ bricks + motor + sensor + cable + guide",
-        "Aplikasi / App": "Block coding (WeDo2)",
-        "Materi / Topics": "Mekanik, sensor, motor & logika coding / Mechanics, sensors, motors & coding logic"
-      }
-    },
-    {
       "slug": "coding-worksheets-for-kids",
       "name": { "id": "Coding Worksheet Junior", "en": "Coding Worksheet Junior" },
       "tagline": {
