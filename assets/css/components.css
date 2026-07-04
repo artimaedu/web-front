@@ -206,6 +206,22 @@
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
 }
 
+/* Sign-in button in nav - same gradient as .btn-primary (Start Engine);
+   must come after the green .nav-actions .btn rule above so it wins at
+   equal specificity */
+.nav-actions .btn-primary {
+  background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta));
+  color: var(--color-void);
+  border: none;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+  animation: pulse 2.5s ease-in-out infinite;
+}
+.nav-actions .btn-primary:hover {
+  background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta));
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(232, 121, 249, 0.6);
+}
+
 @keyframes pulse {
   0%, 100% { box-shadow: 0 0 20px rgba(34, 211, 238, 0.4); }
   50%      { box-shadow: 0 0 28px rgba(232, 121, 249, 0.6); }

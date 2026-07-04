@@ -15,6 +15,7 @@
       "program": "Program",
       "testimonials": "Testimoni",
       "ctaWhatsapp": "Chat WhatsApp",
+      "signIn": "Masuk",
       "langToggle": "EN"
     },
     "hero": {
@@ -395,6 +396,7 @@
       "program": "Program",
       "testimonials": "Testimonials",
       "ctaWhatsapp": "Chat on WhatsApp",
+      "signIn": "Sign In",
       "langToggle": "ID"
     },
     "hero": {
