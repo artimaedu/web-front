@@ -109,4 +109,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/service-building-portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/service-building-portfolio.html"/>
   </url>
+  <url>
+    <loc>https://artimaedu.web.id/privacy-policy.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
