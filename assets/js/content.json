@@ -204,7 +204,73 @@
       "domain": "artimaedu.web.id",
       "email": "help@artimaedu.web.id",
       "instagram": "Instagram",
+      "privacy": "Kebijakan Privasi",
       "copyright": "© 2026 Artima Edu. Semua bintang dilindungi."
+    },
+    "privacy": {
+      "pageTitle": "Kebijakan Privasi ArtimaEdu / ArtimaEdu Games — Artima Edu",
+      "back": "Kembali ke Beranda",
+      "title": "Kebijakan Privasi ArtimaEdu / ArtimaEdu Games",
+      "effective": "<strong>Berlaku sejak:</strong> 21 Agustus 2026",
+      "intro": "Artima Edu (\"kami\") menyediakan platform pembelajaran <strong>ArtimaEdu</strong> dan aplikasi pendidikan <strong>ArtimaEdu Games</strong>. Kebijakan ini menjelaskan data yang kami proses, tujuan penggunaannya, pihak yang membantu kami memproses data, serta pilihan pengguna dan orang tua.",
+      "data": {
+        "title": "1. Data yang Kami Kumpulkan",
+        "account": "<strong>Data akun:</strong> nama, alamat email, kata sandi yang dilindungi, serta peran akun.",
+        "age": "<strong>Data usia dan orang tua:</strong> tanggal lahir bila diberikan dan email orang tua/wali untuk pengguna di bawah umur.",
+        "activity": "<strong>Aktivitas pembelajaran dan permainan:</strong> kelas yang diikuti, progres dan penyelesaian materi, umpan balik, permainan yang dimiliki, jumlah bermain, skor, pencapaian, dan posisi papan peringkat.",
+        "transaction": "<strong>Transaksi:</strong> riwayat pembelian dan hak akses permainan. Pembayaran dapat diselesaikan melalui halaman web Artima Edu.",
+        "technical": "<strong>Data teknis:</strong> alamat IP, waktu akses, jenis perangkat atau sistem operasi, catatan kesalahan dan keamanan, serta token perangkat untuk notifikasi.",
+        "communication": "<strong>Komunikasi:</strong> isi pesan dan alamat email ketika pengguna menghubungi bantuan."
+      },
+      "use": {
+        "title": "2. Cara Kami Menggunakan Data",
+        "body": "Kami menggunakan data untuk membuat dan mengamankan akun, memberi akses ke kelas dan permainan, menyimpan progres pembelajaran dan skor, menampilkan papan peringkat, mencatat pembelian, mengirim notifikasi layanan jika diizinkan, memberikan bantuan, mencegah penyalahgunaan, dan memenuhi kewajiban hukum.",
+        "leaderboard": "Nama pengguna dan skor dapat terlihat oleh pengguna lain pada papan peringkat. Kami tidak menampilkan alamat email, tanggal lahir, atau email orang tua di papan peringkat."
+      },
+      "sharing": {
+        "title": "3. Penyedia Layanan dan Pembagian Data",
+        "intro": "Kami tidak menjual atau menyewakan data pribadi. Data hanya dibagikan seperlunya kepada penyedia yang membantu menjalankan layanan, yaitu:",
+        "firebase": "<strong>Google Firebase Cloud Messaging</strong> untuk mengirim notifikasi perangkat.",
+        "cloudflare": "<strong>Cloudflare Turnstile</strong> untuk verifikasi keamanan dan pencegahan bot saat masuk atau mendaftar.",
+        "providers": "Penyedia infrastruktur, hosting, dan pembayaran yang diperlukan untuk mengoperasikan layanan dan memproses transaksi.",
+        "legal": "Kami juga dapat mengungkapkan data jika diwajibkan hukum atau diperlukan untuk melindungi pengguna, Artima Edu, dan keamanan layanan."
+      },
+      "children": {
+        "title": "4. Privasi Anak",
+        "body": "ArtimaEdu dan ArtimaEdu Games ditujukan untuk kegiatan belajar anak dan keluarga. Kami meminta email orang tua/wali bagi pengguna di bawah umur dan menggunakan data anak hanya untuk menyediakan serta mengamankan layanan pendidikan. Kami tidak menampilkan iklan berbasis perilaku dan tidak meminta akses ke lokasi, kontak, kamera, mikrofon, atau foto perangkat.",
+        "rights": "Orang tua atau wali dapat meminta akses, perbaikan, atau penghapusan data anak dengan mengikuti langkah pada bagian Penghapusan Akun."
+      },
+      "security": {
+        "title": "5. Penyimpanan dan Keamanan",
+        "body": "Data akun disimpan selama akun aktif atau selama diperlukan untuk tujuan di atas. Kami menggunakan koneksi HTTPS dan menyimpan token masuk pada penyimpanan aman perangkat. Tidak ada sistem yang sepenuhnya bebas risiko, tetapi kami menerapkan perlindungan teknis dan organisasi yang wajar.",
+        "retention": "Setelah akun dihapus, sebagian kecil catatan transaksi atau keamanan dapat disimpan bila diwajibkan hukum atau diperlukan untuk mencegah penipuan. Data tersebut dibatasi penggunaannya dan dihapus setelah masa wajib simpan berakhir. Salinan cadangan dihapus melalui siklus pencadangan normal."
+      },
+      "deletion": {
+        "title": "6. Penghapusan Akun dan Data",
+        "intro": "Pengguna, orang tua, atau wali dapat meminta penghapusan akun tanpa perlu memasang ulang aplikasi:",
+        "step1": "Kirim email dari alamat akun atau email orang tua yang terdaftar ke <a href=\"mailto:help@artimaedu.web.id?subject=Permintaan%20Penghapusan%20Akun%20ArtimaEdu\">help@artimaedu.web.id</a>.",
+        "step2": "Gunakan subjek <strong>Permintaan Penghapusan Akun ArtimaEdu</strong> dan sebutkan alamat email akun yang akan dihapus.",
+        "step3": "Kami akan memverifikasi kepemilikan dan menyelesaikan permintaan paling lambat 30 hari setelah verifikasi.",
+        "details": "Penghapusan mencakup profil, tanggal lahir, email orang tua, token notifikasi dan sesi, progres pembelajaran dan permainan, skor, pencapaian, serta hubungan akun dengan papan peringkat. Hak akses layanan ikut berakhir. Catatan yang wajib disimpan secara hukum diperlakukan sesuai bagian Penyimpanan dan Keamanan."
+      },
+      "rights": {
+        "title": "7. Pilihan dan Hak Pengguna",
+        "body": "Pengguna dapat menolak atau mematikan notifikasi melalui pengaturan perangkat. Untuk meminta salinan data, memperbaiki data, menarik persetujuan, atau menyampaikan pertanyaan privasi, hubungi kami melalui email di bawah."
+      },
+      "changes": {
+        "title": "8. Perubahan Kebijakan",
+        "body": "Kami dapat memperbarui kebijakan ini ketika layanan atau ketentuan hukum berubah. Tanggal berlaku di bagian atas akan diperbarui, dan perubahan penting akan diberitahukan melalui aplikasi atau sarana lain yang sesuai."
+      },
+      "contact": {
+        "title": "9. Kontak",
+        "body": "<strong>Artima Edu</strong><br>Email: <a href=\"mailto:help@artimaedu.web.id\">help@artimaedu.web.id</a><br>Situs: <a href=\"https://artimaedu.web.id\">https://artimaedu.web.id</a>"
+      },
+      "footer": {
+        "home": "Beranda",
+        "policy": "Kebijakan Privasi",
+        "delete": "Hapus Akun",
+        "copyright": "© 2026 Artima Edu."
+      }
     },
     "program": {
       "title": "Pilihan Kelas",
@@ -585,7 +651,73 @@
       "domain": "artimaedu.web.id",
       "email": "help@artimaedu.web.id",
       "instagram": "Instagram",
+      "privacy": "Privacy Policy",
       "copyright": "© 2026 Artima Edu. All stars reserved."
+    },
+    "privacy": {
+      "pageTitle": "ArtimaEdu / ArtimaEdu Games Privacy Policy — Artima Edu",
+      "back": "Back to Home",
+      "title": "ArtimaEdu / ArtimaEdu Games Privacy Policy",
+      "effective": "<strong>Effective date:</strong> August 21, 2026",
+      "intro": "Artima Edu (\"we\", \"us\", or \"our\") provides the <strong>ArtimaEdu</strong> learning platform and the <strong>ArtimaEdu Games</strong> educational app. This policy explains the data we process, why we use it, the parties that help us process it, and the choices available to users and parents.",
+      "data": {
+        "title": "1. Data We Collect",
+        "account": "<strong>Account data:</strong> name, email address, protected password, and account role.",
+        "age": "<strong>Age and parent data:</strong> date of birth when provided and a parent or guardian's email address for minors.",
+        "activity": "<strong>Learning and game activity:</strong> enrolled classes, lesson progress and completion, feedback, owned games, play count, scores, achievements, and leaderboard position.",
+        "transaction": "<strong>Transactions:</strong> purchase history and game access rights. Payments may be completed through the Artima Edu website.",
+        "technical": "<strong>Technical data:</strong> IP address, access time, device or operating-system type, error and security logs, and device tokens for notifications.",
+        "communication": "<strong>Communications:</strong> message content and email address when a user contacts support."
+      },
+      "use": {
+        "title": "2. How We Use Data",
+        "body": "We use data to create and secure accounts, provide access to classes and games, save learning progress and scores, display leaderboards, record purchases, send service notifications when permitted, provide support, prevent misuse, and comply with legal obligations.",
+        "leaderboard": "Usernames and scores may be visible to other users on leaderboards. We do not display email addresses, dates of birth, or parent emails on leaderboards."
+      },
+      "sharing": {
+        "title": "3. Service Providers and Data Sharing",
+        "intro": "We do not sell or rent personal data. We share data only as necessary with providers that help operate the service, including:",
+        "firebase": "<strong>Google Firebase Cloud Messaging</strong> to deliver device notifications.",
+        "cloudflare": "<strong>Cloudflare Turnstile</strong> for security verification and bot prevention during sign-in or registration.",
+        "providers": "Infrastructure, hosting, and payment providers needed to operate the service and process transactions.",
+        "legal": "We may also disclose data when required by law or when necessary to protect users, Artima Edu, and the security of the service."
+      },
+      "children": {
+        "title": "4. Children's Privacy",
+        "body": "ArtimaEdu and ArtimaEdu Games are intended for educational activities for children and families. We request a parent or guardian's email for minors and use children's data only to provide and secure our educational services. We do not display behaviorally targeted advertising and do not request access to device location, contacts, camera, microphone, or photos.",
+        "rights": "Parents or guardians may request access to, correction of, or deletion of a child's data by following the steps in the Account and Data Deletion section."
+      },
+      "security": {
+        "title": "5. Retention and Security",
+        "body": "Account data is retained while the account is active or as needed for the purposes described above. We use HTTPS connections and store sign-in tokens in secure device storage. No system is entirely risk-free, but we apply reasonable technical and organizational safeguards.",
+        "retention": "After an account is deleted, limited transaction or security records may be retained where required by law or necessary to prevent fraud. Their use is restricted, and they are deleted after the required retention period. Backup copies are removed through the normal backup cycle."
+      },
+      "deletion": {
+        "title": "6. Account and Data Deletion",
+        "intro": "Users, parents, or guardians can request account deletion without reinstalling the app:",
+        "step1": "Email us from the registered account or parent email at <a href=\"mailto:help@artimaedu.web.id?subject=ArtimaEdu%20Account%20Deletion%20Request\">help@artimaedu.web.id</a>.",
+        "step2": "Use the subject <strong>ArtimaEdu Account Deletion Request</strong> and include the email address of the account to be deleted.",
+        "step3": "We will verify ownership and complete the request within 30 days after verification.",
+        "details": "Deletion covers the profile, date of birth, parent email, notification and session tokens, learning and game progress, scores, achievements, and the account's association with leaderboards. Access rights to the service will end. Records that must legally be retained are handled as described in the Retention and Security section."
+      },
+      "rights": {
+        "title": "7. User Choices and Rights",
+        "body": "Users may decline or disable notifications through device settings. To request a copy of data, correct data, withdraw consent, or ask a privacy question, contact us using the email below."
+      },
+      "changes": {
+        "title": "8. Changes to This Policy",
+        "body": "We may update this policy when our services or legal requirements change. We will update the effective date above and notify users of material changes through the app or another appropriate channel."
+      },
+      "contact": {
+        "title": "9. Contact Us",
+        "body": "<strong>Artima Edu</strong><br>Email: <a href=\"mailto:help@artimaedu.web.id\">help@artimaedu.web.id</a><br>Website: <a href=\"https://artimaedu.web.id\">https://artimaedu.web.id</a>"
+      },
+      "footer": {
+        "home": "Home",
+        "policy": "Privacy Policy",
+        "delete": "Delete Account",
+        "copyright": "© 2026 Artima Edu."
+      }
     },
     "program": {
       "title": "Class Options",
