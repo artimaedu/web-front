@@ -215,7 +215,7 @@
       "intro": "Artima Edu (\"kami\") menyediakan platform pembelajaran <strong>ArtimaEdu</strong> dan aplikasi pendidikan <strong>ArtimaEdu Games</strong>. Kebijakan ini menjelaskan data yang kami proses, tujuan penggunaannya, pihak yang membantu kami memproses data, serta pilihan pengguna dan orang tua.",
       "data": {
         "title": "1. Data yang Kami Kumpulkan",
-        "account": "<strong>Data akun:</strong> nama, alamat email, kata sandi yang dilindungi, serta peran akun.",
+        "account": "<strong>Data akun:</strong> nama, alamat email, kata sandi yang dilindungi, foto profil, serta peran akun.",
         "age": "<strong>Data usia dan orang tua:</strong> tanggal lahir bila diberikan dan email orang tua/wali untuk pengguna di bawah umur.",
         "activity": "<strong>Aktivitas pembelajaran dan permainan:</strong> kelas yang diikuti, progres dan penyelesaian materi, umpan balik, permainan yang dimiliki, jumlah bermain, skor, pencapaian, dan posisi papan peringkat.",
         "transaction": "<strong>Transaksi:</strong> riwayat pembelian dan hak akses permainan. Pembayaran dapat diselesaikan melalui halaman web Artima Edu.",
@@ -248,9 +248,9 @@
       "deletion": {
         "title": "6. Penghapusan Akun dan Data",
         "intro": "Pengguna, orang tua, atau wali dapat meminta penghapusan akun tanpa perlu memasang ulang aplikasi:",
-        "step1": "Kirim email dari alamat akun atau email orang tua yang terdaftar ke <a href=\"mailto:help@artimaedu.web.id?subject=Permintaan%20Penghapusan%20Akun%20ArtimaEdu\">help@artimaedu.web.id</a>.",
-        "step2": "Gunakan subjek <strong>Permintaan Penghapusan Akun ArtimaEdu</strong> dan sebutkan alamat email akun yang akan dihapus.",
-        "step3": "Kami akan memverifikasi kepemilikan dan menyelesaikan permintaan paling lambat 30 hari setelah verifikasi.",
+        "step1": "Untuk menghapus langsung, buka <strong>Profil → Hapus Akun</strong>, masukkan password saat ini, lalu konfirmasi penghapusan permanen.",
+        "step2": "Sebagai alternatif, kirim email dari alamat akun atau email orang tua yang terdaftar ke <a href=\"mailto:help@artimaedu.web.id?subject=Permintaan%20Penghapusan%20Akun%20ArtimaEdu\">help@artimaedu.web.id</a> dengan subjek <strong>Permintaan Penghapusan Akun ArtimaEdu</strong>.",
+        "step3": "Permintaan melalui aplikasi diproses segera. Untuk permintaan melalui email, kami akan memverifikasi kepemilikan dan menyelesaikannya paling lambat 30 hari setelah verifikasi.",
         "details": "Penghapusan mencakup profil, tanggal lahir, email orang tua, token notifikasi dan sesi, progres pembelajaran dan permainan, skor, pencapaian, serta hubungan akun dengan papan peringkat. Hak akses layanan ikut berakhir. Catatan yang wajib disimpan secara hukum diperlakukan sesuai bagian Penyimpanan dan Keamanan."
       },
       "rights": {
@@ -662,7 +662,7 @@
       "intro": "Artima Edu (\"we\", \"us\", or \"our\") provides the <strong>ArtimaEdu</strong> learning platform and the <strong>ArtimaEdu Games</strong> educational app. This policy explains the data we process, why we use it, the parties that help us process it, and the choices available to users and parents.",
       "data": {
         "title": "1. Data We Collect",
-        "account": "<strong>Account data:</strong> name, email address, protected password, and account role.",
+        "account": "<strong>Account data:</strong> name, email address, protected password, profile photo, and account role.",
         "age": "<strong>Age and parent data:</strong> date of birth when provided and a parent or guardian's email address for minors.",
         "activity": "<strong>Learning and game activity:</strong> enrolled classes, lesson progress and completion, feedback, owned games, play count, scores, achievements, and leaderboard position.",
         "transaction": "<strong>Transactions:</strong> purchase history and game access rights. Payments may be completed through the Artima Edu website.",
@@ -695,9 +695,9 @@
       "deletion": {
         "title": "6. Account and Data Deletion",
         "intro": "Users, parents, or guardians can request account deletion without reinstalling the app:",
-        "step1": "Email us from the registered account or parent email at <a href=\"mailto:help@artimaedu.web.id?subject=ArtimaEdu%20Account%20Deletion%20Request\">help@artimaedu.web.id</a>.",
-        "step2": "Use the subject <strong>ArtimaEdu Account Deletion Request</strong> and include the email address of the account to be deleted.",
-        "step3": "We will verify ownership and complete the request within 30 days after verification.",
+        "step1": "To delete immediately, open <strong>Profile → Delete Account</strong>, enter your current password, and confirm permanent deletion.",
+        "step2": "Alternatively, email us from the registered account or parent email at <a href=\"mailto:help@artimaedu.web.id?subject=ArtimaEdu%20Account%20Deletion%20Request\">help@artimaedu.web.id</a> with the subject <strong>ArtimaEdu Account Deletion Request</strong>.",
+        "step3": "Requests made in the app are processed immediately. For email requests, we will verify ownership and complete the request within 30 days after verification.",
         "details": "Deletion covers the profile, date of birth, parent email, notification and session tokens, learning and game progress, scores, achievements, and the account's association with leaderboards. Access rights to the service will end. Records that must legally be retained are handled as described in the Retention and Security section."
       },
       "rights": {
