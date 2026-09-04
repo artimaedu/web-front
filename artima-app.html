@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artima Edu Games App</title>
+  <meta name="description" content="Download Artima Edu Games di Google Play Store! Kumpulan game edukasi untuk anak belajar coding, logika, dan bahasa inggris.">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="canonical" href="https://artimaedu.web.id/artima-app.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  
+  <style>
+    .app-hero {
+      padding: calc(var(--space-xl) + 80px) 20px 60px;
+      text-align: center;
+      background: linear-gradient(135deg, rgba(13, 10, 43, 0.85), rgba(26, 20, 86, 0.85)), url('assets/img/app-screenshots/app-banner.png') center/cover no-repeat;
+      color: #fff;
+      border-bottom: 2px solid var(--primary-color);
+    }
+    .app-logo-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      margin-bottom: 20px;
+      border: 3px solid #fbbf24;
+    }
+    .app-hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      color: #fbbf24;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    }
+    .app-hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+    }
+    .download-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 550px;
+      margin: 0 auto;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    .download-btn-wrapper {
+      text-align: center;
+    }
+    .download-btn-wrapper p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fbbf24;
+    }
+    .qr-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+      border: 3px solid #fff;
+    }
+    
+    .screenshots-section {
+      padding: 60px 20px;
+      text-align: center;
+      background: var(--bg-color);
+    }
+    .screenshots-section h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--primary-color);
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+    .screenshots-grid {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 20px 0 40px;
+      justify-content: flex-start;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      scroll-snap-type: x mandatory;
+    }
+    .screenshots-grid::-webkit-scrollbar {
+      height: 12px;
+    }
+    .screenshots-grid::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+    }
+    .screenshots-grid::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 6px;
+    }
+    .screenshot-img {
+      flex: 0 0 auto;
+      width: 240px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      border: 2px solid rgba(255,255,255,0.1);
+      scroll-snap-align: center;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .screenshot-img:hover {
+      transform: translateY(-10px);
+      border-color: var(--primary-color);
+    }
+    
+    @media (min-width: 768px) {
+      .screenshots-grid {
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow-x: visible;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo_artima_edu.png" alt="Artima Edu logo" class="nav-logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" data-i18n="nav.philosophy">Beranda</a>
+      <a href="program.html" data-i18n="nav.programs">Program</a>
+      <a href="profile.html" data-i18n="nav.profile">Profil</a>
+      <a href="blogs.html" data-i18n="nav.blog">Blog</a>
+      <a href="merchandise.html" data-i18n="nav.merchandise">Merchandise</a>
+      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
+      <a href="mini-games.html" data-i18n="nav.miniGames">Mini Games</a>
+      <a href="artima-app.html" style="color: var(--primary-color); font-weight: bold;">Artimaedu Games <span style="background: #ef4444; color: #fff; font-size: 0.65rem; padding: 2px 5px; border-radius: 4px; margin-left: 4px; vertical-align: super; line-height: 1;">NEW</span></a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" data-lang-toggle aria-label="Switch language">EN</button>
+      <a class="btn btn-sm btn-primary" href="https://apps.artimaedu.web.id" target="_blank" rel="noopener" data-i18n="nav.signIn">Masuk</a>
+      <a class="btn btn-sm" data-cta="hero" href="#" data-i18n="nav.ctaWhatsapp">Chat WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="app-hero">
+      <img src="assets/img/app-screenshots/app-logo.png" alt="Artima Edu Games Logo" class="app-logo-img">
+      <h1>Artima Edu Games</h1>
+      <p>Bawa petualangan coding dan logika ke dalam genggamanmu! Selesaikan misi Cosmic Coding, pecahkan Pattern Puzzle, dan asah otak si kecil dengan cara yang paling seru.</p>
+      
+      <div class="download-section">
+        <div class="download-btn-wrapper">
+          <p>Mainkan sekarang di Android-mu!</p>
+          <a href="https://play.google.com/store/apps/details?id=id.web.artimaedu.artimaedu_games&pli=1" target="_blank" rel="noopener" style="display: inline-block; transition: transform 0.2s ease;">
+            <img src="assets/img/Google_Play-Logo.wine.svg" alt="Get it on Google Play" style="width: 200px; height: auto; display: block;">
+          </a>
+        </div>
+        <div class="qr-wrapper">
+          <img src="assets/img/playstore-qr.png" alt="QR Code Google Play" class="qr-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS SECTION -->
+    <section class="screenshots-section">
+      <h2>Intip Keseruannya!</h2>
+      <div class="screenshots-grid">
+        <img src="assets/img/app-screenshots/cosmic-coding.jpg" alt="Cosmic Coding Gameplay" class="screenshot-img">
+        <img src="assets/img/app-screenshots/pattern-puzzle.jpg" alt="Pattern Puzzle" class="screenshot-img">
+        <img src="assets/img/app-screenshots/shadow-match-1.jpg" alt="Shadow Match UFO" class="screenshot-img">
+        <img src="assets/img/app-screenshots/shadow-match-2.jpg" alt="Shadow Match Robot" class="screenshot-img">
+        <img src="assets/img/app-screenshots/space-explore.jpg" alt="Space Explore" class="screenshot-img">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="https://artimaedu.web.id" data-i18n="footer.domain">artimaedu.web.id</a>
+      <a href="mailto:help@artimaedu.web.id" data-i18n="footer.email">help@artimaedu.web.id</a>
+      <a href="https://www.instagram.com/artima_edu/" target="_blank" rel="noopener noreferrer" data-i18n="footer.instagram">Instagram</a>
+      <a href="privacy-policy.html" data-i18n="footer.privacy">Kebijakan Privasi</a>
+    </div>
+    <p data-i18n="footer.copyright">© 2026 Artima Edu.</p>
+  </footer>
+
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/i18n.js"></script>
+</body>
+</html>
