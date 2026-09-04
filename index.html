@@ -566,5 +566,191 @@
       }
     })();
   </script>
+
+  <!-- [TEMPORARILY DISABLED] PROMO MODAL
+
+  <div id="promoModal" class="promo-modal" aria-hidden="true">
+    <div class="promo-modal-content">
+      <button class="promo-modal-close" id="closePromoModal" aria-label="Tutup">&times;</button>
+      <div class="promo-modal-header">
+        <img src="assets/img/app-screenshots/app-banner.png" alt="Artima Edu Games Banner" class="promo-modal-banner">
+        <img src="assets/img/app-screenshots/app-logo.png" alt="Logo Artima Edu" class="promo-modal-logo">
+      </div>
+      <div class="promo-modal-body">
+        <h2>Artima Edu Games</h2>
+        <p>Bawa petualangan coding dan logika ke dalam genggamanmu! Selesaikan misi Cosmic Coding, pecahkan Pattern Puzzle, dan asah otak si kecil dengan cara yang paling seru.</p>
+        <div class="promo-modal-actions">
+          <a href="https://play.google.com/store/apps/details?id=id.web.artimaedu.artimaedu_games&pli=1" target="_blank" rel="noopener">
+            <img src="assets/img/Google_Play-Logo.wine.svg" alt="Get it on Google Play" class="promo-play-badge">
+          </a>
+          <a href="artimaedu-games-app.html" class="btn btn-primary" style="margin-top: 10px; padding: 10px 20px; font-size: 0.9rem;">Lihat Detail Fitur</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .promo-modal {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 99999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      backdrop-filter: blur(5px);
+      padding: 20px;
+    }
+    .promo-modal.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    .promo-modal-content {
+      background: var(--bg-card, #1a1456);
+      border: 2px solid var(--primary-color, #fbbf24);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 400px;
+      position: relative;
+      overflow: hidden;
+      transform: translateY(30px);
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    }
+    .promo-modal.show .promo-modal-content {
+      transform: translateY(0);
+    }
+    .promo-modal-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.3);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      cursor: pointer;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    .promo-modal-close:hover {
+      background: #fbbf24;
+      color: #000;
+      border-color: #fbbf24;
+    }
+    .promo-modal-header {
+      position: relative;
+      height: 140px;
+      background: #0d0a2b;
+    }
+    .promo-modal-banner {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.8;
+    }
+    .promo-modal-logo {
+      position: absolute;
+      bottom: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90px;
+      height: 90px;
+      border-radius: 18px;
+      border: 3px solid #fbbf24;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+      background: #1a1456;
+      object-fit: cover;
+    }
+    .promo-modal-body {
+      padding: 60px 20px 30px;
+      text-align: center;
+      color: #fff;
+    }
+    .promo-modal-body h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #fbbf24;
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    .promo-modal-body p {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+    .promo-modal-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    .promo-play-badge {
+      width: 180px;
+      height: auto;
+      display: block;
+      transition: transform 0.2s;
+      filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+    }
+    .promo-play-badge:hover {
+      transform: scale(1.05);
+    }
+    @media (max-width: 480px) {
+      .promo-modal-header { height: 120px; }
+      .promo-modal-logo { width: 80px; height: 80px; bottom: -40px; }
+      .promo-modal-body { padding: 50px 20px 25px; }
+      .promo-modal-body h2 { font-size: 1.4rem; }
+      .promo-play-badge { width: 160px; }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Tunggu 1.5 detik lalu munculkan modal (hanya sekali per sesi tab browser)
+      if (!sessionStorage.getItem('artimaAppPromoSeen')) {
+        setTimeout(() => {
+          const modal = document.getElementById('promoModal');
+          if (modal) {
+            modal.classList.add('show');
+            modal.setAttribute('aria-hidden', 'false');
+          }
+        }, 100);
+      }
+
+      const modal = document.getElementById('promoModal');
+      const closeBtn = document.getElementById('closePromoModal');
+
+      const closeModal = () => {
+        if (modal) {
+          modal.classList.remove('show');
+          modal.setAttribute('aria-hidden', 'true');
+          sessionStorage.setItem('artimaAppPromoSeen', 'true');
+        }
+      };
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+      }
+
+      // Tutup jika klik area gelap di luar modal
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+    });
+  </script>
+
+-->
 </body>
+
 </html>
