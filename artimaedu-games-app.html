@@ -394,20 +394,68 @@
       background: rgba(19, 15, 64, 0.7);
       border: 1px solid rgba(56, 189, 248, 0.2);
       border-radius: 16px;
-      padding: 25px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     }
-    .benefit-item h3 {
-      color: #38bdf8;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
+    .benefit-item:hover {
+      transform: translateY(-5px);
+      border-color: rgba(251, 191, 36, 0.45);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+    }
+    .benefit-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+    .benefit-item:hover .benefit-icon-box {
+      transform: scale(1.08);
+    }
+    .benefit-icon-box svg {
+      width: 26px;
+      height: 26px;
+    }
+    .benefit-icon-safety {
+      background: rgba(52, 211, 153, 0.12);
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      color: #34d399;
+    }
+    .benefit-icon-logic {
+      background: rgba(167, 139, 250, 0.12);
+      border: 1px solid rgba(167, 139, 250, 0.35);
+      color: #a78bfa;
+    }
+    .benefit-icon-progress {
+      background: rgba(251, 191, 36, 0.12);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      color: #fbbf24;
+    }
+    .benefit-icon-speed {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: #38bdf8;
+    }
+    .benefit-item h3 {
+      color: #fff;
+      font-size: 1.18rem;
+      margin-bottom: 12px;
+      font-family: 'Orbitron', sans-serif;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
     }
     .benefit-item p {
       color: #cbd5e1;
       font-size: 0.95rem;
-      line-height: 1.6;
+      line-height: 1.65;
+      margin: 0;
+      flex-grow: 1;
     }
 
     /* FAQ Section */
@@ -672,19 +720,53 @@
 
       <div class="benefits-grid">
         <div class="benefit-item">
-          <h3>🛡️ 100% Ramah & Aman untuk Anak</h3>
+          <div class="benefit-icon-box benefit-icon-safety" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>100% Ramah & Aman untuk Anak</h3>
           <p>Lingkungan bermain yang sehat, bersih dari konten yang tidak pantas, dan dirancang mengutamakan kenyamanan psikologis anak.</p>
         </div>
+
         <div class="benefit-item">
-          <h3>🧠 Melatih Computational Thinking</h3>
+          <div class="benefit-icon-box benefit-icon-logic" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+              <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+              <path d="M12 3v18"/>
+              <path d="M12 8a3 3 0 0 1 3-3"/>
+              <path d="M12 16a3 3 0 0 1 3 3"/>
+              <path d="M12 8a3 3 0 0 0-3-3"/>
+              <path d="M12 16a3 3 0 0 0-3 3"/>
+            </svg>
+          </div>
+          <h3>Melatih Computational Thinking</h3>
           <p>Anak belajar cara mendekomposisi masalah, berpikir logis berurutan, dan memecahkan teka-teki dengan daya pikir analitis sejak dini.</p>
         </div>
+
         <div class="benefit-item">
-          <h3>📈 Progresi Belajar Adaptif</h3>
+          <div class="benefit-icon-box benefit-icon-progress" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v16a2 2 0 0 0 2 2h16"/>
+              <path d="m19 9-5 5-4-4-3 3"/>
+              <path d="M15 9h4v4"/>
+            </svg>
+          </div>
+          <h3>Progresi Belajar Adaptif</h3>
           <p>Tingkat kesulitan diatur ramah anak sehingga buah hati Anda merasa tertantang tanpa merasa frustrasi atau cepat bosan.</p>
         </div>
+
         <div class="benefit-item">
-          <h3>⚡ Ringan & Responsif di Android</h3>
+          <div class="benefit-icon-box benefit-icon-speed" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+              <path d="M12 18h.01"/>
+              <path d="m13 6-3 5h4l-2 5"/>
+            </svg>
+          </div>
+          <h3>Ringan & Responsif di Android</h3>
           <p>Aplikasi berukuran ringkas, tidak membebani memori HP/tablet, dan lancar dimainkan di berbagai spek smartphone Android keluarga.</p>
         </div>
       </div>
@@ -761,7 +843,7 @@
       <div class="ecosystem-cards">
         <div class="eco-card">
           <div>
-            <h3>🎮 Mini Games Web (Main di Browser)</h3>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 8px; color: #fbbf24;"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>Mini Games Web (Main di Browser)</h3>
             <p>Ingin bermain langsung tanpa download aplikasi? Buka arena mini games kami langsung di browser laptop atau ponsel Anda. Ada Math Galaxy, Cipher Quest, dan Word Scramble!</p>
           </div>
           <a href="mini-games.html" class="btn btn-gold">Kunjungi Mini Games Web &rsaquo;</a>
@@ -769,7 +851,7 @@
 
         <div class="eco-card">
           <div>
-            <h3>🚀 Kursus Coding Anak Online Bersama Mentor</h3>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 8px; color: #38bdf8;"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>Kursus Coding Anak Online Bersama Mentor</h3>
             <p>Ingin anak dibimbing langsung oleh mentor berpengalaman dari level balok hingga membuat game dan website sendiri? Ikuti program kelas interaktif Little Coder & Junior Tech Creator.</p>
           </div>
           <a href="program.html" class="btn btn-primary">Lihat Pilihan Kelas Coding &rsaquo;</a>
