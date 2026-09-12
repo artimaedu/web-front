@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://artimaedu.web.id/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/"/>
+    <image:image>
+      <image:loc>https://artimaedu.web.id/assets/img/logo_artima_edu.png</image:loc>
+      <image:title>ArtimaEdu — Kursus Coding Anak &amp; ArtimaEdu Games</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://artimaedu.web.id/artimaedu-games-app.html</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://artimaedu.web.id/artimaedu-games-app.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://artimaedu.web.id/artimaedu-games-app.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://artimaedu.web.id/artimaedu-games-app.html"/>
+    <image:image>
+      <image:loc>https://artimaedu.web.id/assets/img/app-screenshots/app-banner.png</image:loc>
+      <image:title>ArtimaEdu Games — Game Edukasi Coding &amp; Logika Anak</image:title>
+      <image:caption>ArtimaEdu Games aplikasi game edukasi anak Android resmi di Google Play Store</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://artimaedu.web.id/assets/img/app-screenshots/app-logo.png</image:loc>
+      <image:title>Logo ArtimaEdu Games</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://artimaedu.web.id/mini-games.html</loc>
