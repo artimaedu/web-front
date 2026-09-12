@@ -175,18 +175,17 @@
 }
 .btn-sm { padding: 0.55rem 1.1rem; font-size: 0.85rem; }
 .btn-primary {
-  background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta));
-  color: var(--color-void);
-  box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
-  animation: pulse 2.5s ease-in-out infinite;
+  background: #38BDF8;
+  color: #0d0a2b;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.45);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(232, 121, 249, 0.6); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 26px rgba(56, 189, 248, 0.65); }
 .btn-magenta {
-  background: linear-gradient(90deg, var(--color-magenta), var(--color-gold));
-  color: var(--color-void);
-  box-shadow: 0 0 20px rgba(232, 121, 249, 0.4);
+  background: #38BDF8;
+  color: #0d0a2b;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
 }
-.btn-magenta:hover { transform: translateY(-2px); }
+.btn-magenta:hover { transform: translateY(-2px); box-shadow: 0 0 26px rgba(56, 189, 248, 0.55); }
 .btn-ghost {
   background: rgba(245, 245, 250, 0.08);
   color: var(--color-starlight);
@@ -206,20 +205,17 @@
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
 }
 
-/* Sign-in button in nav - same gradient as .btn-primary (Start Engine);
-   must come after the green .nav-actions .btn rule above so it wins at
-   equal specificity */
+/* Sign-in button in nav - solid sky blue; must come after the green .nav-actions .btn rule above */
 .nav-actions .btn-primary {
-  background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta));
-  color: var(--color-void);
+  background: #38BDF8;
+  color: #0d0a2b;
   border: none;
-  box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
-  animation: pulse 2.5s ease-in-out infinite;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.45);
 }
 .nav-actions .btn-primary:hover {
-  background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta));
+  background: #0EA5E9;
   transform: translateY(-2px);
-  box-shadow: 0 0 30px rgba(232, 121, 249, 0.6);
+  box-shadow: 0 0 26px rgba(56, 189, 248, 0.65);
 }
 
 @keyframes pulse {
@@ -500,13 +496,14 @@
 
 /* Gold button variant */
 .btn-gold {
-  background: linear-gradient(135deg, var(--color-gold), #f59e0b);
+  background: #FBBF24;
   color: #0d0a2b;
   border: none;
   font-weight: 700;
 }
 .btn-gold:hover {
-  box-shadow: 0 4px 20px rgba(251, 191, 36, 0.3);
+  background: #F59E0B;
+  box-shadow: 0 4px 20px rgba(251, 191, 36, 0.45);
   transform: scale(1.05);
 }
 
