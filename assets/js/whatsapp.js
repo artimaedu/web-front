@@ -97,6 +97,22 @@ const CTA_MESSAGES = {
   'portfolio': {
     id: 'Halo Artima Edu, saya tertarik dengan layanan Pembuatan Portfolio Online. Boleh info lebih lanjut?',
     en: 'Hi Artima Edu, I am interested in the Online Portfolio service. Could you share more info?'
+  },
+  'parenthood.explorer': {
+    id: 'Halo Artima Edu, saya tertarik mendaftar paket Artima Explorer Parents (Rp 175.000). Boleh info pendaftaran dan jadwal sesi belajarnya?',
+    en: 'Hi Artima Edu, I am interested in enrolling in the Artima Explorer Parents package (Rp 175,000). Could you share enrollment and schedule details?'
+  },
+  'parenthood.innovator': {
+    id: 'Halo Artima Edu, saya tertarik mendaftar paket Artima Innovator Parents (Rp 350.000). Boleh info pendaftaran, jadwal konseling psikologi, dan pengiriman paket fisiknya?',
+    en: 'Hi Artima Edu, I am interested in enrolling in the Artima Innovator Parents package (Rp 350,000). Could you share details regarding enrollment, psychology counseling, and physical kit shipping?'
+  },
+  'parenthood.pioneer': {
+    id: 'Halo Artima Edu, saya tertarik mendaftar paket terlengkap Artima Pioneer Parents (Rp 500.000). Boleh bantu proses pendaftaran dan konsultasi jadwalnya?',
+    en: 'Hi Artima Edu, I am interested in enrolling in the comprehensive Artima Pioneer Parents package (Rp 500,000). Could you guide me through registration and scheduling?'
+  },
+  'parenthood.consult': {
+    id: 'Halo Artima Edu, saya ingin bertanya lebih lanjut mengenai program Artima Parenthood. Boleh dibantu konsultasi paket yang paling cocok untuk keluarga saya?',
+    en: 'Hi Artima Edu, I would like to inquire about the Artima Parenthood program. Could you help advise which package best suits my family?'
   }
 };
 
