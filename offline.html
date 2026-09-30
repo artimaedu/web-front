@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mode Offline — ArtimaEdu</title>
+  <meta name="description" content="Koneksi internet terputus. Anda sedang berada dalam mode offline ArtimaEdu.">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/img/favicon.png">
+  <meta name="theme-color" content="#0d0a2b">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css?v=20260704">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <style>
+    .offline-container {
+      min-height: calc(100vh - 160px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-xl) var(--space-md);
+      text-align: center;
+    }
+    .offline-card {
+      background: rgba(26, 20, 86, 0.65);
+      border: 1px solid rgba(34, 211, 238, 0.3);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg) var(--space-md);
+      max-width: 580px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+    }
+    .offline-mascot {
+      width: 140px;
+      height: auto;
+      margin-bottom: var(--space-md);
+      filter: drop-shadow(0 8px 16px rgba(34, 211, 238, 0.25));
+    }
+    .offline-status-badge {
+      display: inline-block;
+      background: rgba(239, 68, 68, 0.2);
+      border: 1px solid #ef4444;
+      color: #fca5a5;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: var(--radius-pill);
+      margin-bottom: var(--space-sm);
+    }
+    .offline-card h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      margin-bottom: var(--space-xs);
+      color: var(--color-starlight);
+    }
+    .offline-card p {
+      color: var(--color-muted);
+      font-size: 1rem;
+      margin-bottom: var(--space-md);
+      line-height: 1.6;
+    }
+    .offline-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo_artima_edu.png" alt="Artima Edu logo" class="nav-logo">
+    </a>
+  </header>
+
+  <main class="offline-container">
+    <div class="offline-card">
+      <img src="assets/img/mascots/ar_and_ima_hai.png" alt="Ar dan Ima" class="offline-mascot">
+      <div>
+        <span class="offline-status-badge">⚡ Status: Di Luar Jangkauan Orbit</span>
+        <h1>Kamu Sedang Offline</h1>
+        <p>
+          Koneksi internetmu sedang terputus. Tenang! Halaman yang sebelumnya sudah pernah kamu buka dan game edukatif di Mini Games tetap bisa dimainkan tanpa internet.
+        </p>
+        <div class="offline-actions">
+          <a class="btn btn-primary" href="index.html">Buka Beranda</a>
+          <a class="btn btn-gold" href="mini-games.html">Main Mini Games Offline</a>
+          <button class="btn btn-ghost" onclick="window.location.reload()">Coba Muat Ulang</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Beranda</a>
+      <a href="mini-games.html">Mini Games</a>
+      <a href="privacy-policy.html">Kebijakan Privasi</a>
+    </div>
+    <p>© 2026 Artima Edu. Siap Meluncur Dalam Segala Kondisi.</p>
+  </footer>
+
+  <script src="assets/js/pwa.js"></script>
+</body>
+</html>

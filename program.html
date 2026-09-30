@@ -64,6 +64,7 @@
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/components.css?v=20260704">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <header class="nav" id="top">
@@ -74,15 +75,24 @@
       <span class="hamburger"></span>
     </button>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="index.html" data-i18n="nav.philosophy">Filosofi</a>
-      <a href="program.html" data-i18n="nav.programs">Program</a>
-      <a href="parenthood.html">Parenthood <span class="nav-badge-new" style="background: #ef4444; color: #fff; font-size: 0.65rem; padding: 2px 5px; border-radius: 4px; margin-left: 4px; vertical-align: super; line-height: 1;">NEW</span></a>
+      <a href="index.html" data-i18n="nav.philosophy">Beranda</a>
+      <div class="nav-dropdown">
+        <a href="program.html" class="nav-dropdown-toggle">
+          <span data-i18n="nav.programs">Program</span>
+          <span class="nav-badge-new">NEW</span>
+          <span class="nav-chevron" aria-hidden="true">▾</span>
+        </a>
+        <div class="nav-dropdown-menu">
+          <a href="program.html#coding" class="nav-dropdown-item">Coding</a>
+          <a href="program.html#english-broom-room" class="nav-dropdown-item">English Broom Room</a>
+          <a href="parenthood.html" class="nav-dropdown-item">Artima Parenthood <span class="nav-badge-new">NEW</span></a>
+        </div>
+      </div>
       <a href="profile.html" data-i18n="nav.profile">Profil</a>
-      <a href="blogs.html" data-i18n="nav.blog">Blog</a>
       <a href="merchandise.html" data-i18n="nav.merchandise">Merchandise</a>
-      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
       <a href="mini-games.html" data-i18n="nav.miniGames">Mini Games</a>
       <a href="artimaedu-games-app.html" style="color: var(--primary-color); font-weight: bold;">ArtimaEdu Games <span class="nav-badge-new">NEW</span></a>
+      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
     </nav>
     <div class="nav-actions">
       <button class="lang-toggle" data-lang-toggle aria-label="Switch language">EN</button>
@@ -114,7 +124,7 @@
       </div>
 
       <!-- Group Online Class (Coding) -->
-      <div class="class-block" data-reveal>
+      <div class="class-block" id="coding" data-reveal>
         <div class="class-block-header">
           <h2 class="class-block-label" data-i18n="program.coding.group.label">Group Online Class</h2>
           <p class="class-block-detail" data-i18n="program.coding.group.detail">Class online berisi maksimal 10–15 siswa, dalam satu pertemuan online selama 90 menit lewat meeting online tools.</p>
@@ -182,7 +192,7 @@
       </div>
 
       <!-- English Broom Room (Woman Only) -->
-      <div class="class-block section-english-program" data-reveal>
+      <div class="class-block section-english-program" id="english-broom-room" data-reveal>
         <div class="class-block-header">
           <span class="badge-woman" data-i18n="program.english.badge">Khusus Perempuan</span>
           <h2 class="class-block-label" data-i18n="english.title">English Broom Room</h2>
@@ -220,5 +230,6 @@
   <script src="assets/js/whatsapp.js"></script>
   <script src="assets/js/scroll.js"></script>
   <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/pwa.js"></script>
 </body>
 </html>

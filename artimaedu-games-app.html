@@ -21,6 +21,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="assets/img/favicon.png">
   <meta name="theme-color" content="#0d0a2b">
   <meta name="msapplication-TileColor" content="#0d0a2b">
+  <link rel="manifest" href="manifest.json">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -595,14 +596,23 @@
     </button>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html" data-i18n="nav.philosophy">Beranda</a>
-      <a href="program.html" data-i18n="nav.programs">Program</a>
-      <a href="parenthood.html">Parenthood <span class="nav-badge-new" style="background: #ef4444; color: #fff; font-size: 0.65rem; padding: 2px 5px; border-radius: 4px; margin-left: 4px; vertical-align: super; line-height: 1;">NEW</span></a>
+      <div class="nav-dropdown">
+        <a href="program.html" class="nav-dropdown-toggle">
+          <span data-i18n="nav.programs">Program</span>
+          <span class="nav-badge-new">NEW</span>
+          <span class="nav-chevron" aria-hidden="true">▾</span>
+        </a>
+        <div class="nav-dropdown-menu">
+          <a href="program.html#coding" class="nav-dropdown-item">Coding</a>
+          <a href="program.html#english-broom-room" class="nav-dropdown-item">English Broom Room</a>
+          <a href="parenthood.html" class="nav-dropdown-item">Artima Parenthood <span class="nav-badge-new">NEW</span></a>
+        </div>
+      </div>
       <a href="profile.html" data-i18n="nav.profile">Profil</a>
-      <a href="blogs.html" data-i18n="nav.blog">Blog</a>
       <a href="merchandise.html" data-i18n="nav.merchandise">Merchandise</a>
-      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
       <a href="mini-games.html" data-i18n="nav.miniGames">Mini Games</a>
       <a href="artimaedu-games-app.html" style="color: var(--primary-color); font-weight: bold;">ArtimaEdu Games <span class="nav-badge-new">NEW</span></a>
+      <a href="more-services.html" data-i18n="nav.moreServices">More Services</a>
     </nav>
     <div class="nav-actions">
       <button class="lang-toggle" data-lang-toggle aria-label="Switch language">EN</button>
@@ -894,6 +904,7 @@
   <script src="assets/js/whatsapp.js"></script>
   <script src="assets/js/scroll.js"></script>
   <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/pwa.js"></script>
 </body>
 </html>
 
