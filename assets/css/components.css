@@ -2059,3 +2059,18 @@
   white-space: nowrap;
 }
 
+.btn-closed {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-muted);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius-sm);
+  cursor: not-allowed;
+  font-weight: 600;
+  opacity: 0.75;
+  pointer-events: none;
+  padding: 0.5rem 1rem;
+}
+
