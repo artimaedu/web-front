@@ -202,7 +202,7 @@
     right: 0;
     bottom: 0;
     background: rgba(13, 10, 43, 0.98);
-    padding: var(--space-md) var(--space-md) 96px; /* leave room for action row */
+    padding: var(--space-md) var(--space-md) 140px; /* leave room for 2-row action grid */
     gap: 0;
     z-index: 1001;
     overflow-y: auto;
@@ -274,26 +274,51 @@
     background: rgba(34, 211, 238, 0.08);
   }
 
-  /* Action row docks at the bottom of the drawer (same panel) */
+  /* Action row docks at the bottom of the drawer (2-row grid for roomy touch targets) */
   .nav-actions {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     background: rgba(13, 10, 43, 0.98);
-    padding: var(--space-sm) var(--space-md) calc(var(--space-md) + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid rgba(34, 211, 238, 0.15);
+    padding: 0.65rem 1rem calc(0.75rem + env(safe-area-inset-bottom, 8px));
     z-index: 1002;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-sm);
+    gap: 0.5rem;
     transform: translateX(100%);
     transition: transform 0.3s ease;
   }
   .nav-actions.active { transform: translateX(0); }
-  .nav-actions .lang-toggle { padding: 0.55rem 1rem; font-size: 0.95rem; }
-  .nav-actions .btn { flex: 1; max-width: 220px; justify-content: center; }
+  .nav-actions .lang-toggle {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.9rem;
+    min-height: 42px;
+  }
+  .nav-actions .btn-primary {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    max-width: none;
+    min-height: 42px;
+    font-size: 0.9rem;
+  }
+  .nav-actions .btn:not(.btn-primary) {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    max-width: none;
+    min-height: 44px;
+    font-size: 0.92rem;
+    padding: 0.65rem 1rem;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+  }
 
   body.nav-open { overflow: hidden; }
 }
@@ -2073,4 +2098,30 @@
   pointer-events: none;
   padding: 0.5rem 1rem;
 }
+
+.popup-consult-box {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(13, 10, 43, 0.85) 100%);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .popup-consult-box {
+    padding: var(--space-md) var(--space-sm);
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .popup-consult-box .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 
