@@ -107,6 +107,7 @@
     transform: rotate(180deg);
   }
   .nav-dropdown-menu {
+    display: none;
     position: absolute;
     top: calc(100% + 12px);
     left: 50%;
@@ -119,7 +120,6 @@
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     padding: 0.5rem 0;
-    display: flex;
     flex-direction: column;
     gap: 2px;
     opacity: 0;
@@ -139,6 +139,7 @@
   .nav-dropdown:hover .nav-dropdown-menu,
   .nav-dropdown:focus-within .nav-dropdown-menu,
   .nav-dropdown.is-open .nav-dropdown-menu {
+    display: flex;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
