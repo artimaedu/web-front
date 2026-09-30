@@ -274,9 +274,15 @@
       }
     },
     "program": {
-      "title": "Pilihan Kelas",
-      "subtitle": "Pilih format belajar yang paling cocok untuk kamu dan si kecil.",
+      "title": "Pilihan Program",
+      "subtitle": "Pilih format pembelajaran tematik dan pendampingan terbaik untuk kamu dan si kecil.",
       "cta": "Tanya via WhatsApp",
+      "popup": {
+        "badgeTematik": "Tematik & Terbatas",
+        "badgeProject": "Project-Based Learning",
+        "title": "Pop Up Class & Workshop Tematik",
+        "detail": "Kelas intensif tematik berdurasi singkat yang diselenggarakan pada periode spesial. Pembelajaran fokus pada praktik langsung pembuatan proyek teknologi dengan kuota terbatas agar pendampingan setiap anak maksimal."
+      },
       "coding": {
         "group": {
           "label": "Group Online Class",
@@ -763,9 +769,15 @@
       }
     },
     "program": {
-      "title": "Class Options",
-      "subtitle": "Choose the learning format that suits you and your little one best.",
+      "title": "Learning Programs",
+      "subtitle": "Choose thematic learning formats and family mentoring programs for you and your little one.",
       "cta": "Ask on WhatsApp",
+      "popup": {
+        "badgeTematik": "Thematic & Limited",
+        "badgeProject": "Project-Based Learning",
+        "title": "Pop Up Class & Thematic Workshops",
+        "detail": "Short-duration intensive thematic classes organized for special occasions. Learning focuses on hands-on creation of independent tech projects with limited seats for personalized mentorship."
+      },
       "coding": {
         "group": {
           "label": "Group Online Class",

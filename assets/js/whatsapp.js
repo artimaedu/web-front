@@ -46,6 +46,22 @@ const CTA_MESSAGES = {
     id: 'Halo Artima Edu, saya ingin bertanya tentang programnya.',
     en: 'Hi Artima Edu, I have a question about your programs.'
   },
+  'program.popup.inquiry': {
+    id: 'Halo Artima Edu, saya ingin bertanya tentang jadwal dan informasi pendaftaran Pop Up Class batch berikutnya untuk ananda. Boleh dibantu?',
+    en: 'Hi Artima Edu, I would like to inquire about the schedule and enrollment for the upcoming Pop Up Class batch for my child. Could you assist me?'
+  },
+  'program.popup.harteknas': {
+    id: 'Halo Artima Edu, saya tertarik dengan program sejenis Harteknas Special Coding Class (Free Coding Class). Apakah ada jadwal batch serupa terdekat?',
+    en: 'Hi Artima Edu, I am interested in a program similar to the Harteknas Special Coding Class (Free Coding Class). Is there any upcoming batch scheduled?'
+  },
+  'program.popup.techtell': {
+    id: 'Halo Artima Edu, saya tertarik dengan kelas Tech and Tell - Junior Tech Creator. Boleh info jadwal pendaftaran batch terdekat?',
+    en: 'Hi Artima Edu, I am interested in the Tech and Tell - Junior Tech Creator class. Could you share the nearest enrollment schedule?'
+  },
+  'program.popup.private': {
+    id: 'Halo Artima Edu, saya ingin mendaftarkan ananda untuk Private Group Scratch Coding (Eksklusif 3 Anak). Boleh info ketersediaan slot dan penyesuaian usia?',
+    en: 'Hi Artima Edu, I would like to enroll my child in the Private Group Scratch Coding (Exclusive 3 Learners). Could you share slot availability and age matching info?'
+  },
   'program.coding.group.little-coder': {
     id: 'Halo Artima Edu, saya tertarik dengan Group Online Class Little Coder (Rp 35.000/pertemuan). Boleh info pendaftaran?',
     en: 'Hi Artima Edu, I am interested in the Group Online Class Little Coder (Rp 35.000/session). Could you share enrollment info?'
