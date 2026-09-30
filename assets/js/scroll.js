@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.classList.toggle('active', open);
       navActions.classList.toggle('active', open);
       document.body.classList.toggle('nav-open', open);
+      if (!open) {
+        navLinks.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+          dropdown.classList.remove('open');
+          dropdown.classList.remove('is-open');
+          const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+          if (toggle) toggle.setAttribute('aria-expanded', 'false');
+        });
+      }
     };
 
     navToggle.addEventListener('click', () => {
@@ -23,13 +31,32 @@ document.addEventListener('DOMContentLoaded', () => {
       setMenu(!isOpen);
     });
 
-    // Close when clicking a link inside the drawer
-    navLinks.querySelectorAll('a').forEach(link => {
+    // Close when clicking a navigation link inside the drawer (except dropdown toggle)
+    navLinks.querySelectorAll('a:not(.nav-dropdown-toggle)').forEach(link => {
       link.addEventListener('click', () => setMenu(false));
     });
     // Also close after using the WhatsApp CTA inside the action row
     navActions.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => setMenu(false));
+    });
+
+    // Mobile dropdown accordion toggle
+    navLinks.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+      const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+      if (toggle) {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.addEventListener('click', (e) => {
+          // On mobile viewports (<= 768px), intercept click to toggle accordion
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            e.stopPropagation();
+            const isOpen = dropdown.classList.contains('open');
+            dropdown.classList.toggle('open', !isOpen);
+            dropdown.classList.toggle('is-open', !isOpen);
+            toggle.setAttribute('aria-expanded', String(!isOpen));
+          }
+        });
+      }
     });
 
     // Close on Escape

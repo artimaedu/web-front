@@ -3,7 +3,7 @@
    High-performance offline caching, PWA support, & fallback
    ============================================================ */
 
-const CACHE_NAME = 'artimaedu-v1.0.4';
+const CACHE_NAME = 'artimaedu-v1.0.5';
 
 // Compute base path dynamically from service worker location
 const BASE_PATH = self.location.pathname.substring(
@@ -41,6 +41,7 @@ const PRECACHE_ASSETS = [
   BASE_PATH + 'assets/css/components.css?v=20260930c',
   BASE_PATH + 'assets/css/components.css?v=20260930d',
   BASE_PATH + 'assets/css/components.css?v=20260930e',
+  BASE_PATH + 'assets/css/components.css?v=20260930f',
   BASE_PATH + 'assets/css/responsive.css',
   BASE_PATH + 'assets/css/mini-games.css',
 
@@ -49,6 +50,7 @@ const PRECACHE_ASSETS = [
   BASE_PATH + 'assets/js/i18n.js',
   BASE_PATH + 'assets/js/content.json',
   BASE_PATH + 'assets/js/scroll.js',
+  BASE_PATH + 'assets/js/scroll.js?v=20260930b',
   BASE_PATH + 'assets/js/whatsapp.js',
   BASE_PATH + 'assets/js/products.js',
   BASE_PATH + 'assets/js/products.json',

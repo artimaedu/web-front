@@ -235,22 +235,48 @@
     font-size: 1.1rem;
     border-bottom: none !important;
     color: var(--color-starlight);
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.2s ease, background 0.2s ease;
+  }
+  .nav-dropdown-toggle:active {
+    background: rgba(34, 211, 238, 0.08);
   }
   .nav-dropdown-menu {
     position: static;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transform: none;
-    background: rgba(26, 20, 86, 0.55);
-    border: 1px solid rgba(34, 211, 238, 0.15);
-    border-radius: var(--radius-sm);
-    box-shadow: none;
-    padding: 0.25rem 0.5rem 0.5rem;
-    margin: 0 0.5rem 0.6rem;
     display: flex;
     flex-direction: column;
     gap: 0;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translateY(-6px);
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.25s ease,
+                transform 0.25s ease,
+                margin 0.3s ease,
+                padding 0.3s ease,
+                border-color 0.25s ease;
+    background: rgba(26, 20, 86, 0.55);
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    box-shadow: none;
+    padding: 0 0.5rem;
+    margin: 0 0.5rem 0;
+  }
+  .nav-dropdown.open .nav-dropdown-menu,
+  .nav-dropdown.is-open .nav-dropdown-menu {
+    max-height: 250px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+    border-color: rgba(34, 211, 238, 0.18);
+    padding: 0.25rem 0.5rem 0.5rem;
+    margin: 0 0.5rem 0.65rem;
   }
   .nav-dropdown-menu::before {
     display: none;
@@ -265,13 +291,19 @@
     color: var(--color-muted);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
     text-align: center;
+    transition: color 0.15s ease, background 0.15s ease;
   }
   .nav-dropdown-item:last-child {
     border-bottom: none !important;
   }
-  .nav-dropdown-item:hover {
+  .nav-dropdown-item:hover,
+  .nav-dropdown-item:active {
     color: var(--color-cyan);
     background: rgba(34, 211, 238, 0.08);
+  }
+  .nav-dropdown.open .nav-chevron,
+  .nav-dropdown.is-open .nav-chevron {
+    transform: rotate(180deg);
   }
 
   /* Action row docks at the bottom of the drawer (2-row grid for roomy touch targets) */
