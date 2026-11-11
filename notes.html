@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artima Notes: Brankas Catatan &amp; eBook Terenkripsi End-to-End | ArtimaEdu</title>
+  <meta name="description" content="Artima Notes adalah aplikasi catatan Markdown, pembaca eBook PDF dengan bookmark, dan kolaborasi real-time terenkripsi end-to-end (zero-knowledge) dari ArtimaEdu.">
+  <meta name="keywords" content="artima notes, catatan terenkripsi, e2ee notes, ebook reader, bookmark pdf, private notes, catatan markdown, kolaborasi real-time, zero-knowledge vault, artima edu">
+  <meta name="author" content="Artima Edu">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://artimaedu.web.id/notes.html">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/img/favicon.png">
+  <meta name="theme-color" content="#0d0a2b">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://artimaedu.web.id/notes.html">
+  <meta property="og:site_name" content="ArtimaEdu">
+  <meta property="og:title" content="Artima Notes: Brankas Catatan &amp; eBook Terenkripsi End-to-End">
+  <meta property="og:description" content="Aplikasi catatan Markdown dan pembaca eBook PDF dengan bookmark, multi-tema, dan kolaborasi real-time terenkripsi end-to-end (zero-knowledge).">
+  <meta property="og:image" content="https://artimaedu.web.id/assets/img/logo_artima_edu.png">
+  <meta property="og:locale" content="id_ID">
+
+  <!-- Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css?v=20260930b">
+  <link rel="stylesheet" href="assets/css/components.css?v=20260930f">
+
+  <style>
+    .notes-hero {
+      padding: 120px 20px 60px;
+      text-align: center;
+      background: radial-gradient(circle at 50% 30%, rgba(227, 168, 62, 0.12) 0%, rgba(13, 10, 43, 0) 70%);
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .notes-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 14px;
+      border-radius: 20px;
+      background: rgba(227, 168, 62, 0.15);
+      border: 1px solid rgba(227, 168, 62, 0.35);
+      color: #fbbf24;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    .notes-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 18px;
+      font-weight: 900;
+    }
+    .notes-subtitle {
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      max-width: 720px;
+      margin: 0 auto 32px;
+      line-height: 1.6;
+    }
+    .notes-cta-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .notes-features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: 0 auto 60px;
+    }
+    .notes-feature-card {
+      background: rgba(20, 16, 56, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: left;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .notes-feature-card:hover {
+      transform: translateY(-3px);
+      border-color: #fbbf24;
+    }
+    .notes-feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: rgba(227, 168, 62, 0.15);
+      border: 1px solid rgba(227, 168, 62, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fbbf24;
+      margin-bottom: 16px;
+    }
+    .notes-feature-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .notes-feature-desc {
+      font-size: 0.92rem;
+      color: #94a3b8;
+      line-height: 1.55;
+    }
+    .notes-banner-cta {
+      background: linear-gradient(135deg, rgba(227, 168, 62, 0.18) 0%, rgba(13, 10, 43, 0.9) 100%);
+      border: 2px solid rgba(227, 168, 62, 0.4);
+      border-radius: 16px;
+      padding: 40px 24px;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto 80px;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo_artima_edu.png" alt="Artima Edu logo" class="nav-logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Beranda</a>
+      <div class="nav-dropdown">
+        <a href="program.html" class="nav-dropdown-toggle">
+          <span>Program</span>
+          <span class="nav-badge-new">NEW</span>
+          <span class="nav-chevron" aria-hidden="true">&#x25be;</span>
+        </a>
+        <div class="nav-dropdown-menu">
+          <a href="program.html#coding" class="nav-dropdown-item">Coding</a>
+          <a href="program.html#english-broom-room" class="nav-dropdown-item">English Broom Room</a>
+          <a href="parenthood.html" class="nav-dropdown-item">Artima Parenthood <span class="nav-badge-new">NEW</span></a>
+        </div>
+      </div>
+      <a href="profile.html">Profil</a>
+      <a href="merchandise.html">Merchandise</a>
+      <a href="mini-games.html">Mini Games</a>
+      <a href="artimaedu-games-app.html" style="color: var(--primary-color); font-weight: bold;">ArtimaEdu Games <span class="nav-badge-new">NEW</span></a>
+      <a href="notes.html" style="color: #fbbf24; font-weight: bold;">Artima Notes <span class="nav-badge-new">NEW</span></a>
+      <a href="more-services.html">More Services</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-sm btn-primary" href="https://notes.artimaedu.web.id" target="_blank" rel="noopener">Buka Notes</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="notes-hero">
+      <div class="notes-eyebrow">
+        <span>&#x1f512; Zero-Knowledge Vault &bull; E2EE</span>
+      </div>
+      <h1 class="notes-title">Artima Notes: Brankas Catatan &amp; eBook Terenkripsi</h1>
+      <p class="notes-subtitle">
+        Tulis catatan Markdown, baca eBook PDF dengan fitur bookmark, dan berkolaborasi secara real-time tanpa kompromi privasi. Kunci enkripsi berada 100% di tangan Anda.
+      </p>
+      <div class="notes-cta-group">
+        <a class="btn btn-primary btn-lg" href="https://notes.artimaedu.web.id" target="_blank" rel="noopener">
+          Buka Artima Notes Web &rsaquo;
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#fitur">
+          Pelajari Fitur
+        </a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="fitur" style="padding-top: 0;">
+      <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Keunggulan Artima Notes</h2>
+      <div class="notes-features-grid">
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3 class="notes-feature-title">Keamanan E2EE &amp; Zero-Knowledge</h3>
+          <p class="notes-feature-desc">Seluruh teks catatan, daftar periksa, dan lampiran dienkripsi di perangkat Anda sebelum dikirim ke server. Server tidak pernah bisa membaca data Anda.</p>
+        </div>
+
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 class="notes-feature-title">Pembaca eBook &amp; Bookmark PDF</h3>
+          <p class="notes-feature-desc">Membaca buku PDF menjadi sangat praktis. Tandai halaman favorit dengan marka satu klik, buka daftar isi bab, dan beri coretan stabilo atau klip visual.</p>
+        </div>
+
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="notes-feature-title">Kolaborasi Real-Time Instan</h3>
+          <p class="notes-feature-desc">Undang rekan tim untuk menyunting naskah bersama secara langsung via tautan aman terenkripsi tanpa perlu membuat akun tambahan di layanan pihak ketiga.</p>
+        </div>
+
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 class="notes-feature-title">Pencarian Menyeluruh (Full-Text)</h3>
+          <p class="notes-feature-desc">Pencarian cerdas memindai seluruh badan teks catatan dengan cepat, menyajikan cuplikan paragraf yang cocok sehingga gagasan penting langsung ditemukan.</p>
+        </div>
+
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </div>
+          <h3 class="notes-feature-title">7 Tema Nyaman di Mata (WCAG AA)</h3>
+          <p class="notes-feature-desc">Pilihan palet visual yang dirancang untuk kenyamanan membaca: Dark Warm, Light Paper, OLED Midnight Black, Forest Emerald, Sepia Parchment, Nordic Slate, dan Cyber Obsidian.</p>
+        </div>
+
+        <div class="notes-feature-card">
+          <div class="notes-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="notes-feature-title">Lintas Platform &amp; Offline-First</h3>
+          <p class="notes-feature-desc">Akses lewat browser, aplikasi PWA, desktop (Linux AppImage, Windows, macOS), maupun Android. Seluruh data tetap dapat diakses meski tanpa internet.</p>
+        </div>
+      </div>
+
+      <div class="notes-banner-cta">
+        <h3 style="font-family: 'Orbitron', sans-serif; font-size: 1.6rem; color: #ffffff; margin-bottom: 12px;">Mulai Amankan Catatan &amp; eBook Anda</h3>
+        <p style="color: #cbd5e1; font-size: 1.05rem; margin-bottom: 24px;">Gunakan Artima Notes sekarang secara gratis tanpa biaya langganan.</p>
+        <a class="btn btn-primary btn-lg" href="https://notes.artimaedu.web.id" target="_blank" rel="noopener">
+          Buka Artima Notes &rsaquo;
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="https://artimaedu.web.id">artimaedu.web.id</a>
+      <a href="mailto:help@artimaedu.web.id">help@artimaedu.web.id</a>
+      <a href="https://www.instagram.com/artima_edu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="privacy-policy.html">Kebijakan Privasi</a>
+    </div>
+    <p>&copy; 2026 Artima Edu.</p>
+  </footer>
+</body>
+</html>
