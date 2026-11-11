@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artima Tools: Platform Web Tools Cepat, Aman &amp; Lengkap | ArtimaEdu</title>
+  <meta name="description" content="Artima Tools adalah platform alat produktivitas web lengkap berbasis Rust: utilitas PDF, pengolah gambar cerdas, format JSON, generator hash, dan konverter developer tanpa iklan.">
+  <meta name="keywords" content="artima tools, web tools gratis, rust web tools, pdf tools, merge pdf, kompres gambar, hapus background foto, json formatter, sha256 generator, qr code generator, artima edu">
+  <meta name="author" content="Artima Edu">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://artimaedu.web.id/tools.html">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/img/favicon.png">
+  <meta name="theme-color" content="#0d0a2b">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://artimaedu.web.id/tools.html">
+  <meta property="og:site_name" content="ArtimaEdu">
+  <meta property="og:title" content="Artima Tools: Platform Web Tools Cepat, Aman &amp; Lengkap">
+  <meta property="og:description" content="Platform produktivitas lengkap berbasis Rust: utilitas PDF, pengolah gambar cerdas, JSON studio, generator kriptografi, dan alat developer gratis tanpa iklan.">
+  <meta property="og:image" content="https://artimaedu.web.id/assets/img/logo_artima_edu.png">
+  <meta property="og:locale" content="id_ID">
+
+  <!-- Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css?v=20260930b">
+  <link rel="stylesheet" href="assets/css/components.css?v=20260930f">
+
+  <style>
+    .tools-hero {
+      padding: 120px 20px 60px;
+      text-align: center;
+      background: radial-gradient(circle at 50% 30%, rgba(56, 189, 248, 0.14) 0%, rgba(13, 10, 43, 0) 70%);
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .tools-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 16px;
+      border-radius: 20px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    .tools-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 18px;
+      font-weight: 900;
+    }
+    .tools-subtitle {
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      max-width: 720px;
+      margin: 0 auto 32px;
+      line-height: 1.6;
+    }
+    .tools-cta-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .tools-features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: 0 auto 60px;
+    }
+    .tools-feature-card {
+      background: rgba(20, 16, 56, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: left;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .tools-feature-card:hover {
+      transform: translateY(-3px);
+      border-color: #38bdf8;
+    }
+    .tools-feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #38bdf8;
+      margin-bottom: 16px;
+    }
+    .tools-feature-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .tools-feature-desc {
+      font-size: 0.92rem;
+      color: #94a3b8;
+      line-height: 1.55;
+    }
+    .tools-banner-cta {
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.18) 0%, rgba(13, 10, 43, 0.9) 100%);
+      border: 2px solid rgba(56, 189, 248, 0.4);
+      border-radius: 16px;
+      padding: 40px 24px;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto 80px;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo_artima_edu.png" alt="Artima Edu logo" class="nav-logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Beranda</a>
+      <div class="nav-dropdown">
+        <a href="program.html" class="nav-dropdown-toggle">
+          <span>Program</span>
+          <span class="nav-badge-new">NEW</span>
+          <span class="nav-chevron" aria-hidden="true">&#x25be;</span>
+        </a>
+        <div class="nav-dropdown-menu">
+          <a href="program.html#coding" class="nav-dropdown-item">Coding</a>
+          <a href="program.html#english-broom-room" class="nav-dropdown-item">English Broom Room</a>
+          <a href="parenthood.html" class="nav-dropdown-item">Artima Parenthood <span class="nav-badge-new">NEW</span></a>
+        </div>
+      </div>
+      <a href="profile.html">Profil</a>
+      <a href="merchandise.html">Merchandise</a>
+      <a href="mini-games.html">Mini Games</a>
+      <a href="artimaedu-games-app.html" style="color: var(--primary-color); font-weight: bold;">ArtimaEdu Games <span class="nav-badge-new">NEW</span></a>
+      <a href="notes.html" style="color: #fbbf24; font-weight: bold;">Artima Notes <span class="nav-badge-new">NEW</span></a>
+      <a href="tools.html" style="color: #38bdf8; font-weight: bold;">Artima Tools <span class="nav-badge-new">NEW</span></a>
+      <a href="more-services.html">More Services</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-sm btn-primary" href="https://tools.artimaedu.web.id" target="_blank" rel="noopener">Buka Tools</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="tools-hero">
+      <div class="tools-eyebrow">
+        <span>&#x26a1; Mesin Native Rust &bull; 100% Gratis &bull; Bebas Iklan</span>
+      </div>
+      <h1 class="tools-title">Artima Tools: Platform Web Tools Cepat, Aman &amp; Lengkap</h1>
+      <p class="tools-subtitle">
+        Konversi PDF, kompresi gambar cerdas, format kode, serta 50+ utilitas produktivitas dalam hitungan milidetik. Diproses cepat, aman, dan tanpa pelacak iklan.
+      </p>
+      <div class="tools-cta-group">
+        <a class="btn btn-primary btn-lg" href="https://tools.artimaedu.web.id" target="_blank" rel="noopener" style="background: #0284c7; border-color: #38bdf8;">
+          Buka Artima Tools Web &rsaquo;
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#fitur" style="border-color: #38bdf8; color: #38bdf8;">
+          Pelajari Kategori Fitur
+        </a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="fitur" style="padding-top: 0;">
+      <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Koleksi Utilitas Unggulan</h2>
+      <div class="tools-features-grid">
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Utilitas PDF Terlengkap</h3>
+          <p class="tools-feature-desc">Gabungkan beberapa berkas (merge), ekstrak halaman tertentu (split), putar orientasi (rotate), perkecil ukuran (compress), beri watermark, kunci sandi AES-256, hingga konversi dokumen Office dan gambar ke PDF.</p>
+        </div>
+
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Pengolah &amp; Studio Gambar Cerdas</h3>
+          <p class="tools-feature-desc">Hapus background foto studio secara otomatis atau dengan eyedropper interaktif, ubah skala dimensi piksel (resize), kompresi WebP/JPEG tanpa pecah, potong crop, magic eraser, dan blur sensor privasi.</p>
+        </div>
+
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Utilitas Data &amp; Developer</h3>
+          <p class="tools-feature-desc">JSON Studio lengkap dengan formatter, validator, dan fixer otomatis. Dilengkapi parser data CSV &amp; Excel, generator UUID, konverter teks Base64, dockerfile formatter, dan validator skema JSON.</p>
+        </div>
+
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Kriptografi &amp; Generator Keamanan</h3>
+          <p class="tools-feature-desc">Buat hash kriptografi SHA-256, SHA-1, MD5, otentikasi HMAC, hash password Bcrypt, generator QR Code kustom beresolusi tinggi, serta pembuatan string acak untuk kata sandi yang kuat.</p>
+        </div>
+
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Mesin Rust Native Super Cepat</h3>
+          <p class="tools-feature-desc">Ditenagai oleh backend Rust modern berbasis Axum dan Tokio. Pemrosesan berkas berukuran besar selesai dalam hitungan detik dengan konsumsi memori minimal tanpa antrean lambat.</p>
+        </div>
+
+        <div class="tools-feature-card">
+          <div class="tools-feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="tools-feature-title">Privasi Bersih &amp; Tanpa Iklan</h3>
+          <p class="tools-feature-desc">Bebas popup iklan yang membingungkan atau pelacak pihak ketiga. Seluruh berkas yang Anda unggah hanya diproses sementara di memori dan langsung dibersihkan secara otomatis.</p>
+        </div>
+      </div>
+
+      <div class="tools-banner-cta">
+        <h3 style="font-family: 'Orbitron', sans-serif; font-size: 1.6rem; color: #ffffff; margin-bottom: 12px;">Mulai Gunakan Artima Tools Sekarang</h3>
+        <p style="color: #cbd5e1; font-size: 1.05rem; margin-bottom: 24px;">Nikmati 50+ alat produktivitas gratis tanpa registrasi langsung dari browser Anda.</p>
+        <a class="btn btn-primary btn-lg" href="https://tools.artimaedu.web.id" target="_blank" rel="noopener" style="background: #0284c7; border-color: #38bdf8;">
+          Buka Artima Tools Sekarang &rsaquo;
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="https://artimaedu.web.id">artimaedu.web.id</a>
+      <a href="mailto:help@artimaedu.web.id">help@artimaedu.web.id</a>
+      <a href="https://www.instagram.com/artima_edu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="privacy-policy.html">Kebijakan Privasi</a>
+    </div>
+    <p>&copy; 2026 Artima Edu.</p>
+  </footer>
+
+  <script src="assets/js/scroll.js?v=20260930b"></script>
+</body>
+</html>
